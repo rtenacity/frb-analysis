@@ -1,2 +1,4 @@
 
 # FRB Analysis
+
+$$F=ma$$
