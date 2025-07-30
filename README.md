@@ -1,4 +1,3 @@
+# Deep Learning Reveals Structural Patterns in Fast Radio Burst Data
 
-# FRB Analysis
-
-$$F=ma$$
+While the nature of fast radio bursts (FRBs) remains unknown, population-level analyses can elucidate underlying structure in these signals. In this study, we employ deep learning methods to both classify FRBs and analyze structural patterns in the latent space learned from the Blinkverse FRB Survey dataset. We adopt a Supervised Variational Autoencoder (SVAE) architecture which combines the representational learning capabilities of Variational Autoencoders (VAEs) with a supervised classification task, thereby improving both classification performance and the interpretability of the latent space. We construct a learned latent space in which we perform further dimensionality reduction to find underlying structure in the data. Our results demonstrate that the SVAE model achieves high classification accuracy for FRB repeaters and reveals structured clusters within these binary classifications, suggesting meaningful representations of FRB properties. Furthermore, using K-Nearest Neighbors analysis we identify outlier FRB signals in the latent space. 
