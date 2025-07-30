@@ -1,2 +1,4 @@
 .frb/
 .frb-analysis/
+
+__pycache__/
