@@ -1,0 +1,72 @@
+## See https://matplotlib.org/stable/tutorials/introductory/customizing.html#a-sample-matplotlibrc-file
+## Updated to follow ML's figure formatting guidelines
+
+## ***************************************************************************
+## * FONTS                                                                   *
+## ***************************************************************************
+## Use serif fonts to match body text (avoid sans-serif)
+text.usetex: True
+text.latex.preamble: \usepackage{amsmath}\usepackage{amssymb}
+font.family: serif
+font.serif: Computer Modern
+
+## ***************************************************************************
+## * FIGURE                                                                  *
+## ***************************************************************************
+# figure.figsize:     3.4, 2.55  # figure size in inches
+figure.dpi:         300       # figure dots per inch
+# figure.frameon:     True      # enable figure frame
+savefig.bbox: tight
+savefig.format: pdf
+
+## ***************************************************************************
+## * LINES                                                                   *
+## ***************************************************************************
+lines.linewidth: .5
+
+## ***************************************************************************
+## * AXES                                                                    *
+## ***************************************************************************
+axes.linewidth:     0.5     # edge line width
+axes.labelsize:     8      # font size of the x and y labels (match body text)
+axes.labelpad:      3.0     # space between label and axis
+axes.titlelocation: center  # alignment of the title: {left, right, center}
+axes.titlesize:     8      # font size of the axes title (avoid titles unless necessary)
+axes.grid:          False   # display grid or not (only use if necessary to interpret figure)
+axes.grid.axis:     both    # which axis the grid should apply to
+
+## ***************************************************************************
+## * GRID                                                                    *
+## ***************************************************************************
+grid.linewidth: 0.2
+grid.alpha:     0.5         # transparency, between 0.0 and 1.0
+
+## ***************************************************************************
+## * TICKS                                                                   *
+## ***************************************************************************
+## All tick labels should be roughly the same size as body text
+xtick.top:           False   # draw ticks on the top side
+xtick.bottom:        False   # draw ticks on the bottom side
+xtick.major.width:   0.3    # major tick width in points
+xtick.labelsize:     8     # font size of the tick labels (match body text)
+xtick.direction:     in     # direction: {in, out, inout}
+
+ytick.left:          False   # draw ticks on the left side
+ytick.right:         False   # draw ticks on the right side
+ytick.labelsize:     8     # font size of the tick labels (match body text)
+ytick.direction:     in     # direction: {in, out, inout}
+
+## ***************************************************************************
+## * LEGEND                                                                  *
+## ***************************************************************************
+legend.loc:           best       # best position to avoid overlap
+legend.frameon:       False      # no box around legend (minimize clutter)
+legend.fontsize:      8         # match body text size
+legend.fancybox:      False      # use simple rectangle if frame is needed
+
+## ***************************************************************************
+## * COLORBARS                                                               *
+## ***************************************************************************
+## Labels should face inwards towards the page to draw attention to figure
+# Note: Use ax.yaxis.set_label_position('left') or similar for colorbar label orientation
+
