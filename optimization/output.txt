@@ -9830,3 +9830,2471 @@ Classification Report:
 [I 2025-11-02 17:31:30,281] Trial 280 finished with value: 0.9701754385964912 and parameters: {'hidden_dim': 1434, 'latent_dim': 13, 'beta': 1.3509647252469552, 'gamma': 0.36683670308640937, 'dropout_rate': 0.1077379260974279, 'lr': 0.0002814243283796339, 'scheduler_patience': 7, 'class_weight': 0.9028559579822045, 'activation': 'ReLU', 'classification_multiplier': 9046.477268544042}. Best is trial 224 with value: 0.980701754385965.
 [I 2025-11-02 17:31:55,223] Trial 281 finished with value: 0.9666666666666667 and parameters: {'hidden_dim': 1385, 'latent_dim': 16, 'beta': 1.2099839714725795, 'gamma': 0.4783045687949189, 'dropout_rate': 0.11497742514130636, 'lr': 0.0004573561599407654, 'scheduler_patience': 7, 'class_weight': 0.9324281366566511, 'activation': 'ReLU', 'classification_multiplier': 5337.786591465286}. Best is trial 224 with value: 0.980701754385965.
 [I 2025-11-02 17:32:21,587] Trial 282 finished with value: 0.9456140350877194 and parameters: {'hidden_dim': 1582, 'latent_dim': 14, 'beta': 1.4112432759154534, 'gamma': 0.5932185964738439, 'dropout_rate': 0.12350228548545125, 'lr': 0.00010689970576034999, 'scheduler_patience': 7, 'class_weight': 0.8877839626665371, 'activation': 'SELU', 'classification_multiplier': 12851.178375307805}. Best is trial 224 with value: 0.980701754385965.
+[I 2025-11-02 17:32:49,899] Trial 283 finished with value: 0.9596491228070175 and parameters: {'hidden_dim': 1678, 'latent_dim': 15, 'beta': 1.3021635737633899, 'gamma': 0.6446462354630346, 'dropout_rate': 0.10823929757428458, 'lr': 0.0005937014827849859, 'scheduler_patience': 7, 'class_weight': 0.36037949736537944, 'activation': 'ReLU', 'classification_multiplier': 13071.466149698757}. Best is trial 224 with value: 0.980701754385965.
+[I 2025-11-02 17:33:15,972] Trial 284 finished with value: 0.9736842105263158 and parameters: {'hidden_dim': 1517, 'latent_dim': 17, 'beta': 1.3774873082799624, 'gamma': 0.40667763702777987, 'dropout_rate': 0.11545946151880225, 'lr': 0.000290189771737985, 'scheduler_patience': 7, 'class_weight': 0.7977486643484217, 'activation': 'ReLU', 'classification_multiplier': 12337.5115235789}. Best is trial 224 with value: 0.980701754385965.
+[I 2025-11-02 17:33:42,214] Trial 285 finished with value: 0.9701754385964912 and parameters: {'hidden_dim': 1503, 'latent_dim': 17, 'beta': 1.3852927165312632, 'gamma': 0.3866272472061418, 'dropout_rate': 0.10660543708906883, 'lr': 0.0007299060078460842, 'scheduler_patience': 7, 'class_weight': 0.8001503576175861, 'activation': 'ReLU', 'classification_multiplier': 13323.489370995632}. Best is trial 224 with value: 0.980701754385965.
+              precision    recall  f1-score   support
+
+Non-Repeater       0.95      0.97      0.96       159
+    Repeater       0.85      0.74      0.79        31
+
+    accuracy                           0.94       190
+   macro avg       0.90      0.86      0.88       190
+weighted avg       0.93      0.94      0.94       190
+
+Fold 3/3 - Validation Accuracy: 0.9526
+Classification Report:
+              precision    recall  f1-score   support
+
+Non-Repeater       0.97      0.97      0.97       158
+    Repeater       0.87      0.84      0.86        32
+
+    accuracy                           0.95       190
+   macro avg       0.92      0.91      0.91       190
+weighted avg       0.95      0.95      0.95       190
+
+Trial 279 - Average Validation Accuracy: 0.9404
+Fold 1/3 - Validation Accuracy: 0.9579
+Classification Report:
+              precision    recall  f1-score   support
+
+Non-Repeater       0.97      0.97      0.97       159
+    Repeater       0.87      0.87      0.87        31
+
+    accuracy                           0.96       190
+   macro avg       0.92      0.92      0.92       190
+weighted avg       0.96      0.96      0.96       190
+
+Fold 2/3 - Validation Accuracy: 0.9789
+Classification Report:
+              precision    recall  f1-score   support
+
+Non-Repeater       0.98      0.99      0.99       159
+    Repeater       0.97      0.90      0.93        31
+
+    accuracy                           0.98       190
+   macro avg       0.97      0.95      0.96       190
+weighted avg       0.98      0.98      0.98       190
+
+Fold 3/3 - Validation Accuracy: 0.9737
+Classification Report:
+              precision    recall  f1-score   support
+
+Non-Repeater       0.99      0.98      0.98       158
+    Repeater       0.91      0.94      0.92        32
+
+    accuracy                           0.97       190
+   macro avg       0.95      0.96      0.95       190
+weighted avg       0.97      0.97      0.97       190
+
+Trial 280 - Average Validation Accuracy: 0.9702
+Fold 1/3 - Validation Accuracy: 0.9474
+Classification Report:
+              precision    recall  f1-score   support
+
+Non-Repeater       0.97      0.96      0.97       159
+    Repeater       0.82      0.87      0.84        31
+
+    accuracy                           0.95       190
+   macro avg       0.90      0.92      0.91       190
+weighted avg       0.95      0.95      0.95       190
+
+Fold 2/3 - Validation Accuracy: 0.9842
+Classification Report:
+              precision    recall  f1-score   support
+
+Non-Repeater       0.99      0.99      0.99       159
+    Repeater       0.97      0.94      0.95        31
+
+    accuracy                           0.98       190
+   macro avg       0.98      0.96      0.97       190
+weighted avg       0.98      0.98      0.98       190
+
+Fold 3/3 - Validation Accuracy: 0.9684
+Classification Report:
+              precision    recall  f1-score   support
+
+Non-Repeater       0.97      0.99      0.98       158
+    Repeater       0.93      0.88      0.90        32
+
+    accuracy                           0.97       190
+   macro avg       0.95      0.93      0.94       190
+weighted avg       0.97      0.97      0.97       190
+
+Trial 281 - Average Validation Accuracy: 0.9667
+Fold 1/3 - Validation Accuracy: 0.9368
+Classification Report:
+              precision    recall  f1-score   support
+
+Non-Repeater       0.95      0.97      0.96       159
+    Repeater       0.85      0.74      0.79        31
+
+    accuracy                           0.94       190
+   macro avg       0.90      0.86      0.88       190
+weighted avg       0.93      0.94      0.94       190
+
+Fold 2/3 - Validation Accuracy: 0.9421
+Classification Report:
+              precision    recall  f1-score   support
+
+Non-Repeater       0.95      0.99      0.97       159
+    Repeater       0.92      0.71      0.80        31
+
+    accuracy                           0.94       190
+   macro avg       0.93      0.85      0.88       190
+weighted avg       0.94      0.94      0.94       190
+
+Fold 3/3 - Validation Accuracy: 0.9579
+Classification Report:
+              precision    recall  f1-score   support
+
+Non-Repeater       0.97      0.97      0.97       158
+    Repeater       0.88      0.88      0.88        32
+
+    accuracy                           0.96       190
+   macro avg       0.92      0.92      0.92       190
+weighted avg       0.96      0.96      0.96       190
+
+Trial 282 - Average Validation Accuracy: 0.9456
+Fold 1/3 - Validation Accuracy: 0.9579
+Classification Report:
+              precision    recall  f1-score   support
+
+Non-Repeater       0.95      1.00      0.98       159
+    Repeater       1.00      0.74      0.85        31
+
+    accuracy                           0.96       190
+   macro avg       0.98      0.87      0.91       190
+weighted avg       0.96      0.96      0.96       190
+
+Fold 2/3 - Validation Accuracy: 0.9632
+Classification Report:
+              precision    recall  f1-score   support
+
+Non-Repeater       0.96      0.99      0.98       159
+    Repeater       0.96      0.81      0.88        31
+
+    accuracy                           0.96       190
+   macro avg       0.96      0.90      0.93       190
+weighted avg       0.96      0.96      0.96       190
+
+Fold 3/3 - Validation Accuracy: 0.9579
+Classification Report:
+              precision    recall  f1-score   support
+
+Non-Repeater       0.96      0.99      0.98       158
+    Repeater       0.96      0.78      0.86        32
+
+    accuracy                           0.96       190
+   macro avg       0.96      0.89      0.92       190
+weighted avg       0.96      0.96      0.96       190
+
+Trial 283 - Average Validation Accuracy: 0.9596
+Fold 1/3 - Validation Accuracy: 0.9632
+Classification Report:
+              precision    recall  f1-score   support
+
+Non-Repeater       0.97      0.99      0.98       159
+    Repeater       0.93      0.84      0.88        31
+
+    accuracy                           0.96       190
+   macro avg       0.95      0.91      0.93       190
+weighted avg       0.96      0.96      0.96       190
+
+Fold 2/3 - Validation Accuracy: 0.9789
+Classification Report:
+              precision    recall  f1-score   support
+
+Non-Repeater       0.98      0.99      0.99       159
+    Repeater       0.97      0.90      0.93        31
+
+    accuracy                           0.98       190
+   macro avg       0.97      0.95      0.96       190
+weighted avg       0.98      0.98      0.98       190
+
+Fold 3/3 - Validation Accuracy: 0.9789
+Classification Report:
+              precision    recall  f1-score   support
+
+Non-Repeater       0.98      0.99      0.99       158
+    Repeater       0.97      0.91      0.94        32
+
+    accuracy                           0.98       190
+   macro avg       0.97      0.95      0.96       190
+weighted avg       0.98      0.98      0.98       190
+
+Trial 284 - Average Validation Accuracy: 0.9737
+Fold 1/3 - Validation Accuracy: 0.9632
+Classification Report:
+              precision    recall  f1-score   support
+
+Non-Repeater       0.98      0.97      0.98       159
+    Repeater       0.88      0.90      0.89        31
+
+    accuracy                           0.96       190
+   macro avg       0.93      0.94      0.93       190
+weighted avg       0.96      0.96      0.96       190
+
+Fold 2/3 - Validation Accuracy: 0.9737
+Classification Report:
+              precision    recall  f1-score   support
+
+Non-Repeater       0.98      0.99      0.98       159
+    Repeater       0.96      0.87      0.92        31
+
+    accuracy                           0.97       190
+   macro avg       0.97      0.93      0.95       190
+weighted avg       0.97      0.97      0.97       190
+
+Fold 3/3 - Validation Accuracy: 0.9737
+Classification Report:
+              precision    recall  f1-score   support
+
+Non-Repeater       0.98      0.99      0.98       158
+    Repeater       0.97      0.88      0.92        32
+
+    accuracy                           0.97       190
+   macro avg       0.97      0.93      0.95       190
+weighted avg       0.97      0.97      0.97       190
+
+Trial 285 - Average Validation Accuracy: 0.9702
+Fold 1/3 - Validation Accuracy: 0.9684
+Classification Report:
+[I 2025-11-02 17:34:07,943] Trial 286 finished with value: 0.9754385964912281 and parameters: {'hidden_dim': 1450, 'latent_dim': 18, 'beta': 1.4366904163032885, 'gamma': 0.4043079072724589, 'dropout_rate': 0.13055051303904658, 'lr': 0.00010470084209110092, 'scheduler_patience': 7, 'class_weight': 0.8298211325201829, 'activation': 'ReLU', 'classification_multiplier': 12055.437648650732}. Best is trial 224 with value: 0.980701754385965.
+[I 2025-11-02 17:34:33,270] Trial 287 finished with value: 0.9614035087719298 and parameters: {'hidden_dim': 1440, 'latent_dim': 11, 'beta': 1.4845941067090522, 'gamma': 0.41374520181572677, 'dropout_rate': 0.1342552235436036, 'lr': 0.00046226926971642255, 'scheduler_patience': 7, 'class_weight': 0.8368543474079989, 'activation': 'ReLU', 'classification_multiplier': 12070.312190797844}. Best is trial 224 with value: 0.980701754385965.
+[I 2025-11-02 17:34:54,511] Trial 288 finished with value: 0.9631578947368422 and parameters: {'hidden_dim': 459, 'latent_dim': 17, 'beta': 1.4534215008335039, 'gamma': 0.3616739759830482, 'dropout_rate': 0.12967033980133066, 'lr': 0.00028533639571208644, 'scheduler_patience': 7, 'class_weight': 0.7938907537289803, 'activation': 'ReLU', 'classification_multiplier': 12252.540239744347}. Best is trial 224 with value: 0.980701754385965.
+[I 2025-11-02 17:35:19,688] Trial 289 finished with value: 0.9473684210526315 and parameters: {'hidden_dim': 1387, 'latent_dim': 12, 'beta': 1.4331507558163226, 'gamma': 0.43569924184772996, 'dropout_rate': 0.11635666077835213, 'lr': 0.0005170863801593732, 'scheduler_patience': 7, 'class_weight': 0.22225526408711765, 'activation': 'ReLU', 'classification_multiplier': 12362.588182945196}. Best is trial 224 with value: 0.980701754385965.
+[I 2025-11-02 17:35:45,298] Trial 290 finished with value: 0.9473684210526315 and parameters: {'hidden_dim': 1482, 'latent_dim': 13, 'beta': 1.500915832873881, 'gamma': 0.31031151217496206, 'dropout_rate': 0.1325334124315766, 'lr': 0.0008540377866857274, 'scheduler_patience': 7, 'class_weight': 0.7741903046199463, 'activation': 'GELU', 'classification_multiplier': 11931.446805588901}. Best is trial 224 with value: 0.980701754385965.
+[I 2025-11-02 17:36:10,014] Trial 291 finished with value: 0.9666666666666667 and parameters: {'hidden_dim': 1360, 'latent_dim': 16, 'beta': 1.58574927238895, 'gamma': 0.39562215526907957, 'dropout_rate': 0.11539154371173964, 'lr': 0.0003021277251414584, 'scheduler_patience': 7, 'class_weight': 0.8058769140127413, 'activation': 'ReLU', 'classification_multiplier': 12670.222517457347}. Best is trial 224 with value: 0.980701754385965.
+              precision    recall  f1-score   support
+
+Non-Repeater       0.98      0.99      0.98       159
+    Repeater       0.93      0.87      0.90        31
+
+    accuracy                           0.97       190
+   macro avg       0.95      0.93      0.94       190
+weighted avg       0.97      0.97      0.97       190
+
+Fold 2/3 - Validation Accuracy: 0.9789
+Classification Report:
+              precision    recall  f1-score   support
+
+Non-Repeater       0.98      0.99      0.99       159
+    Repeater       0.97      0.90      0.93        31
+
+    accuracy                           0.98       190
+   macro avg       0.97      0.95      0.96       190
+weighted avg       0.98      0.98      0.98       190
+
+Fold 3/3 - Validation Accuracy: 0.9789
+Classification Report:
+              precision    recall  f1-score   support
+
+Non-Repeater       0.99      0.99      0.99       158
+    Repeater       0.94      0.94      0.94        32
+
+    accuracy                           0.98       190
+   macro avg       0.96      0.96      0.96       190
+weighted avg       0.98      0.98      0.98       190
+
+Trial 286 - Average Validation Accuracy: 0.9754
+Fold 1/3 - Validation Accuracy: 0.9474
+Classification Report:
+              precision    recall  f1-score   support
+
+Non-Repeater       0.96      0.97      0.97       159
+    Repeater       0.86      0.81      0.83        31
+
+    accuracy                           0.95       190
+   macro avg       0.91      0.89      0.90       190
+weighted avg       0.95      0.95      0.95       190
+
+Fold 2/3 - Validation Accuracy: 0.9737
+Classification Report:
+              precision    recall  f1-score   support
+
+Non-Repeater       0.98      0.99      0.98       159
+    Repeater       0.96      0.87      0.92        31
+
+    accuracy                           0.97       190
+   macro avg       0.97      0.93      0.95       190
+weighted avg       0.97      0.97      0.97       190
+
+Fold 3/3 - Validation Accuracy: 0.9632
+Classification Report:
+              precision    recall  f1-score   support
+
+Non-Repeater       0.97      0.99      0.98       158
+    Repeater       0.93      0.84      0.89        32
+
+    accuracy                           0.96       190
+   macro avg       0.95      0.92      0.93       190
+weighted avg       0.96      0.96      0.96       190
+
+Trial 287 - Average Validation Accuracy: 0.9614
+Fold 1/3 - Validation Accuracy: 0.9421
+Classification Report:
+              precision    recall  f1-score   support
+
+Non-Repeater       0.96      0.97      0.97       159
+    Repeater       0.86      0.77      0.81        31
+
+    accuracy                           0.94       190
+   macro avg       0.91      0.87      0.89       190
+weighted avg       0.94      0.94      0.94       190
+
+Fold 2/3 - Validation Accuracy: 0.9737
+Classification Report:
+              precision    recall  f1-score   support
+
+Non-Repeater       0.98      0.99      0.98       159
+    Repeater       0.96      0.87      0.92        31
+
+    accuracy                           0.97       190
+   macro avg       0.97      0.93      0.95       190
+weighted avg       0.97      0.97      0.97       190
+
+Fold 3/3 - Validation Accuracy: 0.9737
+Classification Report:
+              precision    recall  f1-score   support
+
+Non-Repeater       0.99      0.98      0.98       158
+    Repeater       0.91      0.94      0.92        32
+
+    accuracy                           0.97       190
+   macro avg       0.95      0.96      0.95       190
+weighted avg       0.97      0.97      0.97       190
+
+Trial 288 - Average Validation Accuracy: 0.9632
+Fold 1/3 - Validation Accuracy: 0.9526
+Classification Report:
+              precision    recall  f1-score   support
+
+Non-Repeater       0.95      1.00      0.97       159
+    Repeater       1.00      0.71      0.83        31
+
+    accuracy                           0.95       190
+   macro avg       0.97      0.85      0.90       190
+weighted avg       0.96      0.95      0.95       190
+
+Fold 2/3 - Validation Accuracy: 0.9421
+Classification Report:
+              precision    recall  f1-score   support
+
+Non-Repeater       0.94      0.99      0.97       159
+    Repeater       0.95      0.68      0.79        31
+
+    accuracy                           0.94       190
+   macro avg       0.95      0.84      0.88       190
+weighted avg       0.94      0.94      0.94       190
+
+Fold 3/3 - Validation Accuracy: 0.9474
+Classification Report:
+              precision    recall  f1-score   support
+
+Non-Repeater       0.94      1.00      0.97       158
+    Repeater       1.00      0.69      0.81        32
+
+    accuracy                           0.95       190
+   macro avg       0.97      0.84      0.89       190
+weighted avg       0.95      0.95      0.94       190
+
+Trial 289 - Average Validation Accuracy: 0.9474
+Fold 1/3 - Validation Accuracy: 0.9368
+Classification Report:
+              precision    recall  f1-score   support
+
+Non-Repeater       0.96      0.97      0.96       159
+    Repeater       0.83      0.77      0.80        31
+
+    accuracy                           0.94       190
+   macro avg       0.89      0.87      0.88       190
+weighted avg       0.94      0.94      0.94       190
+
+Fold 2/3 - Validation Accuracy: 0.9474
+Classification Report:
+              precision    recall  f1-score   support
+
+Non-Repeater       0.95      0.99      0.97       159
+    Repeater       0.92      0.74      0.82        31
+
+    accuracy                           0.95       190
+   macro avg       0.94      0.86      0.90       190
+weighted avg       0.95      0.95      0.95       190
+
+Fold 3/3 - Validation Accuracy: 0.9579
+Classification Report:
+              precision    recall  f1-score   support
+
+Non-Repeater       0.96      0.99      0.98       158
+    Repeater       0.96      0.78      0.86        32
+
+    accuracy                           0.96       190
+   macro avg       0.96      0.89      0.92       190
+weighted avg       0.96      0.96      0.96       190
+
+Trial 290 - Average Validation Accuracy: 0.9474
+Fold 1/3 - Validation Accuracy: 0.9632
+Classification Report:
+              precision    recall  f1-score   support
+
+Non-Repeater       0.97      0.99      0.98       159
+    Repeater       0.93      0.84      0.88        31
+
+    accuracy                           0.96       190
+   macro avg       0.95      0.91      0.93       190
+weighted avg       0.96      0.96      0.96       190
+
+Fold 2/3 - Validation Accuracy: 0.9684
+Classification Report:
+              precision    recall  f1-score   support
+
+Non-Repeater       0.97      0.99      0.98       159
+    Repeater       0.96      0.84      0.90        31
+
+    accuracy                           0.97       190
+   macro avg       0.97      0.92      0.94       190
+weighted avg       0.97      0.97      0.97       190
+
+Fold 3/3 - Validation Accuracy: 0.9684
+Classification Report:
+              precision    recall  f1-score   support
+
+Non-Repeater       0.97      0.99      0.98       158
+    Repeater       0.93      0.88      0.90        32
+
+    accuracy                           0.97       190
+   macro avg       0.95      0.93      0.94       190
+weighted avg       0.97      0.97      0.97       190
+
+Trial 291 - Average Validation Accuracy: 0.9667
+Fold 1/3 - Validation Accuracy: 0.9632
+Classification Report:
+              precision    recall  f1-score   support
+
+Non-Repeater       0.98      0.97      0.98       159
+    Repeater       0.88      0.90      0.89        31
+
+    accuracy                           0.96       190
+   macro avg       0.93      0.94      0.93       190
+weighted avg       0.96      0.96      0.96       190
+
+Fold 2/3 - Validation Accuracy: 0.9737
+Classification Report:
+              precision    recall  f1-score   support
+
+Non-Repeater       0.98      0.99      0.98       159
+    Repeater       0.96      0.87      0.92        31
+
+    accuracy                           0.97       190
+   macro avg       0.97      0.93      0.95       190
+weighted avg       0.97      0.97      0.97       190
+
+Fold 3/3 - Validation Accuracy: 0.9737
+Classification Report:
+[I 2025-11-02 17:36:35,630] Trial 292 finished with value: 0.9701754385964912 and parameters: {'hidden_dim': 1435, 'latent_dim': 18, 'beta': 1.5322178185580773, 'gamma': 0.46218342623112735, 'dropout_rate': 0.12401361375107525, 'lr': 0.00031545889561273167, 'scheduler_patience': 7, 'class_weight': 0.9525777159825175, 'activation': 'ReLU', 'classification_multiplier': 12144.865264387447}. Best is trial 224 with value: 0.980701754385965.
+[I 2025-11-02 17:37:01,528] Trial 293 finished with value: 0.9473684210526315 and parameters: {'hidden_dim': 1522, 'latent_dim': 14, 'beta': 1.3911084210186386, 'gamma': 1.0807498244720835, 'dropout_rate': 0.3865890333836859, 'lr': 0.0005014315704505589, 'scheduler_patience': 7, 'class_weight': 0.8473182110930018, 'activation': 'ReLU', 'classification_multiplier': 12488.792051748016}. Best is trial 224 with value: 0.980701754385965.
+[I 2025-11-02 17:37:27,504] Trial 294 finished with value: 0.968421052631579 and parameters: {'hidden_dim': 1467, 'latent_dim': 15, 'beta': 1.329518518364853, 'gamma': 0.926244906367479, 'dropout_rate': 0.11344188614649746, 'lr': 0.000103852260068545, 'scheduler_patience': 5, 'class_weight': 0.8288075733074973, 'activation': 'ReLU', 'classification_multiplier': 12808.171719235917}. Best is trial 224 with value: 0.980701754385965.
+[I 2025-11-02 17:37:54,504] Trial 295 finished with value: 0.9649122807017544 and parameters: {'hidden_dim': 1621, 'latent_dim': 6, 'beta': 1.4179710688970792, 'gamma': 0.4065278496270736, 'dropout_rate': 0.12712950221247166, 'lr': 0.0007006097338241822, 'scheduler_patience': 7, 'class_weight': 0.7831699846001602, 'activation': 'ReLU', 'classification_multiplier': 12323.65499144588}. Best is trial 224 with value: 0.980701754385965.
+[I 2025-11-02 17:38:19,551] Trial 296 finished with value: 0.9701754385964912 and parameters: {'hidden_dim': 1404, 'latent_dim': 17, 'beta': 1.3538788191234408, 'gamma': 0.2802456922664234, 'dropout_rate': 0.12011886507813552, 'lr': 0.0003190753060798305, 'scheduler_patience': 7, 'class_weight': 0.9111298053608121, 'activation': 'ReLU', 'classification_multiplier': 12710.024050493874}. Best is trial 224 with value: 0.980701754385965.
+[I 2025-11-02 17:38:44,314] Trial 297 finished with value: 0.968421052631579 and parameters: {'hidden_dim': 1327, 'latent_dim': 15, 'beta': 1.2950674791873675, 'gamma': 0.355976807486661, 'dropout_rate': 0.10948809287413053, 'lr': 0.0005378317630201565, 'scheduler_patience': 7, 'class_weight': 0.8895284374331708, 'activation': 'ReLU', 'classification_multiplier': 13032.450682729472}. Best is trial 224 with value: 0.980701754385965.
+[I 2025-11-02 17:39:10,777] Trial 298 finished with value: 0.968421052631579 and parameters: {'hidden_dim': 1557, 'latent_dim': 16, 'beta': 1.2550313695304118, 'gamma': 0.49062391609070255, 'dropout_rate': 0.10741497920844305, 'lr': 0.00030499675290670706, 'scheduler_patience': 7, 'class_weight': 0.8527043880628612, 'activation': 'ReLU', 'classification_multiplier': 12536.725352655032}. Best is trial 224 with value: 0.980701754385965.
+              precision    recall  f1-score   support
+
+Non-Repeater       0.99      0.98      0.98       158
+    Repeater       0.91      0.94      0.92        32
+
+    accuracy                           0.97       190
+   macro avg       0.95      0.96      0.95       190
+weighted avg       0.97      0.97      0.97       190
+
+Trial 292 - Average Validation Accuracy: 0.9702
+Fold 1/3 - Validation Accuracy: 0.9368
+Classification Report:
+              precision    recall  f1-score   support
+
+Non-Repeater       0.95      0.97      0.96       159
+    Repeater       0.85      0.74      0.79        31
+
+    accuracy                           0.94       190
+   macro avg       0.90      0.86      0.88       190
+weighted avg       0.93      0.94      0.94       190
+
+Fold 2/3 - Validation Accuracy: 0.9579
+Classification Report:
+              precision    recall  f1-score   support
+
+Non-Repeater       0.96      0.99      0.98       159
+    Repeater       0.93      0.81      0.86        31
+
+    accuracy                           0.96       190
+   macro avg       0.94      0.90      0.92       190
+weighted avg       0.96      0.96      0.96       190
+
+Fold 3/3 - Validation Accuracy: 0.9474
+Classification Report:
+              precision    recall  f1-score   support
+
+Non-Repeater       0.96      0.97      0.97       158
+    Repeater       0.87      0.81      0.84        32
+
+    accuracy                           0.95       190
+   macro avg       0.91      0.89      0.90       190
+weighted avg       0.95      0.95      0.95       190
+
+Trial 293 - Average Validation Accuracy: 0.9474
+Fold 1/3 - Validation Accuracy: 0.9579
+Classification Report:
+              precision    recall  f1-score   support
+
+Non-Repeater       0.97      0.98      0.97       159
+    Repeater       0.90      0.84      0.87        31
+
+    accuracy                           0.96       190
+   macro avg       0.93      0.91      0.92       190
+weighted avg       0.96      0.96      0.96       190
+
+Fold 2/3 - Validation Accuracy: 0.9737
+Classification Report:
+              precision    recall  f1-score   support
+
+Non-Repeater       0.98      0.99      0.98       159
+    Repeater       0.96      0.87      0.92        31
+
+    accuracy                           0.97       190
+   macro avg       0.97      0.93      0.95       190
+weighted avg       0.97      0.97      0.97       190
+
+Fold 3/3 - Validation Accuracy: 0.9737
+Classification Report:
+              precision    recall  f1-score   support
+
+Non-Repeater       0.99      0.98      0.98       158
+    Repeater       0.91      0.94      0.92        32
+
+    accuracy                           0.97       190
+   macro avg       0.95      0.96      0.95       190
+weighted avg       0.97      0.97      0.97       190
+
+Trial 294 - Average Validation Accuracy: 0.9684
+Fold 1/3 - Validation Accuracy: 0.9526
+Classification Report:
+              precision    recall  f1-score   support
+
+Non-Repeater       0.96      0.99      0.97       159
+    Repeater       0.92      0.77      0.84        31
+
+    accuracy                           0.95       190
+   macro avg       0.94      0.88      0.91       190
+weighted avg       0.95      0.95      0.95       190
+
+Fold 2/3 - Validation Accuracy: 0.9737
+Classification Report:
+              precision    recall  f1-score   support
+
+Non-Repeater       0.98      0.99      0.98       159
+    Repeater       0.96      0.87      0.92        31
+
+    accuracy                           0.97       190
+   macro avg       0.97      0.93      0.95       190
+weighted avg       0.97      0.97      0.97       190
+
+Fold 3/3 - Validation Accuracy: 0.9684
+Classification Report:
+              precision    recall  f1-score   support
+
+Non-Repeater       0.97      0.99      0.98       158
+    Repeater       0.93      0.88      0.90        32
+
+    accuracy                           0.97       190
+   macro avg       0.95      0.93      0.94       190
+weighted avg       0.97      0.97      0.97       190
+
+Trial 295 - Average Validation Accuracy: 0.9649
+Fold 1/3 - Validation Accuracy: 0.9579
+Classification Report:
+              precision    recall  f1-score   support
+
+Non-Repeater       0.97      0.97      0.97       159
+    Repeater       0.87      0.87      0.87        31
+
+    accuracy                           0.96       190
+   macro avg       0.92      0.92      0.92       190
+weighted avg       0.96      0.96      0.96       190
+
+Fold 2/3 - Validation Accuracy: 0.9789
+Classification Report:
+              precision    recall  f1-score   support
+
+Non-Repeater       0.98      0.99      0.99       159
+    Repeater       0.97      0.90      0.93        31
+
+    accuracy                           0.98       190
+   macro avg       0.97      0.95      0.96       190
+weighted avg       0.98      0.98      0.98       190
+
+Fold 3/3 - Validation Accuracy: 0.9737
+Classification Report:
+              precision    recall  f1-score   support
+
+Non-Repeater       0.98      0.99      0.98       158
+    Repeater       0.97      0.88      0.92        32
+
+    accuracy                           0.97       190
+   macro avg       0.97      0.93      0.95       190
+weighted avg       0.97      0.97      0.97       190
+
+Trial 296 - Average Validation Accuracy: 0.9702
+Fold 1/3 - Validation Accuracy: 0.9632
+Classification Report:
+              precision    recall  f1-score   support
+
+Non-Repeater       0.98      0.97      0.98       159
+    Repeater       0.88      0.90      0.89        31
+
+    accuracy                           0.96       190
+   macro avg       0.93      0.94      0.93       190
+weighted avg       0.96      0.96      0.96       190
+
+Fold 2/3 - Validation Accuracy: 0.9737
+Classification Report:
+              precision    recall  f1-score   support
+
+Non-Repeater       0.98      0.99      0.98       159
+    Repeater       0.96      0.87      0.92        31
+
+    accuracy                           0.97       190
+   macro avg       0.97      0.93      0.95       190
+weighted avg       0.97      0.97      0.97       190
+
+Fold 3/3 - Validation Accuracy: 0.9684
+Classification Report:
+              precision    recall  f1-score   support
+
+Non-Repeater       0.98      0.98      0.98       158
+    Repeater       0.91      0.91      0.91        32
+
+    accuracy                           0.97       190
+   macro avg       0.94      0.94      0.94       190
+weighted avg       0.97      0.97      0.97       190
+
+Trial 297 - Average Validation Accuracy: 0.9684
+Fold 1/3 - Validation Accuracy: 0.9684
+Classification Report:
+              precision    recall  f1-score   support
+
+Non-Repeater       0.98      0.99      0.98       159
+    Repeater       0.93      0.87      0.90        31
+
+    accuracy                           0.97       190
+   macro avg       0.95      0.93      0.94       190
+weighted avg       0.97      0.97      0.97       190
+
+Fold 2/3 - Validation Accuracy: 0.9737
+Classification Report:
+              precision    recall  f1-score   support
+
+Non-Repeater       0.98      0.99      0.98       159
+    Repeater       0.96      0.87      0.92        31
+
+    accuracy                           0.97       190
+   macro avg       0.97      0.93      0.95       190
+weighted avg       0.97      0.97      0.97       190
+
+Fold 3/3 - Validation Accuracy: 0.9632
+Classification Report:
+              precision    recall  f1-score   support
+
+Non-Repeater       0.97      0.98      0.98       158
+    Repeater       0.90      0.88      0.89        32
+
+    accuracy                           0.96       190
+   macro avg       0.94      0.93      0.93       190
+weighted avg       0.96      0.96      0.96       190
+
+Trial 298 - Average Validation Accuracy: 0.9684
+Fold 1/3 - Validation Accuracy: 0.9579
+Classification Report:
+              precision    recall  f1-score   support
+
+Non-Repeater       0.97      0.97      0.97       159
+    Repeater       0.87      0.87      0.87        31
+
+    accuracy                           0.96       190
+   macro avg       0.92      0.92      0.92       190
+weighted avg       0.96      0.96      0.96       190
+
+Fold 2/3 - Validation Accuracy: 0.9789
+Classification Report:
+[I 2025-11-02 17:39:36,906] Trial 299 finished with value: 0.9719298245614035 and parameters: {'hidden_dim': 1514, 'latent_dim': 14, 'beta': 1.3228128244632082, 'gamma': 0.45662247719312554, 'dropout_rate': 0.11495775271425591, 'lr': 0.00011772909149549218, 'scheduler_patience': 7, 'class_weight': 0.8016363342908168, 'activation': 'ReLU', 'classification_multiplier': 12903.701428485418}. Best is trial 224 with value: 0.980701754385965.
+[I 2025-11-02 17:40:02,978] Trial 300 finished with value: 0.9403508771929824 and parameters: {'hidden_dim': 1507, 'latent_dim': 13, 'beta': 1.3223888242788302, 'gamma': 0.45720199702105874, 'dropout_rate': 0.46993587128619796, 'lr': 0.0001342749544297981, 'scheduler_patience': 7, 'class_weight': 0.8224652361255727, 'activation': 'LeakyReLU', 'classification_multiplier': 12889.993255984195}. Best is trial 224 with value: 0.980701754385965.
+[I 2025-11-02 17:40:28,465] Trial 301 finished with value: 0.9736842105263158 and parameters: {'hidden_dim': 1458, 'latent_dim': 14, 'beta': 1.3795317627849442, 'gamma': 0.5255740960542086, 'dropout_rate': 0.13609943445702305, 'lr': 0.00011528383249413503, 'scheduler_patience': 7, 'class_weight': 0.7995430531691404, 'activation': 'ReLU', 'classification_multiplier': 12637.40134796901}. Best is trial 224 with value: 0.980701754385965.
+[I 2025-11-02 17:40:54,095] Trial 302 finished with value: 0.9736842105263158 and parameters: {'hidden_dim': 1460, 'latent_dim': 14, 'beta': 1.3792437512633582, 'gamma': 0.5220414378941742, 'dropout_rate': 0.13598422534532623, 'lr': 0.00011872565768098172, 'scheduler_patience': 7, 'class_weight': 0.800548518759554, 'activation': 'ReLU', 'classification_multiplier': 12611.364920066617}. Best is trial 224 with value: 0.980701754385965.
+[I 2025-11-02 17:41:20,014] Trial 303 finished with value: 0.9736842105263158 and parameters: {'hidden_dim': 1459, 'latent_dim': 14, 'beta': 1.3860493996301115, 'gamma': 0.5397848181994258, 'dropout_rate': 0.13698529329318884, 'lr': 0.00012226462024271943, 'scheduler_patience': 7, 'class_weight': 0.8058938461220789, 'activation': 'ReLU', 'classification_multiplier': 12606.281725582314}. Best is trial 224 with value: 0.980701754385965.
+[I 2025-11-02 17:41:45,826] Trial 304 finished with value: 0.9701754385964912 and parameters: {'hidden_dim': 1457, 'latent_dim': 14, 'beta': 1.3891166118668377, 'gamma': 0.5353532245925259, 'dropout_rate': 0.13967836373375558, 'lr': 0.00012933854559925428, 'scheduler_patience': 7, 'class_weight': 0.8101259774425352, 'activation': 'ReLU', 'classification_multiplier': 12556.118909283792}. Best is trial 224 with value: 0.980701754385965.
+[I 2025-11-02 17:42:11,087] Trial 305 finished with value: 0.9666666666666667 and parameters: {'hidden_dim': 1424, 'latent_dim': 13, 'beta': 1.4382517772816916, 'gamma': 0.5112619441177474, 'dropout_rate': 0.1356614495739163, 'lr': 0.0001394520135558816, 'scheduler_patience': 7, 'class_weight': 0.8034098704356769, 'activation': 'ReLU', 'classification_multiplier': 12302.76155693366}. Best is trial 224 with value: 0.980701754385965.
+              precision    recall  f1-score   support
+
+Non-Repeater       0.98      0.99      0.99       159
+    Repeater       0.97      0.90      0.93        31
+
+    accuracy                           0.98       190
+   macro avg       0.97      0.95      0.96       190
+weighted avg       0.98      0.98      0.98       190
+
+Fold 3/3 - Validation Accuracy: 0.9789
+Classification Report:
+              precision    recall  f1-score   support
+
+Non-Repeater       0.98      0.99      0.99       158
+    Repeater       0.97      0.91      0.94        32
+
+    accuracy                           0.98       190
+   macro avg       0.97      0.95      0.96       190
+weighted avg       0.98      0.98      0.98       190
+
+Trial 299 - Average Validation Accuracy: 0.9719
+Fold 1/3 - Validation Accuracy: 0.9316
+Classification Report:
+              precision    recall  f1-score   support
+
+Non-Repeater       0.95      0.97      0.96       159
+    Repeater       0.85      0.71      0.77        31
+
+    accuracy                           0.93       190
+   macro avg       0.90      0.84      0.87       190
+weighted avg       0.93      0.93      0.93       190
+
+Fold 2/3 - Validation Accuracy: 0.9421
+Classification Report:
+              precision    recall  f1-score   support
+
+Non-Repeater       0.95      0.98      0.97       159
+    Repeater       0.88      0.74      0.81        31
+
+    accuracy                           0.94       190
+   macro avg       0.92      0.86      0.89       190
+weighted avg       0.94      0.94      0.94       190
+
+Fold 3/3 - Validation Accuracy: 0.9474
+Classification Report:
+              precision    recall  f1-score   support
+
+Non-Repeater       0.98      0.96      0.97       158
+    Repeater       0.81      0.91      0.85        32
+
+    accuracy                           0.95       190
+   macro avg       0.89      0.93      0.91       190
+weighted avg       0.95      0.95      0.95       190
+
+Trial 300 - Average Validation Accuracy: 0.9404
+Fold 1/3 - Validation Accuracy: 0.9632
+Classification Report:
+              precision    recall  f1-score   support
+
+Non-Repeater       0.97      0.98      0.98       159
+    Repeater       0.90      0.87      0.89        31
+
+    accuracy                           0.96       190
+   macro avg       0.94      0.93      0.93       190
+weighted avg       0.96      0.96      0.96       190
+
+Fold 2/3 - Validation Accuracy: 0.9737
+Classification Report:
+              precision    recall  f1-score   support
+
+Non-Repeater       0.98      0.99      0.98       159
+    Repeater       0.96      0.87      0.92        31
+
+    accuracy                           0.97       190
+   macro avg       0.97      0.93      0.95       190
+weighted avg       0.97      0.97      0.97       190
+
+Fold 3/3 - Validation Accuracy: 0.9842
+Classification Report:
+              precision    recall  f1-score   support
+
+Non-Repeater       0.99      0.99      0.99       158
+    Repeater       0.97      0.94      0.95        32
+
+    accuracy                           0.98       190
+   macro avg       0.98      0.97      0.97       190
+weighted avg       0.98      0.98      0.98       190
+
+Trial 301 - Average Validation Accuracy: 0.9737
+Fold 1/3 - Validation Accuracy: 0.9632
+Classification Report:
+              precision    recall  f1-score   support
+
+Non-Repeater       0.97      0.99      0.98       159
+    Repeater       0.93      0.84      0.88        31
+
+    accuracy                           0.96       190
+   macro avg       0.95      0.91      0.93       190
+weighted avg       0.96      0.96      0.96       190
+
+Fold 2/3 - Validation Accuracy: 0.9842
+Classification Report:
+              precision    recall  f1-score   support
+
+Non-Repeater       0.99      0.99      0.99       159
+    Repeater       0.97      0.94      0.95        31
+
+    accuracy                           0.98       190
+   macro avg       0.98      0.96      0.97       190
+weighted avg       0.98      0.98      0.98       190
+
+Fold 3/3 - Validation Accuracy: 0.9737
+Classification Report:
+              precision    recall  f1-score   support
+
+Non-Repeater       0.98      0.99      0.98       158
+    Repeater       0.94      0.91      0.92        32
+
+    accuracy                           0.97       190
+   macro avg       0.96      0.95      0.95       190
+weighted avg       0.97      0.97      0.97       190
+
+Trial 302 - Average Validation Accuracy: 0.9737
+Fold 1/3 - Validation Accuracy: 0.9632
+Classification Report:
+              precision    recall  f1-score   support
+
+Non-Repeater       0.97      0.99      0.98       159
+    Repeater       0.93      0.84      0.88        31
+
+    accuracy                           0.96       190
+   macro avg       0.95      0.91      0.93       190
+weighted avg       0.96      0.96      0.96       190
+
+Fold 2/3 - Validation Accuracy: 0.9789
+Classification Report:
+              precision    recall  f1-score   support
+
+Non-Repeater       0.98      0.99      0.99       159
+    Repeater       0.97      0.90      0.93        31
+
+    accuracy                           0.98       190
+   macro avg       0.97      0.95      0.96       190
+weighted avg       0.98      0.98      0.98       190
+
+Fold 3/3 - Validation Accuracy: 0.9789
+Classification Report:
+              precision    recall  f1-score   support
+
+Non-Repeater       0.98      0.99      0.99       158
+    Repeater       0.97      0.91      0.94        32
+
+    accuracy                           0.98       190
+   macro avg       0.97      0.95      0.96       190
+weighted avg       0.98      0.98      0.98       190
+
+Trial 303 - Average Validation Accuracy: 0.9737
+Fold 1/3 - Validation Accuracy: 0.9579
+Classification Report:
+              precision    recall  f1-score   support
+
+Non-Repeater       0.97      0.98      0.97       159
+    Repeater       0.90      0.84      0.87        31
+
+    accuracy                           0.96       190
+   macro avg       0.93      0.91      0.92       190
+weighted avg       0.96      0.96      0.96       190
+
+Fold 2/3 - Validation Accuracy: 0.9789
+Classification Report:
+              precision    recall  f1-score   support
+
+Non-Repeater       0.98      0.99      0.99       159
+    Repeater       0.97      0.90      0.93        31
+
+    accuracy                           0.98       190
+   macro avg       0.97      0.95      0.96       190
+weighted avg       0.98      0.98      0.98       190
+
+Fold 3/3 - Validation Accuracy: 0.9737
+Classification Report:
+              precision    recall  f1-score   support
+
+Non-Repeater       0.98      0.99      0.98       158
+    Repeater       0.94      0.91      0.92        32
+
+    accuracy                           0.97       190
+   macro avg       0.96      0.95      0.95       190
+weighted avg       0.97      0.97      0.97       190
+
+Trial 304 - Average Validation Accuracy: 0.9702
+Fold 1/3 - Validation Accuracy: 0.9632
+Classification Report:
+              precision    recall  f1-score   support
+
+Non-Repeater       0.97      0.98      0.98       159
+    Repeater       0.90      0.87      0.89        31
+
+    accuracy                           0.96       190
+   macro avg       0.94      0.93      0.93       190
+weighted avg       0.96      0.96      0.96       190
+
+Fold 2/3 - Validation Accuracy: 0.9789
+Classification Report:
+              precision    recall  f1-score   support
+
+Non-Repeater       0.98      0.99      0.99       159
+    Repeater       0.97      0.90      0.93        31
+
+    accuracy                           0.98       190
+   macro avg       0.97      0.95      0.96       190
+weighted avg       0.98      0.98      0.98       190
+
+Fold 3/3 - Validation Accuracy: 0.9579
+Classification Report:
+              precision    recall  f1-score   support
+
+Non-Repeater       0.96      0.99      0.97       158
+    Repeater       0.93      0.81      0.87        32
+
+    accuracy                           0.96       190
+   macro avg       0.95      0.90      0.92       190
+weighted avg       0.96      0.96      0.96       190
+
+Trial 305 - Average Validation Accuracy: 0.9667
+Fold 1/3 - Validation Accuracy: 0.9579
+Classification Report:
+[I 2025-11-02 17:42:36,924] Trial 306 finished with value: 0.968421052631579 and parameters: {'hidden_dim': 1479, 'latent_dim': 14, 'beta': 1.369352777726995, 'gamma': 0.5304590113659777, 'dropout_rate': 0.13494117269478093, 'lr': 0.00010139304970180517, 'scheduler_patience': 7, 'class_weight': 0.8318676627517686, 'activation': 'ReLU', 'classification_multiplier': 12158.513961663355}. Best is trial 224 with value: 0.980701754385965.
+[I 2025-11-02 17:43:03,053] Trial 307 finished with value: 0.9421052631578948 and parameters: {'hidden_dim': 1527, 'latent_dim': 12, 'beta': 1.402333400859874, 'gamma': 0.48852609136907754, 'dropout_rate': 0.1279041904786442, 'lr': 0.00011356658327921005, 'scheduler_patience': 7, 'class_weight': 0.8281639516517308, 'activation': 'ELU', 'classification_multiplier': 12669.525611113717}. Best is trial 224 with value: 0.980701754385965.
+[I 2025-11-02 17:43:28,028] Trial 308 finished with value: 0.9631578947368421 and parameters: {'hidden_dim': 1398, 'latent_dim': 14, 'beta': 1.3366353825704909, 'gamma': 0.4248711323199206, 'dropout_rate': 0.1345152233655218, 'lr': 0.0002779834298725158, 'scheduler_patience': 7, 'class_weight': 0.7976556410960347, 'activation': 'ReLU', 'classification_multiplier': 12470.337787820667}. Best is trial 224 with value: 0.980701754385965.
+[I 2025-11-02 17:43:53,741] Trial 309 finished with value: 0.968421052631579 and parameters: {'hidden_dim': 1449, 'latent_dim': 13, 'beta': 1.3766138536295995, 'gamma': 0.4631266820819007, 'dropout_rate': 0.12179606734462743, 'lr': 0.0002743902843375033, 'scheduler_patience': 7, 'class_weight': 0.8484438048995888, 'activation': 'ReLU', 'classification_multiplier': 12749.4890524655}. Best is trial 224 with value: 0.980701754385965.
+[I 2025-11-02 17:44:20,230] Trial 310 finished with value: 0.956140350877193 and parameters: {'hidden_dim': 1585, 'latent_dim': 14, 'beta': 0.7943678552568748, 'gamma': 0.5579089067881476, 'dropout_rate': 0.25343211548330347, 'lr': 0.00010503265643000621, 'scheduler_patience': 7, 'class_weight': 0.8128374684573523, 'activation': 'ReLU', 'classification_multiplier': 12344.643399012723}. Best is trial 224 with value: 0.980701754385965.
+[I 2025-11-02 17:44:45,805] Trial 311 finished with value: 0.8736842105263158 and parameters: {'hidden_dim': 1472, 'latent_dim': 15, 'beta': 1.326019633570384, 'gamma': 0.3286758106893778, 'dropout_rate': 0.12777861865833773, 'lr': 0.00028501077580564833, 'scheduler_patience': 7, 'class_weight': 0.06335648967808077, 'activation': 'SELU', 'classification_multiplier': 12051.57923815235}. Best is trial 224 with value: 0.980701754385965.
+              precision    recall  f1-score   support
+
+Non-Repeater       0.97      0.98      0.97       159
+    Repeater       0.90      0.84      0.87        31
+
+    accuracy                           0.96       190
+   macro avg       0.93      0.91      0.92       190
+weighted avg       0.96      0.96      0.96       190
+
+Fold 2/3 - Validation Accuracy: 0.9789
+Classification Report:
+              precision    recall  f1-score   support
+
+Non-Repeater       0.98      0.99      0.99       159
+    Repeater       0.97      0.90      0.93        31
+
+    accuracy                           0.98       190
+   macro avg       0.97      0.95      0.96       190
+weighted avg       0.98      0.98      0.98       190
+
+Fold 3/3 - Validation Accuracy: 0.9684
+Classification Report:
+              precision    recall  f1-score   support
+
+Non-Repeater       0.97      0.99      0.98       158
+    Repeater       0.93      0.88      0.90        32
+
+    accuracy                           0.97       190
+   macro avg       0.95      0.93      0.94       190
+weighted avg       0.97      0.97      0.97       190
+
+Trial 306 - Average Validation Accuracy: 0.9684
+Fold 1/3 - Validation Accuracy: 0.9263
+Classification Report:
+              precision    recall  f1-score   support
+
+Non-Repeater       0.94      0.97      0.96       159
+    Repeater       0.81      0.71      0.76        31
+
+    accuracy                           0.93       190
+   macro avg       0.88      0.84      0.86       190
+weighted avg       0.92      0.93      0.92       190
+
+Fold 2/3 - Validation Accuracy: 0.9474
+Classification Report:
+              precision    recall  f1-score   support
+
+Non-Repeater       0.95      0.99      0.97       159
+    Repeater       0.92      0.74      0.82        31
+
+    accuracy                           0.95       190
+   macro avg       0.94      0.86      0.90       190
+weighted avg       0.95      0.95      0.95       190
+
+Fold 3/3 - Validation Accuracy: 0.9526
+Classification Report:
+              precision    recall  f1-score   support
+
+Non-Repeater       0.96      0.98      0.97       158
+    Repeater       0.90      0.81      0.85        32
+
+    accuracy                           0.95       190
+   macro avg       0.93      0.90      0.91       190
+weighted avg       0.95      0.95      0.95       190
+
+Trial 307 - Average Validation Accuracy: 0.9421
+Fold 1/3 - Validation Accuracy: 0.9526
+Classification Report:
+              precision    recall  f1-score   support
+
+Non-Repeater       0.96      0.98      0.97       159
+    Repeater       0.89      0.81      0.85        31
+
+    accuracy                           0.95       190
+   macro avg       0.93      0.89      0.91       190
+weighted avg       0.95      0.95      0.95       190
+
+Fold 2/3 - Validation Accuracy: 0.9737
+Classification Report:
+              precision    recall  f1-score   support
+
+Non-Repeater       0.98      0.99      0.98       159
+    Repeater       0.96      0.87      0.92        31
+
+    accuracy                           0.97       190
+   macro avg       0.97      0.93      0.95       190
+weighted avg       0.97      0.97      0.97       190
+
+Fold 3/3 - Validation Accuracy: 0.9632
+Classification Report:
+              precision    recall  f1-score   support
+
+Non-Repeater       0.97      0.99      0.98       158
+    Repeater       0.93      0.84      0.89        32
+
+    accuracy                           0.96       190
+   macro avg       0.95      0.92      0.93       190
+weighted avg       0.96      0.96      0.96       190
+
+Trial 308 - Average Validation Accuracy: 0.9632
+Fold 1/3 - Validation Accuracy: 0.9526
+Classification Report:
+              precision    recall  f1-score   support
+
+Non-Repeater       0.97      0.97      0.97       159
+    Repeater       0.87      0.84      0.85        31
+
+    accuracy                           0.95       190
+   macro avg       0.92      0.91      0.91       190
+weighted avg       0.95      0.95      0.95       190
+
+Fold 2/3 - Validation Accuracy: 0.9737
+Classification Report:
+              precision    recall  f1-score   support
+
+Non-Repeater       0.98      0.99      0.98       159
+    Repeater       0.96      0.87      0.92        31
+
+    accuracy                           0.97       190
+   macro avg       0.97      0.93      0.95       190
+weighted avg       0.97      0.97      0.97       190
+
+Fold 3/3 - Validation Accuracy: 0.9789
+Classification Report:
+              precision    recall  f1-score   support
+
+Non-Repeater       0.98      0.99      0.99       158
+    Repeater       0.97      0.91      0.94        32
+
+    accuracy                           0.98       190
+   macro avg       0.97      0.95      0.96       190
+weighted avg       0.98      0.98      0.98       190
+
+Trial 309 - Average Validation Accuracy: 0.9684
+Fold 1/3 - Validation Accuracy: 0.9526
+Classification Report:
+              precision    recall  f1-score   support
+
+Non-Repeater       0.97      0.97      0.97       159
+    Repeater       0.87      0.84      0.85        31
+
+    accuracy                           0.95       190
+   macro avg       0.92      0.91      0.91       190
+weighted avg       0.95      0.95      0.95       190
+
+Fold 2/3 - Validation Accuracy: 0.9526
+Classification Report:
+              precision    recall  f1-score   support
+
+Non-Repeater       0.95      0.99      0.97       159
+    Repeater       0.96      0.74      0.84        31
+
+    accuracy                           0.95       190
+   macro avg       0.96      0.87      0.90       190
+weighted avg       0.95      0.95      0.95       190
+
+Fold 3/3 - Validation Accuracy: 0.9632
+Classification Report:
+              precision    recall  f1-score   support
+
+Non-Repeater       0.97      0.99      0.98       158
+    Repeater       0.93      0.84      0.89        32
+
+    accuracy                           0.96       190
+   macro avg       0.95      0.92      0.93       190
+weighted avg       0.96      0.96      0.96       190
+
+Trial 310 - Average Validation Accuracy: 0.9561
+Fold 1/3 - Validation Accuracy: 0.8947
+Classification Report:
+              precision    recall  f1-score   support
+
+Non-Repeater       0.89      1.00      0.94       159
+    Repeater       1.00      0.35      0.52        31
+
+    accuracy                           0.89       190
+   macro avg       0.94      0.68      0.73       190
+weighted avg       0.91      0.89      0.87       190
+
+Fold 2/3 - Validation Accuracy: 0.8632
+Classification Report:
+              precision    recall  f1-score   support
+
+Non-Repeater       0.86      0.99      0.92       159
+    Repeater       0.86      0.19      0.32        31
+
+    accuracy                           0.86       190
+   macro avg       0.86      0.59      0.62       190
+weighted avg       0.86      0.86      0.82       190
+
+Fold 3/3 - Validation Accuracy: 0.8632
+Classification Report:
+              precision    recall  f1-score   support
+
+Non-Repeater       0.86      1.00      0.92       158
+    Repeater       1.00      0.19      0.32        32
+
+    accuracy                           0.86       190
+   macro avg       0.93      0.59      0.62       190
+weighted avg       0.88      0.86      0.82       190
+
+Trial 311 - Average Validation Accuracy: 0.8737
+Fold 1/3 - Validation Accuracy: 0.9632
+Classification Report:
+              precision    recall  f1-score   support
+
+Non-Repeater       0.97      0.99      0.98       159
+    Repeater       0.93      0.84      0.88        31
+
+    accuracy                           0.96       190
+   macro avg       0.95      0.91      0.93       190
+weighted avg       0.96      0.96      0.96       190
+
+Fold 2/3 - Validation Accuracy: 0.9632
+Classification Report:
+              precision    recall  f1-score   support
+
+Non-Repeater       0.96      0.99      0.98       159
+    Repeater       0.96      0.81      0.88        31
+
+    accuracy                           0.96       190
+   macro avg       0.96      0.90      0.93       190
+weighted avg       0.96      0.96      0.96       190
+
+Fold 3/3 - Validation Accuracy: 0.9684
+Classification Report:
+[I 2025-11-02 17:45:10,766] Trial 312 finished with value: 0.9649122807017544 and parameters: {'hidden_dim': 1353, 'latent_dim': 13, 'beta': 1.267381132021227, 'gamma': 0.5963534748346028, 'dropout_rate': 0.13841491170121673, 'lr': 0.00046743461314497704, 'scheduler_patience': 7, 'class_weight': 0.877670132993457, 'activation': 'ReLU', 'classification_multiplier': 12576.326229521437}. Best is trial 224 with value: 0.980701754385965.
+[I 2025-11-02 17:45:36,684] Trial 313 finished with value: 0.9701754385964912 and parameters: {'hidden_dim': 1512, 'latent_dim': 15, 'beta': 1.424894774664503, 'gamma': 0.5107361976479246, 'dropout_rate': 0.117408083348112, 'lr': 0.00011248901218147543, 'scheduler_patience': 7, 'class_weight': 0.9339009252256972, 'activation': 'ReLU', 'classification_multiplier': 12833.188182546815}. Best is trial 224 with value: 0.980701754385965.
+[I 2025-11-02 17:46:02,053] Trial 314 finished with value: 0.9666666666666667 and parameters: {'hidden_dim': 1419, 'latent_dim': 14, 'beta': 1.3013945475769846, 'gamma': 0.440194569849443, 'dropout_rate': 0.1253024912241197, 'lr': 0.00032438545633742017, 'scheduler_patience': 7, 'class_weight': 0.8618785563431077, 'activation': 'ReLU', 'classification_multiplier': 12461.414649256225}. Best is trial 224 with value: 0.980701754385965.
+[I 2025-11-02 17:46:28,175] Trial 315 finished with value: 0.9649122807017544 and parameters: {'hidden_dim': 1546, 'latent_dim': 12, 'beta': 1.3472379276006146, 'gamma': 0.5409075725095207, 'dropout_rate': 0.14838286321190192, 'lr': 0.0006276073565763433, 'scheduler_patience': 7, 'class_weight': 0.904065886554914, 'activation': 'ReLU', 'classification_multiplier': 11802.208224761142}. Best is trial 224 with value: 0.980701754385965.
+[I 2025-11-02 17:46:55,662] Trial 316 finished with value: 0.9754385964912281 and parameters: {'hidden_dim': 1744, 'latent_dim': 14, 'beta': 1.4051341800376325, 'gamma': 0.4749800045196143, 'dropout_rate': 0.10038997599184599, 'lr': 0.0002801996688376623, 'scheduler_patience': 7, 'class_weight': 0.8310138431991716, 'activation': 'ReLU', 'classification_multiplier': 12741.917435916348}. Best is trial 224 with value: 0.980701754385965.
+[I 2025-11-02 17:47:23,456] Trial 317 finished with value: 0.9771929824561404 and parameters: {'hidden_dim': 1753, 'latent_dim': 14, 'beta': 1.4068619344532602, 'gamma': 0.49249504245341386, 'dropout_rate': 0.10120893483407119, 'lr': 0.00010335541039522197, 'scheduler_patience': 7, 'class_weight': 0.834209996761972, 'activation': 'ReLU', 'classification_multiplier': 12754.511561269774}. Best is trial 224 with value: 0.980701754385965.
+[I 2025-11-02 17:47:50,940] Trial 318 finished with value: 0.968421052631579 and parameters: {'hidden_dim': 1718, 'latent_dim': 13, 'beta': 1.4567304130789795, 'gamma': 0.5008675274048799, 'dropout_rate': 0.10252711385953252, 'lr': 0.0002773732257568684, 'scheduler_patience': 7, 'class_weight': 0.8470426120075538, 'activation': 'ReLU', 'classification_multiplier': 12885.287209488883}. Best is trial 224 with value: 0.980701754385965.
+              precision    recall  f1-score   support
+
+Non-Repeater       0.98      0.98      0.98       158
+    Repeater       0.91      0.91      0.91        32
+
+    accuracy                           0.97       190
+   macro avg       0.94      0.94      0.94       190
+weighted avg       0.97      0.97      0.97       190
+
+Trial 312 - Average Validation Accuracy: 0.9649
+Fold 1/3 - Validation Accuracy: 0.9579
+Classification Report:
+              precision    recall  f1-score   support
+
+Non-Repeater       0.98      0.97      0.97       159
+    Repeater       0.85      0.90      0.88        31
+
+    accuracy                           0.96       190
+   macro avg       0.91      0.94      0.92       190
+weighted avg       0.96      0.96      0.96       190
+
+Fold 2/3 - Validation Accuracy: 0.9789
+Classification Report:
+              precision    recall  f1-score   support
+
+Non-Repeater       0.98      0.99      0.99       159
+    Repeater       0.97      0.90      0.93        31
+
+    accuracy                           0.98       190
+   macro avg       0.97      0.95      0.96       190
+weighted avg       0.98      0.98      0.98       190
+
+Fold 3/3 - Validation Accuracy: 0.9737
+Classification Report:
+              precision    recall  f1-score   support
+
+Non-Repeater       0.98      0.99      0.98       158
+    Repeater       0.97      0.88      0.92        32
+
+    accuracy                           0.97       190
+   macro avg       0.97      0.93      0.95       190
+weighted avg       0.97      0.97      0.97       190
+
+Trial 313 - Average Validation Accuracy: 0.9702
+Fold 1/3 - Validation Accuracy: 0.9474
+Classification Report:
+              precision    recall  f1-score   support
+
+Non-Repeater       0.97      0.97      0.97       159
+    Repeater       0.84      0.84      0.84        31
+
+    accuracy                           0.95       190
+   macro avg       0.90      0.90      0.90       190
+weighted avg       0.95      0.95      0.95       190
+
+Fold 2/3 - Validation Accuracy: 0.9737
+Classification Report:
+              precision    recall  f1-score   support
+
+Non-Repeater       0.98      0.99      0.98       159
+    Repeater       0.96      0.87      0.92        31
+
+    accuracy                           0.97       190
+   macro avg       0.97      0.93      0.95       190
+weighted avg       0.97      0.97      0.97       190
+
+Fold 3/3 - Validation Accuracy: 0.9789
+Classification Report:
+              precision    recall  f1-score   support
+
+Non-Repeater       0.99      0.99      0.99       158
+    Repeater       0.94      0.94      0.94        32
+
+    accuracy                           0.98       190
+   macro avg       0.96      0.96      0.96       190
+weighted avg       0.98      0.98      0.98       190
+
+Trial 314 - Average Validation Accuracy: 0.9667
+Fold 1/3 - Validation Accuracy: 0.9579
+Classification Report:
+              precision    recall  f1-score   support
+
+Non-Repeater       0.97      0.98      0.97       159
+    Repeater       0.90      0.84      0.87        31
+
+    accuracy                           0.96       190
+   macro avg       0.93      0.91      0.92       190
+weighted avg       0.96      0.96      0.96       190
+
+Fold 2/3 - Validation Accuracy: 0.9842
+Classification Report:
+              precision    recall  f1-score   support
+
+Non-Repeater       0.99      0.99      0.99       159
+    Repeater       0.97      0.94      0.95        31
+
+    accuracy                           0.98       190
+   macro avg       0.98      0.96      0.97       190
+weighted avg       0.98      0.98      0.98       190
+
+Fold 3/3 - Validation Accuracy: 0.9526
+Classification Report:
+              precision    recall  f1-score   support
+
+Non-Repeater       0.97      0.97      0.97       158
+    Repeater       0.87      0.84      0.86        32
+
+    accuracy                           0.95       190
+   macro avg       0.92      0.91      0.91       190
+weighted avg       0.95      0.95      0.95       190
+
+Trial 315 - Average Validation Accuracy: 0.9649
+Fold 1/3 - Validation Accuracy: 0.9632
+Classification Report:
+              precision    recall  f1-score   support
+
+Non-Repeater       0.97      0.98      0.98       159
+    Repeater       0.90      0.87      0.89        31
+
+    accuracy                           0.96       190
+   macro avg       0.94      0.93      0.93       190
+weighted avg       0.96      0.96      0.96       190
+
+Fold 2/3 - Validation Accuracy: 0.9789
+Classification Report:
+              precision    recall  f1-score   support
+
+Non-Repeater       0.98      0.99      0.99       159
+    Repeater       0.97      0.90      0.93        31
+
+    accuracy                           0.98       190
+   macro avg       0.97      0.95      0.96       190
+weighted avg       0.98      0.98      0.98       190
+
+Fold 3/3 - Validation Accuracy: 0.9842
+Classification Report:
+              precision    recall  f1-score   support
+
+Non-Repeater       0.99      0.99      0.99       158
+    Repeater       0.97      0.94      0.95        32
+
+    accuracy                           0.98       190
+   macro avg       0.98      0.97      0.97       190
+weighted avg       0.98      0.98      0.98       190
+
+Trial 316 - Average Validation Accuracy: 0.9754
+Fold 1/3 - Validation Accuracy: 0.9632
+Classification Report:
+              precision    recall  f1-score   support
+
+Non-Repeater       0.97      0.98      0.98       159
+    Repeater       0.90      0.87      0.89        31
+
+    accuracy                           0.96       190
+   macro avg       0.94      0.93      0.93       190
+weighted avg       0.96      0.96      0.96       190
+
+Fold 2/3 - Validation Accuracy: 0.9842
+Classification Report:
+              precision    recall  f1-score   support
+
+Non-Repeater       0.99      0.99      0.99       159
+    Repeater       0.97      0.94      0.95        31
+
+    accuracy                           0.98       190
+   macro avg       0.98      0.96      0.97       190
+weighted avg       0.98      0.98      0.98       190
+
+Fold 3/3 - Validation Accuracy: 0.9842
+Classification Report:
+              precision    recall  f1-score   support
+
+Non-Repeater       0.99      0.99      0.99       158
+    Repeater       0.97      0.94      0.95        32
+
+    accuracy                           0.98       190
+   macro avg       0.98      0.97      0.97       190
+weighted avg       0.98      0.98      0.98       190
+
+Trial 317 - Average Validation Accuracy: 0.9772
+Fold 1/3 - Validation Accuracy: 0.9526
+Classification Report:
+              precision    recall  f1-score   support
+
+Non-Repeater       0.97      0.97      0.97       159
+    Repeater       0.84      0.87      0.86        31
+
+    accuracy                           0.95       190
+   macro avg       0.91      0.92      0.91       190
+weighted avg       0.95      0.95      0.95       190
+
+Fold 2/3 - Validation Accuracy: 0.9789
+Classification Report:
+              precision    recall  f1-score   support
+
+Non-Repeater       0.98      0.99      0.99       159
+    Repeater       0.97      0.90      0.93        31
+
+    accuracy                           0.98       190
+   macro avg       0.97      0.95      0.96       190
+weighted avg       0.98      0.98      0.98       190
+
+Fold 3/3 - Validation Accuracy: 0.9737
+Classification Report:
+              precision    recall  f1-score   support
+
+Non-Repeater       0.99      0.98      0.98       158
+    Repeater       0.91      0.94      0.92        32
+
+    accuracy                           0.97       190
+   macro avg       0.95      0.96      0.95       190
+weighted avg       0.97      0.97      0.97       190
+
+Trial 318 - Average Validation Accuracy: 0.9684
+Fold 1/3 - Validation Accuracy: 0.9632
+Classification Report:
+              precision    recall  f1-score   support
+
+Non-Repeater       0.97      0.98      0.98       159
+    Repeater       0.90      0.87      0.89        31
+
+    accuracy                           0.96       190
+   macro avg       0.94      0.93      0.93       190
+weighted avg       0.96      0.96      0.96       190
+
+Fold 2/3 - Validation Accuracy: 0.9842
+Classification Report:
+[I 2025-11-02 17:48:19,007] Trial 319 finished with value: 0.975438596491228 and parameters: {'hidden_dim': 1810, 'latent_dim': 14, 'beta': 1.4091523924766844, 'gamma': 0.47473192267816616, 'dropout_rate': 0.10280373658035762, 'lr': 0.00010814334776076818, 'scheduler_patience': 7, 'class_weight': 0.828287910903747, 'activation': 'ReLU', 'classification_multiplier': 12720.71278974625}. Best is trial 224 with value: 0.980701754385965.
+[I 2025-11-02 17:48:47,904] Trial 320 finished with value: 0.9631578947368421 and parameters: {'hidden_dim': 1873, 'latent_dim': 14, 'beta': 1.4234323340155934, 'gamma': 0.46990055304428496, 'dropout_rate': 0.10053652234864083, 'lr': 0.00029856988976417086, 'scheduler_patience': 7, 'class_weight': 0.8197378509279835, 'activation': 'ReLU', 'classification_multiplier': 12718.642047424}. Best is trial 224 with value: 0.980701754385965.
+[I 2025-11-02 17:49:15,871] Trial 321 finished with value: 0.9543859649122807 and parameters: {'hidden_dim': 1783, 'latent_dim': 13, 'beta': 1.3886449839707298, 'gamma': 0.4044984787710424, 'dropout_rate': 0.1001747886636323, 'lr': 0.0001016845641174975, 'scheduler_patience': 7, 'class_weight': 0.8308558241597156, 'activation': 'GELU', 'classification_multiplier': 12958.761251069685}. Best is trial 224 with value: 0.980701754385965.
+[I 2025-11-02 17:49:44,493] Trial 322 finished with value: 0.9719298245614035 and parameters: {'hidden_dim': 1827, 'latent_dim': 14, 'beta': 1.463493320089043, 'gamma': 0.46430495837125346, 'dropout_rate': 0.11268187282345832, 'lr': 0.00010344433635361227, 'scheduler_patience': 7, 'class_weight': 0.841259273775322, 'activation': 'ReLU', 'classification_multiplier': 12709.984971896763}. Best is trial 224 with value: 0.980701754385965.
+[I 2025-11-02 17:50:13,479] Trial 323 finished with value: 0.9736842105263158 and parameters: {'hidden_dim': 1862, 'latent_dim': 15, 'beta': 1.4616006652281652, 'gamma': 0.5115686512961175, 'dropout_rate': 0.11487120796770513, 'lr': 0.00010051386566880708, 'scheduler_patience': 7, 'class_weight': 0.8438540270749493, 'activation': 'ReLU', 'classification_multiplier': 12776.181419218421}. Best is trial 224 with value: 0.980701754385965.
+[I 2025-11-02 17:50:42,731] Trial 324 finished with value: 0.9666666666666667 and parameters: {'hidden_dim': 1903, 'latent_dim': 14, 'beta': 1.4797916254214891, 'gamma': 0.5571863760283758, 'dropout_rate': 0.1188508697316408, 'lr': 0.0004421312680959762, 'scheduler_patience': 7, 'class_weight': 0.8336094696984045, 'activation': 'ReLU', 'classification_multiplier': 12592.24567451942}. Best is trial 224 with value: 0.980701754385965.
+[I 2025-11-02 17:51:11,183] Trial 325 finished with value: 0.9666666666666667 and parameters: {'hidden_dim': 1827, 'latent_dim': 14, 'beta': 1.451951309613729, 'gamma': 0.6670655521711, 'dropout_rate': 0.11575220249927569, 'lr': 0.0002970669817556374, 'scheduler_patience': 7, 'class_weight': 0.8458940840996267, 'activation': 'ReLU', 'classification_multiplier': 12658.290589831011}. Best is trial 224 with value: 0.980701754385965.
+              precision    recall  f1-score   support
+
+Non-Repeater       0.99      0.99      0.99       159
+    Repeater       0.97      0.94      0.95        31
+
+    accuracy                           0.98       190
+   macro avg       0.98      0.96      0.97       190
+weighted avg       0.98      0.98      0.98       190
+
+Fold 3/3 - Validation Accuracy: 0.9789
+Classification Report:
+              precision    recall  f1-score   support
+
+Non-Repeater       0.98      0.99      0.99       158
+    Repeater       0.97      0.91      0.94        32
+
+    accuracy                           0.98       190
+   macro avg       0.97      0.95      0.96       190
+weighted avg       0.98      0.98      0.98       190
+
+Trial 319 - Average Validation Accuracy: 0.9754
+Fold 1/3 - Validation Accuracy: 0.9632
+Classification Report:
+              precision    recall  f1-score   support
+
+Non-Repeater       0.97      0.99      0.98       159
+    Repeater       0.93      0.84      0.88        31
+
+    accuracy                           0.96       190
+   macro avg       0.95      0.91      0.93       190
+weighted avg       0.96      0.96      0.96       190
+
+Fold 2/3 - Validation Accuracy: 0.9737
+Classification Report:
+              precision    recall  f1-score   support
+
+Non-Repeater       0.98      0.99      0.98       159
+    Repeater       0.96      0.87      0.92        31
+
+    accuracy                           0.97       190
+   macro avg       0.97      0.93      0.95       190
+weighted avg       0.97      0.97      0.97       190
+
+Fold 3/3 - Validation Accuracy: 0.9526
+Classification Report:
+              precision    recall  f1-score   support
+
+Non-Repeater       0.96      0.99      0.97       158
+    Repeater       0.93      0.78      0.85        32
+
+    accuracy                           0.95       190
+   macro avg       0.94      0.88      0.91       190
+weighted avg       0.95      0.95      0.95       190
+
+Trial 320 - Average Validation Accuracy: 0.9632
+Fold 1/3 - Validation Accuracy: 0.9368
+Classification Report:
+              precision    recall  f1-score   support
+
+Non-Repeater       0.96      0.97      0.96       159
+    Repeater       0.83      0.77      0.80        31
+
+    accuracy                           0.94       190
+   macro avg       0.89      0.87      0.88       190
+weighted avg       0.94      0.94      0.94       190
+
+Fold 2/3 - Validation Accuracy: 0.9632
+Classification Report:
+              precision    recall  f1-score   support
+
+Non-Repeater       0.96      0.99      0.98       159
+    Repeater       0.96      0.81      0.88        31
+
+    accuracy                           0.96       190
+   macro avg       0.96      0.90      0.93       190
+weighted avg       0.96      0.96      0.96       190
+
+Fold 3/3 - Validation Accuracy: 0.9632
+Classification Report:
+              precision    recall  f1-score   support
+
+Non-Repeater       0.97      0.99      0.98       158
+    Repeater       0.93      0.84      0.89        32
+
+    accuracy                           0.96       190
+   macro avg       0.95      0.92      0.93       190
+weighted avg       0.96      0.96      0.96       190
+
+Trial 321 - Average Validation Accuracy: 0.9544
+Fold 1/3 - Validation Accuracy: 0.9632
+Classification Report:
+              precision    recall  f1-score   support
+
+Non-Repeater       0.97      0.99      0.98       159
+    Repeater       0.93      0.84      0.88        31
+
+    accuracy                           0.96       190
+   macro avg       0.95      0.91      0.93       190
+weighted avg       0.96      0.96      0.96       190
+
+Fold 2/3 - Validation Accuracy: 0.9789
+Classification Report:
+              precision    recall  f1-score   support
+
+Non-Repeater       0.98      0.99      0.99       159
+    Repeater       0.97      0.90      0.93        31
+
+    accuracy                           0.98       190
+   macro avg       0.97      0.95      0.96       190
+weighted avg       0.98      0.98      0.98       190
+
+Fold 3/3 - Validation Accuracy: 0.9737
+Classification Report:
+              precision    recall  f1-score   support
+
+Non-Repeater       0.98      0.99      0.98       158
+    Repeater       0.97      0.88      0.92        32
+
+    accuracy                           0.97       190
+   macro avg       0.97      0.93      0.95       190
+weighted avg       0.97      0.97      0.97       190
+
+Trial 322 - Average Validation Accuracy: 0.9719
+Fold 1/3 - Validation Accuracy: 0.9684
+Classification Report:
+              precision    recall  f1-score   support
+
+Non-Repeater       0.99      0.97      0.98       159
+    Repeater       0.88      0.94      0.91        31
+
+    accuracy                           0.97       190
+   macro avg       0.93      0.96      0.94       190
+weighted avg       0.97      0.97      0.97       190
+
+Fold 2/3 - Validation Accuracy: 0.9789
+Classification Report:
+              precision    recall  f1-score   support
+
+Non-Repeater       0.98      0.99      0.99       159
+    Repeater       0.97      0.90      0.93        31
+
+    accuracy                           0.98       190
+   macro avg       0.97      0.95      0.96       190
+weighted avg       0.98      0.98      0.98       190
+
+Fold 3/3 - Validation Accuracy: 0.9737
+Classification Report:
+              precision    recall  f1-score   support
+
+Non-Repeater       0.98      0.99      0.98       158
+    Repeater       0.97      0.88      0.92        32
+
+    accuracy                           0.97       190
+   macro avg       0.97      0.93      0.95       190
+weighted avg       0.97      0.97      0.97       190
+
+Trial 323 - Average Validation Accuracy: 0.9737
+Fold 1/3 - Validation Accuracy: 0.9526
+Classification Report:
+              precision    recall  f1-score   support
+
+Non-Repeater       0.96      0.99      0.97       159
+    Repeater       0.92      0.77      0.84        31
+
+    accuracy                           0.95       190
+   macro avg       0.94      0.88      0.91       190
+weighted avg       0.95      0.95      0.95       190
+
+Fold 2/3 - Validation Accuracy: 0.9842
+Classification Report:
+              precision    recall  f1-score   support
+
+Non-Repeater       0.99      0.99      0.99       159
+    Repeater       0.97      0.94      0.95        31
+
+    accuracy                           0.98       190
+   macro avg       0.98      0.96      0.97       190
+weighted avg       0.98      0.98      0.98       190
+
+Fold 3/3 - Validation Accuracy: 0.9632
+Classification Report:
+              precision    recall  f1-score   support
+
+Non-Repeater       0.97      0.99      0.98       158
+    Repeater       0.93      0.84      0.89        32
+
+    accuracy                           0.96       190
+   macro avg       0.95      0.92      0.93       190
+weighted avg       0.96      0.96      0.96       190
+
+Trial 324 - Average Validation Accuracy: 0.9667
+Fold 1/3 - Validation Accuracy: 0.9579
+Classification Report:
+              precision    recall  f1-score   support
+
+Non-Repeater       0.97      0.97      0.97       159
+    Repeater       0.87      0.87      0.87        31
+
+    accuracy                           0.96       190
+   macro avg       0.92      0.92      0.92       190
+weighted avg       0.96      0.96      0.96       190
+
+Fold 2/3 - Validation Accuracy: 0.9789
+Classification Report:
+              precision    recall  f1-score   support
+
+Non-Repeater       0.98      0.99      0.99       159
+    Repeater       0.97      0.90      0.93        31
+
+    accuracy                           0.98       190
+   macro avg       0.97      0.95      0.96       190
+weighted avg       0.98      0.98      0.98       190
+
+Fold 3/3 - Validation Accuracy: 0.9632
+Classification Report:
+              precision    recall  f1-score   support
+
+Non-Repeater       0.97      0.98      0.98       158
+    Repeater       0.90      0.88      0.89        32
+
+    accuracy                           0.96       190
+   macro avg       0.94      0.93      0.93       190
+weighted avg       0.96      0.96      0.96       190
+
+Trial 325 - Average Validation Accuracy: 0.9667
+Fold 1/3 - Validation Accuracy: 0.9316
+Classification Report:
+[I 2025-11-02 17:51:39,617] Trial 326 finished with value: 0.9456140350877192 and parameters: {'hidden_dim': 1805, 'latent_dim': 15, 'beta': 1.4769209749252485, 'gamma': 0.6131564214067988, 'dropout_rate': 0.4907106215645541, 'lr': 0.00046401915600140773, 'scheduler_patience': 7, 'class_weight': 0.810795848219617, 'activation': 'ReLU', 'classification_multiplier': 12768.164062247537}. Best is trial 224 with value: 0.980701754385965.
+[I 2025-11-02 17:52:09,708] Trial 327 finished with value: 0.968421052631579 and parameters: {'hidden_dim': 1985, 'latent_dim': 15, 'beta': 1.4227376891853019, 'gamma': 0.5178021458354648, 'dropout_rate': 0.11322334742211104, 'lr': 0.00030770439822072095, 'scheduler_patience': 7, 'class_weight': 0.8275575269000535, 'activation': 'ReLU', 'classification_multiplier': 12455.5777535077}. Best is trial 224 with value: 0.980701754385965.
+[I 2025-11-02 17:52:37,570] Trial 328 finished with value: 0.9578947368421052 and parameters: {'hidden_dim': 1766, 'latent_dim': 14, 'beta': 1.4548787602096223, 'gamma': 0.42003479981689495, 'dropout_rate': 0.10672892251460613, 'lr': 0.00048603021301014656, 'scheduler_patience': 7, 'class_weight': 0.8589948076700094, 'activation': 'LeakyReLU', 'classification_multiplier': 12614.498295912703}. Best is trial 224 with value: 0.980701754385965.
+[I 2025-11-02 17:53:06,097] Trial 329 finished with value: 0.9631578947368421 and parameters: {'hidden_dim': 1831, 'latent_dim': 15, 'beta': 1.4003866735047046, 'gamma': 0.4985893071072167, 'dropout_rate': 0.12010877134597842, 'lr': 0.00027816490839882666, 'scheduler_patience': 7, 'class_weight': 0.799055827516953, 'activation': 'ReLU', 'classification_multiplier': 12254.6154739184}. Best is trial 224 with value: 0.980701754385965.
+[I 2025-11-02 17:53:34,278] Trial 330 finished with value: 0.9649122807017544 and parameters: {'hidden_dim': 1828, 'latent_dim': 12, 'beta': 1.3400725831854166, 'gamma': 0.5591096027209813, 'dropout_rate': 0.11299555379938359, 'lr': 0.0006259731156885079, 'scheduler_patience': 7, 'class_weight': 0.8363196123888043, 'activation': 'ReLU', 'classification_multiplier': 12942.689874317894}. Best is trial 224 with value: 0.980701754385965.
+[I 2025-11-02 17:54:02,177] Trial 331 finished with value: 0.9666666666666667 and parameters: {'hidden_dim': 1755, 'latent_dim': 14, 'beta': 1.426454806443844, 'gamma': 0.2031293989824554, 'dropout_rate': 0.1230760660964245, 'lr': 0.000283362611951818, 'scheduler_patience': 7, 'class_weight': 0.8150656110680662, 'activation': 'ReLU', 'classification_multiplier': 12741.62357248745}. Best is trial 224 with value: 0.980701754385965.
+              precision    recall  f1-score   support
+
+Non-Repeater       0.95      0.97      0.96       159
+    Repeater       0.85      0.71      0.77        31
+
+    accuracy                           0.93       190
+   macro avg       0.90      0.84      0.87       190
+weighted avg       0.93      0.93      0.93       190
+
+Fold 2/3 - Validation Accuracy: 0.9474
+Classification Report:
+              precision    recall  f1-score   support
+
+Non-Repeater       0.95      0.99      0.97       159
+    Repeater       0.92      0.74      0.82        31
+
+    accuracy                           0.95       190
+   macro avg       0.94      0.86      0.90       190
+weighted avg       0.95      0.95      0.95       190
+
+Fold 3/3 - Validation Accuracy: 0.9579
+Classification Report:
+              precision    recall  f1-score   support
+
+Non-Repeater       0.97      0.98      0.97       158
+    Repeater       0.90      0.84      0.87        32
+
+    accuracy                           0.96       190
+   macro avg       0.93      0.91      0.92       190
+weighted avg       0.96      0.96      0.96       190
+
+Trial 326 - Average Validation Accuracy: 0.9456
+Fold 1/3 - Validation Accuracy: 0.9579
+Classification Report:
+              precision    recall  f1-score   support
+
+Non-Repeater       0.97      0.98      0.97       159
+    Repeater       0.90      0.84      0.87        31
+
+    accuracy                           0.96       190
+   macro avg       0.93      0.91      0.92       190
+weighted avg       0.96      0.96      0.96       190
+
+Fold 2/3 - Validation Accuracy: 0.9737
+Classification Report:
+              precision    recall  f1-score   support
+
+Non-Repeater       0.98      0.99      0.98       159
+    Repeater       0.96      0.87      0.92        31
+
+    accuracy                           0.97       190
+   macro avg       0.97      0.93      0.95       190
+weighted avg       0.97      0.97      0.97       190
+
+Fold 3/3 - Validation Accuracy: 0.9737
+Classification Report:
+              precision    recall  f1-score   support
+
+Non-Repeater       0.98      0.99      0.98       158
+    Repeater       0.97      0.88      0.92        32
+
+    accuracy                           0.97       190
+   macro avg       0.97      0.93      0.95       190
+weighted avg       0.97      0.97      0.97       190
+
+Trial 327 - Average Validation Accuracy: 0.9684
+Fold 1/3 - Validation Accuracy: 0.9421
+Classification Report:
+              precision    recall  f1-score   support
+
+Non-Repeater       0.97      0.96      0.97       159
+    Repeater       0.81      0.84      0.83        31
+
+    accuracy                           0.94       190
+   macro avg       0.89      0.90      0.90       190
+weighted avg       0.94      0.94      0.94       190
+
+Fold 2/3 - Validation Accuracy: 0.9684
+Classification Report:
+              precision    recall  f1-score   support
+
+Non-Repeater       0.97      0.99      0.98       159
+    Repeater       0.96      0.84      0.90        31
+
+    accuracy                           0.97       190
+   macro avg       0.97      0.92      0.94       190
+weighted avg       0.97      0.97      0.97       190
+
+Fold 3/3 - Validation Accuracy: 0.9632
+Classification Report:
+              precision    recall  f1-score   support
+
+Non-Repeater       0.97      0.99      0.98       158
+    Repeater       0.93      0.84      0.89        32
+
+    accuracy                           0.96       190
+   macro avg       0.95      0.92      0.93       190
+weighted avg       0.96      0.96      0.96       190
+
+Trial 328 - Average Validation Accuracy: 0.9579
+Fold 1/3 - Validation Accuracy: 0.9474
+Classification Report:
+              precision    recall  f1-score   support
+
+Non-Repeater       0.96      0.98      0.97       159
+    Repeater       0.89      0.77      0.83        31
+
+    accuracy                           0.95       190
+   macro avg       0.92      0.88      0.90       190
+weighted avg       0.95      0.95      0.95       190
+
+Fold 2/3 - Validation Accuracy: 0.9842
+Classification Report:
+              precision    recall  f1-score   support
+
+Non-Repeater       0.99      0.99      0.99       159
+    Repeater       0.97      0.94      0.95        31
+
+    accuracy                           0.98       190
+   macro avg       0.98      0.96      0.97       190
+weighted avg       0.98      0.98      0.98       190
+
+Fold 3/3 - Validation Accuracy: 0.9579
+Classification Report:
+              precision    recall  f1-score   support
+
+Non-Repeater       0.96      0.99      0.97       158
+    Repeater       0.93      0.81      0.87        32
+
+    accuracy                           0.96       190
+   macro avg       0.95      0.90      0.92       190
+weighted avg       0.96      0.96      0.96       190
+
+Trial 329 - Average Validation Accuracy: 0.9632
+Fold 1/3 - Validation Accuracy: 0.9579
+Classification Report:
+              precision    recall  f1-score   support
+
+Non-Repeater       0.97      0.97      0.97       159
+    Repeater       0.87      0.87      0.87        31
+
+    accuracy                           0.96       190
+   macro avg       0.92      0.92      0.92       190
+weighted avg       0.96      0.96      0.96       190
+
+Fold 2/3 - Validation Accuracy: 0.9737
+Classification Report:
+              precision    recall  f1-score   support
+
+Non-Repeater       0.98      0.99      0.98       159
+    Repeater       0.96      0.87      0.92        31
+
+    accuracy                           0.97       190
+   macro avg       0.97      0.93      0.95       190
+weighted avg       0.97      0.97      0.97       190
+
+Fold 3/3 - Validation Accuracy: 0.9632
+Classification Report:
+              precision    recall  f1-score   support
+
+Non-Repeater       0.97      0.99      0.98       158
+    Repeater       0.93      0.84      0.89        32
+
+    accuracy                           0.96       190
+   macro avg       0.95      0.92      0.93       190
+weighted avg       0.96      0.96      0.96       190
+
+Trial 330 - Average Validation Accuracy: 0.9649
+Fold 1/3 - Validation Accuracy: 0.9632
+Classification Report:
+              precision    recall  f1-score   support
+
+Non-Repeater       0.97      0.99      0.98       159
+    Repeater       0.93      0.84      0.88        31
+
+    accuracy                           0.96       190
+   macro avg       0.95      0.91      0.93       190
+weighted avg       0.96      0.96      0.96       190
+
+Fold 2/3 - Validation Accuracy: 0.9737
+Classification Report:
+              precision    recall  f1-score   support
+
+Non-Repeater       0.98      0.99      0.98       159
+    Repeater       0.96      0.87      0.92        31
+
+    accuracy                           0.97       190
+   macro avg       0.97      0.93      0.95       190
+weighted avg       0.97      0.97      0.97       190
+
+Fold 3/3 - Validation Accuracy: 0.9632
+Classification Report:
+              precision    recall  f1-score   support
+
+Non-Repeater       0.97      0.99      0.98       158
+    Repeater       0.93      0.84      0.89        32
+
+    accuracy                           0.96       190
+   macro avg       0.95      0.92      0.93       190
+weighted avg       0.96      0.96      0.96       190
+
+Trial 331 - Average Validation Accuracy: 0.9667
+Fold 1/3 - Validation Accuracy: 0.9579
+Classification Report:
+              precision    recall  f1-score   support
+
+Non-Repeater       0.98      0.97      0.97       159
+    Repeater       0.85      0.90      0.88        31
+
+    accuracy                           0.96       190
+   macro avg       0.91      0.94      0.92       190
+weighted avg       0.96      0.96      0.96       190
+
+Fold 2/3 - Validation Accuracy: 0.9789
+Classification Report:
+              precision    recall  f1-score   support
+
+Non-Repeater       0.98      0.99      0.99       159
+    Repeater       0.97      0.90      0.93        31
+
+    accuracy                           0.98       190
+   macro avg       0.97      0.95      0.96       190
+weighted avg       0.98      0.98      0.98       190
+
+Fold 3/3 - Validation Accuracy: 0.9789
+Classification Report:
+[I 2025-11-02 17:54:30,618] Trial 332 finished with value: 0.9719298245614035 and parameters: {'hidden_dim': 1856, 'latent_dim': 13, 'beta': 1.267727638705176, 'gamma': 0.3836445198394595, 'dropout_rate': 0.10761028339450099, 'lr': 0.0001177247099690707, 'scheduler_patience': 7, 'class_weight': 0.8572864416212638, 'activation': 'ReLU', 'classification_multiplier': 13066.331351985205}. Best is trial 224 with value: 0.980701754385965.
+[I 2025-11-02 17:55:00,128] Trial 333 finished with value: 0.968421052631579 and parameters: {'hidden_dim': 1946, 'latent_dim': 15, 'beta': 1.1907588095604782, 'gamma': 0.5900833612174475, 'dropout_rate': 0.10020248021714186, 'lr': 0.00043914654209750866, 'scheduler_patience': 7, 'class_weight': 0.7913681043159061, 'activation': 'ReLU', 'classification_multiplier': 7484.69142434935}. Best is trial 224 with value: 0.980701754385965.
+[I 2025-11-02 17:55:28,101] Trial 334 finished with value: 0.9649122807017544 and parameters: {'hidden_dim': 1798, 'latent_dim': 14, 'beta': 1.3040175933057543, 'gamma': 0.4781899869915399, 'dropout_rate': 0.1150683055907389, 'lr': 0.00010891716956232607, 'scheduler_patience': 7, 'class_weight': 0.8797634639146192, 'activation': 'ReLU', 'classification_multiplier': 12380.52061638592}. Best is trial 224 with value: 0.980701754385965.
+[I 2025-11-02 17:55:56,868] Trial 335 finished with value: 0.9631578947368421 and parameters: {'hidden_dim': 1888, 'latent_dim': 13, 'beta': 1.2441285907691846, 'gamma': 0.5201638509509517, 'dropout_rate': 0.12840189982531025, 'lr': 0.000446427684574778, 'scheduler_patience': 7, 'class_weight': 0.8436266124721894, 'activation': 'ReLU', 'classification_multiplier': 12769.946648543408}. Best is trial 224 with value: 0.980701754385965.
+[I 2025-11-02 17:56:24,688] Trial 336 finished with value: 0.9456140350877194 and parameters: {'hidden_dim': 1747, 'latent_dim': 15, 'beta': 1.361162774093906, 'gamma': 0.43376232038146567, 'dropout_rate': 0.10773765543629701, 'lr': 0.0001082998165948974, 'scheduler_patience': 7, 'class_weight': 0.8173141896600501, 'activation': 'ELU', 'classification_multiplier': 12596.34368166516}. Best is trial 224 with value: 0.980701754385965.
+[I 2025-11-02 17:56:50,501] Trial 337 finished with value: 0.9631578947368421 and parameters: {'hidden_dim': 1493, 'latent_dim': 12, 'beta': 1.4881106243098803, 'gamma': 0.3580493379579299, 'dropout_rate': 0.12082150674494732, 'lr': 0.0006155474624518075, 'scheduler_patience': 7, 'class_weight': 0.8681049409730558, 'activation': 'ReLU', 'classification_multiplier': 12247.26048238274}. Best is trial 224 with value: 0.980701754385965.
+[I 2025-11-02 17:57:17,844] Trial 338 finished with value: 0.968421052631579 and parameters: {'hidden_dim': 1726, 'latent_dim': 16, 'beta': 1.4167451876930663, 'gamma': 0.5487774884306548, 'dropout_rate': 0.11352843610731261, 'lr': 0.0002828519357732653, 'scheduler_patience': 7, 'class_weight': 0.7989925506486527, 'activation': 'ReLU', 'classification_multiplier': 12018.768920981609}. Best is trial 224 with value: 0.980701754385965.
+              precision    recall  f1-score   support
+
+Non-Repeater       0.99      0.99      0.99       158
+    Repeater       0.94      0.94      0.94        32
+
+    accuracy                           0.98       190
+   macro avg       0.96      0.96      0.96       190
+weighted avg       0.98      0.98      0.98       190
+
+Trial 332 - Average Validation Accuracy: 0.9719
+Fold 1/3 - Validation Accuracy: 0.9526
+Classification Report:
+              precision    recall  f1-score   support
+
+Non-Repeater       0.97      0.97      0.97       159
+    Repeater       0.87      0.84      0.85        31
+
+    accuracy                           0.95       190
+   macro avg       0.92      0.91      0.91       190
+weighted avg       0.95      0.95      0.95       190
+
+Fold 2/3 - Validation Accuracy: 0.9789
+Classification Report:
+              precision    recall  f1-score   support
+
+Non-Repeater       0.98      0.99      0.99       159
+    Repeater       0.97      0.90      0.93        31
+
+    accuracy                           0.98       190
+   macro avg       0.97      0.95      0.96       190
+weighted avg       0.98      0.98      0.98       190
+
+Fold 3/3 - Validation Accuracy: 0.9737
+Classification Report:
+              precision    recall  f1-score   support
+
+Non-Repeater       0.98      0.99      0.98       158
+    Repeater       0.97      0.88      0.92        32
+
+    accuracy                           0.97       190
+   macro avg       0.97      0.93      0.95       190
+weighted avg       0.97      0.97      0.97       190
+
+Trial 333 - Average Validation Accuracy: 0.9684
+Fold 1/3 - Validation Accuracy: 0.9526
+Classification Report:
+              precision    recall  f1-score   support
+
+Non-Repeater       0.97      0.97      0.97       159
+    Repeater       0.87      0.84      0.85        31
+
+    accuracy                           0.95       190
+   macro avg       0.92      0.91      0.91       190
+weighted avg       0.95      0.95      0.95       190
+
+Fold 2/3 - Validation Accuracy: 0.9789
+Classification Report:
+              precision    recall  f1-score   support
+
+Non-Repeater       0.98      0.99      0.99       159
+    Repeater       0.97      0.90      0.93        31
+
+    accuracy                           0.98       190
+   macro avg       0.97      0.95      0.96       190
+weighted avg       0.98      0.98      0.98       190
+
+Fold 3/3 - Validation Accuracy: 0.9632
+Classification Report:
+              precision    recall  f1-score   support
+
+Non-Repeater       0.97      0.99      0.98       158
+    Repeater       0.93      0.84      0.89        32
+
+    accuracy                           0.96       190
+   macro avg       0.95      0.92      0.93       190
+weighted avg       0.96      0.96      0.96       190
+
+Trial 334 - Average Validation Accuracy: 0.9649
+Fold 1/3 - Validation Accuracy: 0.9526
+Classification Report:
+              precision    recall  f1-score   support
+
+Non-Repeater       0.97      0.97      0.97       159
+    Repeater       0.87      0.84      0.85        31
+
+    accuracy                           0.95       190
+   macro avg       0.92      0.91      0.91       190
+weighted avg       0.95      0.95      0.95       190
+
+Fold 2/3 - Validation Accuracy: 0.9789
+Classification Report:
+              precision    recall  f1-score   support
+
+Non-Repeater       0.98      0.99      0.99       159
+    Repeater       0.97      0.90      0.93        31
+
+    accuracy                           0.98       190
+   macro avg       0.97      0.95      0.96       190
+weighted avg       0.98      0.98      0.98       190
+
+Fold 3/3 - Validation Accuracy: 0.9579
+Classification Report:
+              precision    recall  f1-score   support
+
+Non-Repeater       0.96      0.99      0.97       158
+    Repeater       0.93      0.81      0.87        32
+
+    accuracy                           0.96       190
+   macro avg       0.95      0.90      0.92       190
+weighted avg       0.96      0.96      0.96       190
+
+Trial 335 - Average Validation Accuracy: 0.9632
+Fold 1/3 - Validation Accuracy: 0.9368
+Classification Report:
+              precision    recall  f1-score   support
+
+Non-Repeater       0.95      0.98      0.96       159
+    Repeater       0.88      0.71      0.79        31
+
+    accuracy                           0.94       190
+   macro avg       0.91      0.85      0.87       190
+weighted avg       0.93      0.94      0.93       190
+
+Fold 2/3 - Validation Accuracy: 0.9474
+Classification Report:
+              precision    recall  f1-score   support
+
+Non-Repeater       0.95      0.99      0.97       159
+    Repeater       0.92      0.74      0.82        31
+
+    accuracy                           0.95       190
+   macro avg       0.94      0.86      0.90       190
+weighted avg       0.95      0.95      0.95       190
+
+Fold 3/3 - Validation Accuracy: 0.9526
+Classification Report:
+              precision    recall  f1-score   support
+
+Non-Repeater       0.97      0.97      0.97       158
+    Repeater       0.85      0.88      0.86        32
+
+    accuracy                           0.95       190
+   macro avg       0.91      0.92      0.92       190
+weighted avg       0.95      0.95      0.95       190
+
+Trial 336 - Average Validation Accuracy: 0.9456
+Fold 1/3 - Validation Accuracy: 0.9526
+Classification Report:
+              precision    recall  f1-score   support
+
+Non-Repeater       0.96      0.98      0.97       159
+    Repeater       0.89      0.81      0.85        31
+
+    accuracy                           0.95       190
+   macro avg       0.93      0.89      0.91       190
+weighted avg       0.95      0.95      0.95       190
+
+Fold 2/3 - Validation Accuracy: 0.9737
+Classification Report:
+              precision    recall  f1-score   support
+
+Non-Repeater       0.98      0.99      0.98       159
+    Repeater       0.96      0.87      0.92        31
+
+    accuracy                           0.97       190
+   macro avg       0.97      0.93      0.95       190
+weighted avg       0.97      0.97      0.97       190
+
+Fold 3/3 - Validation Accuracy: 0.9632
+Classification Report:
+              precision    recall  f1-score   support
+
+Non-Repeater       0.99      0.97      0.98       158
+    Repeater       0.86      0.94      0.90        32
+
+    accuracy                           0.96       190
+   macro avg       0.92      0.95      0.94       190
+weighted avg       0.97      0.96      0.96       190
+
+Trial 337 - Average Validation Accuracy: 0.9632
+Fold 1/3 - Validation Accuracy: 0.9579
+Classification Report:
+              precision    recall  f1-score   support
+
+Non-Repeater       0.97      0.98      0.97       159
+    Repeater       0.90      0.84      0.87        31
+
+    accuracy                           0.96       190
+   macro avg       0.93      0.91      0.92       190
+weighted avg       0.96      0.96      0.96       190
+
+Fold 2/3 - Validation Accuracy: 0.9737
+Classification Report:
+              precision    recall  f1-score   support
+
+Non-Repeater       0.98      0.99      0.98       159
+    Repeater       0.96      0.87      0.92        31
+
+    accuracy                           0.97       190
+   macro avg       0.97      0.93      0.95       190
+weighted avg       0.97      0.97      0.97       190
+
+Fold 3/3 - Validation Accuracy: 0.9737
+Classification Report:
+              precision    recall  f1-score   support
+
+Non-Repeater       0.98      0.99      0.98       158
+    Repeater       0.94      0.91      0.92        32
+
+    accuracy                           0.97       190
+   macro avg       0.96      0.95      0.95       190
+weighted avg       0.97      0.97      0.97       190
+
+Trial 338 - Average Validation Accuracy: 0.9684
+Fold 1/3 - Validation Accuracy: 0.9632
+Classification Report:
+              precision    recall  f1-score   support
+
+Non-Repeater       0.97      0.99      0.98       159
+    Repeater       0.93      0.84      0.88        31
+
+    accuracy                           0.96       190
+   macro avg       0.95      0.91      0.93       190
+weighted avg       0.96      0.96      0.96       190
+
+Fold 2/3 - Validation Accuracy: 0.9789
+Classification Report:
+[I 2025-11-02 17:57:47,048] Trial 339 finished with value: 0.9701754385964912 and parameters: {'hidden_dim': 1918, 'latent_dim': 14, 'beta': 1.3291498564049777, 'gamma': 0.47920955168245744, 'dropout_rate': 0.12575137932950925, 'lr': 0.00010298939696330425, 'scheduler_patience': 7, 'class_weight': 0.834390450333109, 'activation': 'ReLU', 'classification_multiplier': 12970.373889508372}. Best is trial 224 with value: 0.980701754385965.
+[I 2025-11-02 17:58:12,256] Trial 340 finished with value: 0.956140350877193 and parameters: {'hidden_dim': 1446, 'latent_dim': 11, 'beta': 1.229987351885839, 'gamma': 0.4247779270879071, 'dropout_rate': 0.10649474261326235, 'lr': 0.0004344217433353415, 'scheduler_patience': 4, 'class_weight': 0.8841986307471578, 'activation': 'ReLU', 'classification_multiplier': 10588.094046240665}. Best is trial 224 with value: 0.980701754385965.
+[I 2025-11-02 17:58:40,904] Trial 341 finished with value: 0.9649122807017544 and parameters: {'hidden_dim': 1841, 'latent_dim': 16, 'beta': 1.2877793321995274, 'gamma': 0.5855040173857946, 'dropout_rate': 0.1186837798648552, 'lr': 0.00033124158259173833, 'scheduler_patience': 7, 'class_weight': 0.8520428399609847, 'activation': 'ReLU', 'classification_multiplier': 12494.404142084077}. Best is trial 224 with value: 0.980701754385965.
+[I 2025-11-02 17:59:06,798] Trial 342 finished with value: 0.956140350877193 and parameters: {'hidden_dim': 1490, 'latent_dim': 15, 'beta': 1.3888253724852437, 'gamma': 0.5182540481033986, 'dropout_rate': 0.3624822473765099, 'lr': 0.0006450271656491272, 'scheduler_patience': 7, 'class_weight': 0.8186585055317844, 'activation': 'ReLU', 'classification_multiplier': 12789.448814467267}. Best is trial 224 with value: 0.980701754385965.
+[I 2025-11-02 17:59:32,710] Trial 343 finished with value: 0.9421052631578948 and parameters: {'hidden_dim': 1540, 'latent_dim': 13, 'beta': 1.1485575418850402, 'gamma': 0.6279186979052204, 'dropout_rate': 0.1001278792328771, 'lr': 0.0002834872806446953, 'scheduler_patience': 7, 'class_weight': 0.8528957500282652, 'activation': 'SELU', 'classification_multiplier': 12578.401414865391}. Best is trial 224 with value: 0.980701754385965.
+[I 2025-11-02 17:59:58,196] Trial 344 finished with value: 0.9526315789473684 and parameters: {'hidden_dim': 1445, 'latent_dim': 15, 'beta': 1.3289943433947007, 'gamma': 0.7556810595891648, 'dropout_rate': 0.2934010588138534, 'lr': 0.004346573748988527, 'scheduler_patience': 7, 'class_weight': 0.7986139033425167, 'activation': 'ReLU', 'classification_multiplier': 13131.503339422074}. Best is trial 224 with value: 0.980701754385965.
+[I 2025-11-02 18:00:24,568] Trial 345 finished with value: 0.9666666666666667 and parameters: {'hidden_dim': 1574, 'latent_dim': 14, 'beta': 1.437429807023694, 'gamma': 0.45478977325836645, 'dropout_rate': 0.13050111802180278, 'lr': 0.00010574990875045456, 'scheduler_patience': 7, 'class_weight': 0.8959746164437679, 'activation': 'ReLU', 'classification_multiplier': 12255.30111117895}. Best is trial 224 with value: 0.980701754385965.
+              precision    recall  f1-score   support
+
+Non-Repeater       0.98      0.99      0.99       159
+    Repeater       0.97      0.90      0.93        31
+
+    accuracy                           0.98       190
+   macro avg       0.97      0.95      0.96       190
+weighted avg       0.98      0.98      0.98       190
+
+Fold 3/3 - Validation Accuracy: 0.9684
+Classification Report:
+              precision    recall  f1-score   support
+
+Non-Repeater       0.97      0.99      0.98       158
+    Repeater       0.96      0.84      0.90        32
+
+    accuracy                           0.97       190
+   macro avg       0.97      0.92      0.94       190
+weighted avg       0.97      0.97      0.97       190
+
+Trial 339 - Average Validation Accuracy: 0.9702
+Fold 1/3 - Validation Accuracy: 0.9474
+Classification Report:
+              precision    recall  f1-score   support
+
+Non-Repeater       0.96      0.97      0.97       159
+    Repeater       0.86      0.81      0.83        31
+
+    accuracy                           0.95       190
+   macro avg       0.91      0.89      0.90       190
+weighted avg       0.95      0.95      0.95       190
+
+Fold 2/3 - Validation Accuracy: 0.9579
+Classification Report:
+              precision    recall  f1-score   support
+
+Non-Repeater       0.96      0.99      0.98       159
+    Repeater       0.96      0.77      0.86        31
+
+    accuracy                           0.96       190
+   macro avg       0.96      0.88      0.92       190
+weighted avg       0.96      0.96      0.96       190
+
+Fold 3/3 - Validation Accuracy: 0.9632
+Classification Report:
+              precision    recall  f1-score   support
+
+Non-Repeater       0.97      0.98      0.98       158
+    Repeater       0.90      0.88      0.89        32
+
+    accuracy                           0.96       190
+   macro avg       0.94      0.93      0.93       190
+weighted avg       0.96      0.96      0.96       190
+
+Trial 340 - Average Validation Accuracy: 0.9561
+Fold 1/3 - Validation Accuracy: 0.9526
+Classification Report:
+              precision    recall  f1-score   support
+
+Non-Repeater       0.96      0.99      0.97       159
+    Repeater       0.92      0.77      0.84        31
+
+    accuracy                           0.95       190
+   macro avg       0.94      0.88      0.91       190
+weighted avg       0.95      0.95      0.95       190
+
+Fold 2/3 - Validation Accuracy: 0.9684
+Classification Report:
+              precision    recall  f1-score   support
+
+Non-Repeater       0.97      0.99      0.98       159
+    Repeater       0.96      0.84      0.90        31
+
+    accuracy                           0.97       190
+   macro avg       0.97      0.92      0.94       190
+weighted avg       0.97      0.97      0.97       190
+
+Fold 3/3 - Validation Accuracy: 0.9737
+Classification Report:
+              precision    recall  f1-score   support
+
+Non-Repeater       0.98      0.99      0.98       158
+    Repeater       0.94      0.91      0.92        32
+
+    accuracy                           0.97       190
+   macro avg       0.96      0.95      0.95       190
+weighted avg       0.97      0.97      0.97       190
+
+Trial 341 - Average Validation Accuracy: 0.9649
+Fold 1/3 - Validation Accuracy: 0.9474
+Classification Report:
+              precision    recall  f1-score   support
+
+Non-Repeater       0.96      0.97      0.97       159
+    Repeater       0.86      0.81      0.83        31
+
+    accuracy                           0.95       190
+   macro avg       0.91      0.89      0.90       190
+weighted avg       0.95      0.95      0.95       190
+
+Fold 2/3 - Validation Accuracy: 0.9579
+Classification Report:
+              precision    recall  f1-score   support
+
+Non-Repeater       0.96      0.99      0.98       159
+    Repeater       0.96      0.77      0.86        31
+
+    accuracy                           0.96       190
+   macro avg       0.96      0.88      0.92       190
+weighted avg       0.96      0.96      0.96       190
+
+Fold 3/3 - Validation Accuracy: 0.9632
+Classification Report:
+              precision    recall  f1-score   support
+
+Non-Repeater       0.97      0.99      0.98       158
+    Repeater       0.93      0.84      0.89        32
+
+    accuracy                           0.96       190
+   macro avg       0.95      0.92      0.93       190
+weighted avg       0.96      0.96      0.96       190
+
+Trial 342 - Average Validation Accuracy: 0.9561
+Fold 1/3 - Validation Accuracy: 0.9316
+Classification Report:
+              precision    recall  f1-score   support
+
+Non-Repeater       0.95      0.97      0.96       159
+    Repeater       0.82      0.74      0.78        31
+
+    accuracy                           0.93       190
+   macro avg       0.89      0.86      0.87       190
+weighted avg       0.93      0.93      0.93       190
+
+Fold 2/3 - Validation Accuracy: 0.9421
+Classification Report:
+              precision    recall  f1-score   support
+
+Non-Repeater       0.95      0.99      0.97       159
+    Repeater       0.92      0.71      0.80        31
+
+    accuracy                           0.94       190
+   macro avg       0.93      0.85      0.88       190
+weighted avg       0.94      0.94      0.94       190
+
+Fold 3/3 - Validation Accuracy: 0.9526
+Classification Report:
+              precision    recall  f1-score   support
+
+Non-Repeater       0.96      0.98      0.97       158
+    Repeater       0.90      0.81      0.85        32
+
+    accuracy                           0.95       190
+   macro avg       0.93      0.90      0.91       190
+weighted avg       0.95      0.95      0.95       190
+
+Trial 343 - Average Validation Accuracy: 0.9421
+Fold 1/3 - Validation Accuracy: 0.9474
+Classification Report:
+              precision    recall  f1-score   support
+
+Non-Repeater       0.95      0.99      0.97       159
+    Repeater       0.92      0.74      0.82        31
+
+    accuracy                           0.95       190
+   macro avg       0.94      0.86      0.90       190
+weighted avg       0.95      0.95      0.95       190
+
+Fold 2/3 - Validation Accuracy: 0.9632
+Classification Report:
+              precision    recall  f1-score   support
+
+Non-Repeater       0.96      0.99      0.98       159
+    Repeater       0.96      0.81      0.88        31
+
+    accuracy                           0.96       190
+   macro avg       0.96      0.90      0.93       190
+weighted avg       0.96      0.96      0.96       190
+
+Fold 3/3 - Validation Accuracy: 0.9474
+Classification Report:
+              precision    recall  f1-score   support
+
+Non-Repeater       0.96      0.98      0.97       158
+    Repeater       0.89      0.78      0.83        32
+
+    accuracy                           0.95       190
+   macro avg       0.92      0.88      0.90       190
+weighted avg       0.95      0.95      0.95       190
+
+Trial 344 - Average Validation Accuracy: 0.9526
+Fold 1/3 - Validation Accuracy: 0.9474
+Classification Report:
+              precision    recall  f1-score   support
+
+Non-Repeater       0.97      0.97      0.97       159
+    Repeater       0.84      0.84      0.84        31
+
+    accuracy                           0.95       190
+   macro avg       0.90      0.90      0.90       190
+weighted avg       0.95      0.95      0.95       190
+
+Fold 2/3 - Validation Accuracy: 0.9789
+Classification Report:
+              precision    recall  f1-score   support
+
+Non-Repeater       0.98      0.99      0.99       159
+    Repeater       0.97      0.90      0.93        31
+
+    accuracy                           0.98       190
+   macro avg       0.97      0.95      0.96       190
+weighted avg       0.98      0.98      0.98       190
+
+Fold 3/3 - Validation Accuracy: 0.9737
+Classification Report:
+              precision    recall  f1-score   support
+
+Non-Repeater       0.99      0.98      0.98       158
+    Repeater       0.91      0.94      0.92        32
+
+    accuracy                           0.97       190
+   macro avg       0.95      0.96      0.95       190
+weighted avg       0.97      0.97      0.97       190
+
+Trial 345 - Average Validation Accuracy: 0.9667
+Fold 1/3 - Validation Accuracy: 0.9526
+Classification Report:
+[I 2025-11-02 18:00:49,530] Trial 346 finished with value: 0.9543859649122807 and parameters: {'hidden_dim': 1385, 'latent_dim': 12, 'beta': 1.516503224410829, 'gamma': 0.3348862839788719, 'dropout_rate': 0.11217413067074952, 'lr': 0.003596651169688279, 'scheduler_patience': 7, 'class_weight': 0.8694770017659531, 'activation': 'ReLU', 'classification_multiplier': 12878.276284356052}. Best is trial 224 with value: 0.980701754385965.
+[I 2025-11-02 18:01:15,487] Trial 347 finished with value: 0.9631578947368421 and parameters: {'hidden_dim': 1503, 'latent_dim': 16, 'beta': 1.3598078619095528, 'gamma': 0.38069678101132315, 'dropout_rate': 0.11932489694986598, 'lr': 0.0005134958660180287, 'scheduler_patience': 7, 'class_weight': 0.8322992347587643, 'activation': 'ReLU', 'classification_multiplier': 12417.909990618815}. Best is trial 224 with value: 0.980701754385965.
+[I 2025-11-02 18:01:41,111] Trial 348 finished with value: 0.9543859649122807 and parameters: {'hidden_dim': 1467, 'latent_dim': 14, 'beta': 1.1947878609298872, 'gamma': 0.49324095698284065, 'dropout_rate': 0.10949386398249986, 'lr': 0.0003103627978823287, 'scheduler_patience': 7, 'class_weight': 0.7868103267226585, 'activation': 'GELU', 'classification_multiplier': 12668.687399049235}. Best is trial 224 with value: 0.980701754385965.
+[I 2025-11-02 18:02:06,426] Trial 349 finished with value: 0.9666666666666667 and parameters: {'hidden_dim': 1421, 'latent_dim': 13, 'beta': 1.2733423650630877, 'gamma': 0.5305168597243485, 'dropout_rate': 0.13091626699120812, 'lr': 0.0007756998260676954, 'scheduler_patience': 6, 'class_weight': 0.8145752510591101, 'activation': 'ReLU', 'classification_multiplier': 13111.088083612487}. Best is trial 224 with value: 0.980701754385965.
+              precision    recall  f1-score   support
+
+Non-Repeater       0.96      0.98      0.97       159
+    Repeater       0.89      0.81      0.85        31
+
+    accuracy                           0.95       190
+   macro avg       0.93      0.89      0.91       190
+weighted avg       0.95      0.95      0.95       190
+
+Fold 2/3 - Validation Accuracy: 0.9632
+Classification Report:
+              precision    recall  f1-score   support
+
+Non-Repeater       0.96      0.99      0.98       159
+    Repeater       0.96      0.81      0.88        31
+
+    accuracy                           0.96       190
+   macro avg       0.96      0.90      0.93       190
+weighted avg       0.96      0.96      0.96       190
+
+Fold 3/3 - Validation Accuracy: 0.9474
+Classification Report:
+              precision    recall  f1-score   support
+
+Non-Repeater       0.96      0.98      0.97       158
+    Repeater       0.89      0.78      0.83        32
+
+    accuracy                           0.95       190
+   macro avg       0.92      0.88      0.90       190
+weighted avg       0.95      0.95      0.95       190
+
+Trial 346 - Average Validation Accuracy: 0.9544
+Fold 1/3 - Validation Accuracy: 0.9526
+Classification Report:
+              precision    recall  f1-score   support
+
+Non-Repeater       0.98      0.96      0.97       159
+    Repeater       0.82      0.90      0.86        31
+
+    accuracy                           0.95       190
+   macro avg       0.90      0.93      0.92       190
+weighted avg       0.96      0.95      0.95       190
+
+Fold 2/3 - Validation Accuracy: 0.9737
+Classification Report:
+              precision    recall  f1-score   support
+
+Non-Repeater       0.98      0.99      0.98       159
+    Repeater       0.96      0.87      0.92        31
+
+    accuracy                           0.97       190
+   macro avg       0.97      0.93      0.95       190
+weighted avg       0.97      0.97      0.97       190
+
+Fold 3/3 - Validation Accuracy: 0.9632
+Classification Report:
+              precision    recall  f1-score   support
+
+Non-Repeater       0.97      0.99      0.98       158
+    Repeater       0.93      0.84      0.89        32
+
+    accuracy                           0.96       190
+   macro avg       0.95      0.92      0.93       190
+weighted avg       0.96      0.96      0.96       190
+
+Trial 347 - Average Validation Accuracy: 0.9632
+Fold 1/3 - Validation Accuracy: 0.9474
+Classification Report:
+              precision    recall  f1-score   support
+
+Non-Repeater       0.95      0.99      0.97       159
+    Repeater       0.92      0.74      0.82        31
+
+    accuracy                           0.95       190
+   macro avg       0.94      0.86      0.90       190
+weighted avg       0.95      0.95      0.95       190
+
+Fold 2/3 - Validation Accuracy: 0.9579
+Classification Report:
+              precision    recall  f1-score   support
+
+Non-Repeater       0.96      0.99      0.98       159
+    Repeater       0.93      0.81      0.86        31
+
+    accuracy                           0.96       190
+   macro avg       0.94      0.90      0.92       190
+weighted avg       0.96      0.96      0.96       190
+
+Fold 3/3 - Validation Accuracy: 0.9579
+Classification Report:
+              precision    recall  f1-score   support
+
+Non-Repeater       0.96      0.99      0.98       158
+    Repeater       0.96      0.78      0.86        32
+
+    accuracy                           0.96       190
+   macro avg       0.96      0.89      0.92       190
+weighted avg       0.96      0.96      0.96       190
+
+Trial 348 - Average Validation Accuracy: 0.9544
+Fold 1/3 - Validation Accuracy: 0.9684
+Classification Report:
+              precision    recall  f1-score   support
+
+Non-Repeater       0.96      1.00      0.98       159
+    Repeater       1.00      0.81      0.89        31
+
+    accuracy                           0.97       190
+   macro avg       0.98      0.90      0.94       190
+weighted avg       0.97      0.97      0.97       190
+
+Fold 2/3 - Validation Accuracy: 0.9684
+Classification Report:
+              precision    recall  f1-score   support
+
+Non-Repeater       0.97      0.99      0.98       159
+    Repeater       0.96      0.84      0.90        31
+
+    accuracy                           0.97       190
+   macro avg       0.97      0.92      0.94       190
+weighted avg       0.97      0.97      0.97       190
+
+Fold 3/3 - Validation Accuracy: 0.9632
+Classification Report:
+              precision    recall  f1-score   support
+
+Non-Repeater       0.97      0.99      0.98       158
+    Repeater       0.93      0.84      0.89        32
+
+    accuracy                           0.96       190
+   macro avg       0.95      0.92      0.93       190
+weighted avg       0.96      0.96      0.96       190
+
+Trial 349 - Average Validation Accuracy: 0.9667
