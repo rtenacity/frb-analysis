@@ -1,5 +1,5 @@
 #!/bin/bash
-#SBATCH --job-name=cmae-optimize
+#SBATCH --job-name=frb-vae-opt
 #SBATCH --nodes=1
 #SBATCH --ntasks=1
 #SBATCH --cpus-per-task=6
