@@ -204,8 +204,8 @@ val_dataset = TensorDataset(val_tensor, val_labels_tensor)
 
 full_dataset = ConcatDataset([train_dataset, val_dataset])
 
-train_loader = DataLoader(train_dataset, batch_size=batch_size, shuffle=True)
-val_loader = DataLoader(val_dataset, batch_size=batch_size, shuffle=False)
+# train_loader = DataLoader(train_dataset, batch_size=batch_size, shuffle=True)
+# val_loader = DataLoader(val_dataset, batch_size=batch_size, shuffle=False)
 input_dim = val_tensor.shape[1]
 hidden_dim = 256
 latent_dim = 10
@@ -280,7 +280,7 @@ def evaluate_classifier_full(model, dataloader, device):
 
 num_epochs = 150
 
-def train_supervised(model, optimizer, scheduler, epoch, beta, gamma, class_weight, classification_multiplier):
+def train_supervised(model, optimizer, scheduler, epoch, beta, gamma, class_weight, classification_multiplier, train_loader):
     model.train()
     train_loss = 0
     recon_loss_total = 0
@@ -328,7 +328,7 @@ def train_supervised(model, optimizer, scheduler, epoch, beta, gamma, class_weig
     #       f'Class: {avg_class:.4f}, Accuracy: {accuracy:.4f}')
     return avg_loss, avg_recon, avg_kl, avg_class, accuracy
 
-def validate_supervised(model, scheduler, optimizer, epoch, beta, gamma, class_weight, classification_multiplier):
+def validate_supervised(model, scheduler, optimizer, epoch, beta, gamma, class_weight, classification_multiplier, val_loader):
     model.eval()
     val_loss = 0
     recon_loss_total = 0
@@ -578,8 +578,8 @@ def objective(trial):
         
         # Train the model
         for epoch in range(1, num_epochs + 1):
-            train_loss, _, _, _, train_accuracy = train_supervised(best_model, optimizer, scheduler, epoch, beta, gamma, class_weight, classification_multiplier)
-            val_loss, _, _, _, val_accuracy = validate_supervised(best_model, scheduler, optimizer, epoch, beta, gamma, class_weight, classification_multiplier)
+            train_loss, _, _, _, train_accuracy = train_supervised(best_model, optimizer, scheduler, epoch, beta, gamma, class_weight, classification_multiplier, train_loader)
+            val_loss, _, _, _, val_accuracy = validate_supervised(best_model, scheduler, optimizer, epoch, beta, gamma, class_weight, classification_multiplier, val_loader)
             scheduler.step(val_loss)
             
             # Early stopping
