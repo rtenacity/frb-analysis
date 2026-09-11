@@ -168,10 +168,13 @@ error_features = ['dm_fitb', 'fluence', 'flux', 'sp_idx', 'sp_run']
 all_features = base_features + error_features
 
 for feature in all_features:
-    # convert to integer if the feature is not already an integer
-    if not pd.api.types.is_integer_dtype(frb_data[feature]):
-        frb_data[feature] = pd.to_numeric(frb_data[feature]).astype(int)
-
+    before_na = frb_data[feature].isna().sum()
+    if not pd.api.types.is_numeric_dtype(frb_data[feature]):
+        frb_data[feature] = pd.to_numeric(frb_data[feature]) 
+    after_na = frb_data[feature].isna().sum()
+    if before_na != after_na:
+        print(f"Converted {feature} to numeric. NaNs before: {before_na}, after: {after_na}")
+        
 
 for feature in error_features:
     frb_data[f"{feature}_lower"] = frb_data[feature] - frb_data[f'{feature}_err']
@@ -600,13 +603,12 @@ def objective(trial):
     
     
     accuracy /= n_folds
-    
+        
     print(f"Trial {trial.number} - Average Validation Accuracy: {accuracy:.4f}")
     
     return accuracy
 
 
 
-
-study = optuna.create_study(direction='maximize')
+study = optuna.create_study(direction='maximize', study_name='chime_first_svae_opt', storage='sqlite:////scratch/gpfs/MLISANTI/ra0438/old_frb_paper/chime_first_svae_opt.db', pruner=optuna.pruners.MedianPruner(n_startup_trials=10, n_warmup_steps=15), load_if_exists=True)
 study.optimize(objective, n_trials=350)
