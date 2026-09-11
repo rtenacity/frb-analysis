@@ -544,7 +544,7 @@ def objective(trial):
 
 
     # make directory called saves/trial_{trial.number} if it does not exist
-    save_dir = f'saves/trial_{trial.number}'
+    save_dir = f'/scratch/gpfs/MLISANTI/ra0438/old_frb_paper/saves/trial_{trial.number}'
     if not os.path.exists(save_dir):
         os.makedirs(save_dir)
 
