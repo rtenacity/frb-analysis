@@ -272,11 +272,12 @@ def evaluate_classifier_full(model, dataloader, device):
     all_labels = np.array(all_labels)
     
     accuracy = accuracy_score(all_labels, all_preds)
-    f1 = sklearn.metrics.f1_score(all_labels, all_preds)
+    # get f1 score on positive class
+    f1 = sklearn.metrics.f1_score(all_labels, all_preds, pos_label=1)
     class_report = classification_report(all_labels, all_preds, target_names=["Non-Repeater", "Repeater"])
     conf_matrix = confusion_matrix(all_labels, all_preds)
     
-    return accuracy, class_report, conf_matrix, all_preds, all_labels
+    return f1, class_report, conf_matrix, all_preds, all_labels
 
 
 
@@ -591,9 +592,9 @@ def objective(trial):
                 break
             
 
-        val_accuracy, val_class_report, val_conf_matrix, val_preds, val_labels = evaluate_classifier_full(best_model, val_loader, device)
+        val_f1, val_class_report, val_conf_matrix, val_preds, val_labels = evaluate_classifier_full(best_model, val_loader, device)
         
-        print(f"Fold {fold + 1}/{n_folds} - Validation Accuracy: {val_accuracy:.4f}")
+        print(f"Fold {fold + 1}/{n_folds} - Validation F1: {val_f1:.4f}")
         print("Classification Report:")
         print(val_class_report)
         
@@ -603,8 +604,8 @@ def objective(trial):
     
     
     accuracy /= n_folds
-        
-    print(f"Trial {trial.number} - Average Validation Accuracy: {accuracy:.4f}")
+
+    print(f"Trial {trial.number} - Average Validation F1: {accuracy:.4f}")
     
     return accuracy
 
