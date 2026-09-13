@@ -544,7 +544,7 @@ def objective(trial):
     n_folds = 3
     skf = StratifiedKFold(n_splits=n_folds, shuffle=True, random_state=42)
     
-    accuracy = 0
+    f1 = 0
 
 
     # make directory called saves/trial_{trial.number} if it does not exist
@@ -598,16 +598,16 @@ def objective(trial):
         print("Classification Report:")
         print(val_class_report)
         
-        accuracy += val_accuracy
+        f1 += val_f1
         
         torch.save(best_model.state_dict(), join(save_dir, f"model_fold_{fold + 1}.pth"))
     
     
-    accuracy /= n_folds
+    f1 /= n_folds
 
-    print(f"Trial {trial.number} - Average Validation F1: {accuracy:.4f}")
+    print(f"Trial {trial.number} - Average Validation F1: {f1:.4f}")
     
-    return accuracy
+    return f1
 
 
 
