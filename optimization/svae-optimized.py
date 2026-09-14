@@ -611,5 +611,5 @@ def objective(trial):
 
 
 
-study = optuna.create_study(direction='maximize', study_name='chime_first_svae_opt', storage='sqlite:////scratch/gpfs/MLISANTI/ra0438/old_frb_paper/chime_first_svae_opt_f1.db', pruner=optuna.pruners.MedianPruner(n_startup_trials=10, n_warmup_steps=15), load_if_exists=True)
+study = optuna.create_study(direction='maximize', study_name='chime_first_svae_opt_f1', storage='sqlite:////scratch/gpfs/MLISANTI/ra0438/old_frb_paper/chime_first_svae_opt_f1_score.db', pruner=optuna.pruners.MedianPruner(n_startup_trials=10, n_warmup_steps=15), load_if_exists=True)
 study.optimize(objective, n_trials=350)
