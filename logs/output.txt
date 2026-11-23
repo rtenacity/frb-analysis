@@ -1,0 +1,1207 @@
+[split] dev: 456 (75 repeaters) | held-out: 114 (19 repeaters)
+[optuna] 109 completed trials found, running 241 more
+  trial 110 fold 1/3 inner F1 = 0.6957
+  trial 110 fold 2/3 inner F1 = 0.7111
+  trial 110 fold 3/3 inner F1 = 0.7451
+Trial 110: inner F1 = 0.7173 | held-out F1 mean = 0.7494, ensemble = 0.7895 (monitoring only)
+[best so far] trial 91: inner F1 = 0.7496
+  trial 111 fold 1/3 inner F1 = 0.6809
+  trial 111 fold 2/3 inner F1 = 0.7391
+  trial 111 fold 3/3 inner F1 = 0.7600
+Trial 111: inner F1 = 0.7267 | held-out F1 mean = 0.7609, ensemble = 0.7368 (monitoring only)
+[best so far] trial 91: inner F1 = 0.7496
+  trial 112 fold 1/3 inner F1 = 0.6364
+  trial 112 fold 2/3 inner F1 = 0.6957
+  trial 112 fold 3/3 inner F1 = 0.7451
+Trial 112: inner F1 = 0.6924 | held-out F1 mean = 0.7543, ensemble = 0.7895 (monitoring only)
+[best so far] trial 91: inner F1 = 0.7496
+  trial 113 fold 1/3 inner F1 = 0.6818
+  trial 113 fold 2/3 inner F1 = 0.6957
+  trial 113 fold 3/3 inner F1 = 0.7451
+Trial 113: inner F1 = 0.7075 | held-out F1 mean = 0.7609, ensemble = 0.7368 (monitoring only)
+[best so far] trial 91: inner F1 = 0.7496
+  trial 114 fold 1/3 inner F1 = 0.6818
+  trial 114 fold 2/3 inner F1 = 0.6957
+  trial 114 fold 3/3 inner F1 = 0.7451
+Trial 114: inner F1 = 0.7075 | held-out F1 mean = 0.7428, ensemble = 0.7692 (monitoring only)
+[best so far] trial 91: inner F1 = 0.7496
+  trial 115 fold 1/3 inner F1 = 0.6957
+  trial 115 fold 2/3 inner F1 = 0.7234
+  trial 115 fold 3/3 inner F1 = 0.7600
+Trial 115: inner F1 = 0.7264 | held-out F1 mean = 0.7543, ensemble = 0.7692 (monitoring only)
+[best so far] trial 91: inner F1 = 0.7496
+  trial 116 fold 1/3 inner F1 = 0.6667
+  trial 116 fold 2/3 inner F1 = 0.7083
+  trial 116 fold 3/3 inner F1 = 0.7600
+Trial 116: inner F1 = 0.7117 | held-out F1 mean = 0.7543, ensemble = 0.7368 (monitoring only)
+[best so far] trial 91: inner F1 = 0.7496
+  trial 117 fold 1/3 inner F1 = 0.7083
+  trial 117 fold 2/3 inner F1 = 0.7273
+  trial 117 fold 3/3 inner F1 = 0.7170
+Trial 117: inner F1 = 0.7175 | held-out F1 mean = 0.7652, ensemble = 0.7692 (monitoring only)
+[best so far] trial 91: inner F1 = 0.7496
+  trial 118 fold 1/3 inner F1 = 0.6957
+  trial 118 fold 2/3 inner F1 = 0.7500
+  trial 118 fold 3/3 inner F1 = 0.7451
+Trial 118: inner F1 = 0.7303 | held-out F1 mean = 0.7428, ensemble = 0.7692 (monitoring only)
+[best so far] trial 91: inner F1 = 0.7496
+  trial 119 fold 1/3 inner F1 = 0.6957
+  trial 119 fold 2/3 inner F1 = 0.6939
+  trial 119 fold 3/3 inner F1 = 0.7451
+Trial 119: inner F1 = 0.7115 | held-out F1 mean = 0.7679, ensemble = 0.7692 (monitoring only)
+[best so far] trial 91: inner F1 = 0.7496
+  trial 120 fold 1/3 inner F1 = 0.6222
+  trial 120 fold 2/3 inner F1 = 0.6957
+  trial 120 fold 3/3 inner F1 = 0.7451
+Trial 120: inner F1 = 0.6877 | held-out F1 mean = 0.7786, ensemble = 0.7895 (monitoring only)
+[best so far] trial 91: inner F1 = 0.7496
+  trial 121 fold 1/3 inner F1 = 0.6522
+  trial 121 fold 2/3 inner F1 = 0.7083
+  trial 121 fold 3/3 inner F1 = 0.7451
+Trial 121: inner F1 = 0.7019 | held-out F1 mean = 0.7543, ensemble = 0.7692 (monitoring only)
+[best so far] trial 91: inner F1 = 0.7496
+  trial 122 fold 1/3 inner F1 = 0.7234
+  trial 122 fold 2/3 inner F1 = 0.7083
+  trial 122 fold 3/3 inner F1 = 0.7451
+Trial 122: inner F1 = 0.7256 | held-out F1 mean = 0.7479, ensemble = 0.7692 (monitoring only)
+[best so far] trial 91: inner F1 = 0.7496
+  trial 123 fold 1/3 inner F1 = 0.6667
+  trial 123 fold 2/3 inner F1 = 0.7391
+  trial 123 fold 3/3 inner F1 = 0.7451
+Trial 123: inner F1 = 0.7170 | held-out F1 mean = 0.7479, ensemble = 0.7692 (monitoring only)
+[best so far] trial 91: inner F1 = 0.7496
+  trial 124 fold 1/3 inner F1 = 0.6667
+  trial 124 fold 2/3 inner F1 = 0.7391
+  trial 124 fold 3/3 inner F1 = 0.7451
+Trial 124: inner F1 = 0.7170 | held-out F1 mean = 0.7543, ensemble = 0.7368 (monitoring only)
+[best so far] trial 91: inner F1 = 0.7496
+  trial 125 fold 1/3 inner F1 = 0.6809
+  trial 125 fold 2/3 inner F1 = 0.6957
+  trial 125 fold 3/3 inner F1 = 0.7451
+Trial 125: inner F1 = 0.7072 | held-out F1 mean = 0.7543, ensemble = 0.7368 (monitoring only)
+[best so far] trial 91: inner F1 = 0.7496
+  trial 126 fold 1/3 inner F1 = 0.6667
+  trial 126 fold 2/3 inner F1 = 0.6667
+  trial 126 fold 3/3 inner F1 = 0.7600
+Trial 126: inner F1 = 0.6978 | held-out F1 mean = 0.7543, ensemble = 0.7368 (monitoring only)
+[best so far] trial 91: inner F1 = 0.7496
+  trial 127 fold 1/3 inner F1 = 0.6667
+  trial 127 fold 2/3 inner F1 = 0.7234
+  trial 127 fold 3/3 inner F1 = 0.7308
+Trial 127: inner F1 = 0.7069 | held-out F1 mean = 0.7543, ensemble = 0.7692 (monitoring only)
+[best so far] trial 91: inner F1 = 0.7496
+  trial 128 fold 1/3 inner F1 = 0.6512
+  trial 128 fold 2/3 inner F1 = 0.6957
+  trial 128 fold 3/3 inner F1 = 0.7547
+Trial 128: inner F1 = 0.7005 | held-out F1 mean = 0.7751, ensemble = 0.7568 (monitoring only)
+[best so far] trial 91: inner F1 = 0.7496
+  trial 129 fold 1/3 inner F1 = 0.7391
+  trial 129 fold 2/3 inner F1 = 0.7234
+  trial 129 fold 3/3 inner F1 = 0.7451
+Trial 129: inner F1 = 0.7359 | held-out F1 mean = 0.7543, ensemble = 0.7692 (monitoring only)
+[best so far] trial 91: inner F1 = 0.7496
+  trial 130 fold 1/3 inner F1 = 0.6939
+  trial 130 fold 2/3 inner F1 = 0.7234
+  trial 130 fold 3/3 inner F1 = 0.7600
+Trial 130: inner F1 = 0.7258 | held-out F1 mean = 0.7679, ensemble = 0.7692 (monitoring only)
+[best so far] trial 91: inner F1 = 0.7496
+  trial 131 fold 1/3 inner F1 = 0.6522
+  trial 131 fold 2/3 inner F1 = 0.7500
+  trial 131 fold 3/3 inner F1 = 0.7600
+Trial 131: inner F1 = 0.7207 | held-out F1 mean = 0.7609, ensemble = 0.7692 (monitoring only)
+[best so far] trial 91: inner F1 = 0.7496
+  trial 132 fold 1/3 inner F1 = 0.6939
+  trial 132 fold 2/3 inner F1 = 0.7234
+  trial 132 fold 3/3 inner F1 = 0.7451
+Trial 132: inner F1 = 0.7208 | held-out F1 mean = 0.7479, ensemble = 0.7692 (monitoring only)
+[best so far] trial 91: inner F1 = 0.7496
+  trial 133 fold 1/3 inner F1 = 0.6667
+  trial 133 fold 2/3 inner F1 = 0.7234
+  trial 133 fold 3/3 inner F1 = 0.7600
+Trial 133: inner F1 = 0.7167 | held-out F1 mean = 0.7543, ensemble = 0.7692 (monitoring only)
+[best so far] trial 91: inner F1 = 0.7496
+  trial 134 fold 1/3 inner F1 = 0.6818
+  trial 134 fold 2/3 inner F1 = 0.7500
+  trial 134 fold 3/3 inner F1 = 0.7451
+Trial 134: inner F1 = 0.7256 | held-out F1 mean = 0.7543, ensemble = 0.7692 (monitoring only)
+[best so far] trial 91: inner F1 = 0.7496
+  trial 135 fold 1/3 inner F1 = 0.6667
+  trial 135 fold 2/3 inner F1 = 0.7234
+  trial 135 fold 3/3 inner F1 = 0.7451
+Trial 135: inner F1 = 0.7117 | held-out F1 mean = 0.7679, ensemble = 0.7692 (monitoring only)
+[best so far] trial 91: inner F1 = 0.7496
+  trial 136 fold 1/3 inner F1 = 0.6818
+  trial 136 fold 2/3 inner F1 = 0.7234
+  trial 136 fold 3/3 inner F1 = 0.7308
+Trial 136: inner F1 = 0.7120 | held-out F1 mean = 0.7609, ensemble = 0.7368 (monitoring only)
+[best so far] trial 91: inner F1 = 0.7496
+  trial 137 fold 1/3 inner F1 = 0.6809
+  trial 137 fold 2/3 inner F1 = 0.7234
+  trial 137 fold 3/3 inner F1 = 0.7451
+Trial 137: inner F1 = 0.7165 | held-out F1 mean = 0.7428, ensemble = 0.7692 (monitoring only)
+[best so far] trial 91: inner F1 = 0.7496
+  trial 138 fold 1/3 inner F1 = 0.6957
+  trial 138 fold 2/3 inner F1 = 0.7083
+  trial 138 fold 3/3 inner F1 = 0.7451
+Trial 138: inner F1 = 0.7164 | held-out F1 mean = 0.7609, ensemble = 0.7692 (monitoring only)
+[best so far] trial 91: inner F1 = 0.7496
+  trial 139 fold 1/3 inner F1 = 0.6818
+  trial 139 fold 2/3 inner F1 = 0.7234
+  trial 139 fold 3/3 inner F1 = 0.7600
+Trial 139: inner F1 = 0.7217 | held-out F1 mean = 0.7609, ensemble = 0.7368 (monitoring only)
+[best so far] trial 91: inner F1 = 0.7496
+  trial 140 fold 1/3 inner F1 = 0.6957
+  trial 140 fold 2/3 inner F1 = 0.7083
+  trial 140 fold 3/3 inner F1 = 0.7451
+Trial 140: inner F1 = 0.7164 | held-out F1 mean = 0.7633, ensemble = 0.7692 (monitoring only)
+[best so far] trial 91: inner F1 = 0.7496
+  trial 141 fold 1/3 inner F1 = 0.7111
+  trial 141 fold 2/3 inner F1 = 0.7500
+  trial 141 fold 3/3 inner F1 = 0.7451
+Trial 141: inner F1 = 0.7354 | held-out F1 mean = 0.7543, ensemble = 0.7692 (monitoring only)
+[best so far] trial 91: inner F1 = 0.7496
+  trial 142 fold 1/3 inner F1 = 0.7083
+  trial 142 fold 2/3 inner F1 = 0.7755
+  trial 142 fold 3/3 inner F1 = 0.7600
+Trial 142: inner F1 = 0.7479 | held-out F1 mean = 0.7479, ensemble = 0.7692 (monitoring only)
+[best so far] trial 91: inner F1 = 0.7496
+  trial 143 fold 1/3 inner F1 = 0.6809
+  trial 143 fold 2/3 inner F1 = 0.7843
+  trial 143 fold 3/3 inner F1 = 0.7451
+Trial 143: inner F1 = 0.7368 | held-out F1 mean = 0.7645, ensemble = 0.7692 (monitoring only)
+[best so far] trial 91: inner F1 = 0.7496
+  trial 144 fold 1/3 inner F1 = 0.6522
+  trial 144 fold 2/3 inner F1 = 0.7500
+  trial 144 fold 3/3 inner F1 = 0.7547
+Trial 144: inner F1 = 0.7190 | held-out F1 mean = 0.7543, ensemble = 0.7692 (monitoring only)
+[best so far] trial 91: inner F1 = 0.7496
+  trial 145 fold 1/3 inner F1 = 0.5909
+  trial 145 fold 2/3 inner F1 = 0.7111
+  trial 145 fold 3/3 inner F1 = 0.7600
+Trial 145: inner F1 = 0.6873 | held-out F1 mean = 0.7543, ensemble = 0.7368 (monitoring only)
+[best so far] trial 91: inner F1 = 0.7496
+  trial 146 fold 1/3 inner F1 = 0.6667
+  trial 146 fold 2/3 inner F1 = 0.7234
+  trial 146 fold 3/3 inner F1 = 0.7451
+Trial 146: inner F1 = 0.7117 | held-out F1 mean = 0.7714, ensemble = 0.7568 (monitoring only)
+[best so far] trial 91: inner F1 = 0.7496
+  trial 147 fold 1/3 inner F1 = 0.6667
+  trial 147 fold 2/3 inner F1 = 0.7234
+  trial 147 fold 3/3 inner F1 = 0.7451
+Trial 147: inner F1 = 0.7117 | held-out F1 mean = 0.7543, ensemble = 0.7692 (monitoring only)
+[best so far] trial 91: inner F1 = 0.7496
+  trial 148 fold 1/3 inner F1 = 0.6522
+  trial 148 fold 2/3 inner F1 = 0.6957
+  trial 148 fold 3/3 inner F1 = 0.7200
+Trial 148: inner F1 = 0.6893 | held-out F1 mean = 0.7780, ensemble = 0.7568 (monitoring only)
+[best so far] trial 91: inner F1 = 0.7496
+  trial 149 fold 1/3 inner F1 = 0.6364
+  trial 149 fold 2/3 inner F1 = 0.6957
+  trial 149 fold 3/3 inner F1 = 0.7451
+Trial 149: inner F1 = 0.6924 | held-out F1 mean = 0.7609, ensemble = 0.7692 (monitoring only)
+[best so far] trial 91: inner F1 = 0.7496
+  trial 150 fold 1/3 inner F1 = 0.6939
+  trial 150 fold 2/3 inner F1 = 0.7600
+  trial 150 fold 3/3 inner F1 = 0.7407
+Trial 150: inner F1 = 0.7315 | held-out F1 mean = 0.7588, ensemble = 0.7692 (monitoring only)
+[best so far] trial 91: inner F1 = 0.7496
+  trial 151 fold 1/3 inner F1 = 0.6809
+  trial 151 fold 2/3 inner F1 = 0.7692
+  trial 151 fold 3/3 inner F1 = 0.7692
+Trial 151: inner F1 = 0.7398 | held-out F1 mean = 0.7719, ensemble = 0.7895 (monitoring only)
+[best so far] trial 91: inner F1 = 0.7496
+  trial 152 fold 1/3 inner F1 = 0.6809
+  trial 152 fold 2/3 inner F1 = 0.7600
+  trial 152 fold 3/3 inner F1 = 0.7308
+Trial 152: inner F1 = 0.7239 | held-out F1 mean = 0.7652, ensemble = 0.7692 (monitoring only)
+[best so far] trial 91: inner F1 = 0.7496
+  trial 153 fold 1/3 inner F1 = 0.6667
+  trial 153 fold 2/3 inner F1 = 0.7500
+  trial 153 fold 3/3 inner F1 = 0.7451
+Trial 153: inner F1 = 0.7206 | held-out F1 mean = 0.7479, ensemble = 0.7692 (monitoring only)
+[best so far] trial 91: inner F1 = 0.7496
+  trial 154 fold 1/3 inner F1 = 0.6512
+  trial 154 fold 2/3 inner F1 = 0.6939
+  trial 154 fold 3/3 inner F1 = 0.7547
+Trial 154: inner F1 = 0.6999 | held-out F1 mean = 0.7495, ensemble = 0.7568 (monitoring only)
+[best so far] trial 91: inner F1 = 0.7496
+  trial 155 fold 1/3 inner F1 = 0.7083
+  trial 155 fold 2/3 inner F1 = 0.7755
+  trial 155 fold 3/3 inner F1 = 0.7407
+Trial 155: inner F1 = 0.7415 | held-out F1 mean = 0.7580, ensemble = 0.7368 (monitoring only)
+[best so far] trial 91: inner F1 = 0.7496
+  trial 156 fold 1/3 inner F1 = 0.6939
+  trial 156 fold 2/3 inner F1 = 0.7692
+  trial 156 fold 3/3 inner F1 = 0.7308
+Trial 156: inner F1 = 0.7313 | held-out F1 mean = 0.7654, ensemble = 0.7692 (monitoring only)
+[best so far] trial 91: inner F1 = 0.7496
+  trial 157 fold 1/3 inner F1 = 0.7083
+  trial 157 fold 2/3 inner F1 = 0.7600
+  trial 157 fold 3/3 inner F1 = 0.7547
+Trial 157: inner F1 = 0.7410 | held-out F1 mean = 0.7588, ensemble = 0.7692 (monitoring only)
+[best so far] trial 91: inner F1 = 0.7496
+  trial 158 fold 1/3 inner F1 = 0.6939
+  trial 158 fold 2/3 inner F1 = 0.7925
+  trial 158 fold 3/3 inner F1 = 0.7500
+Trial 158: inner F1 = 0.7454 | held-out F1 mean = 0.7588, ensemble = 0.7692 (monitoring only)
+[best so far] trial 91: inner F1 = 0.7496
+  trial 159 fold 1/3 inner F1 = 0.6939
+  trial 159 fold 2/3 inner F1 = 0.7500
+  trial 159 fold 3/3 inner F1 = 0.7308
+Trial 159: inner F1 = 0.7249 | held-out F1 mean = 0.7588, ensemble = 0.7692 (monitoring only)
+[best so far] trial 91: inner F1 = 0.7496
+  trial 160 fold 1/3 inner F1 = 0.6939
+  trial 160 fold 2/3 inner F1 = 0.7778
+  trial 160 fold 3/3 inner F1 = 0.7451
+Trial 160: inner F1 = 0.7389 | held-out F1 mean = 0.7588, ensemble = 0.7692 (monitoring only)
+[best so far] trial 91: inner F1 = 0.7496
+  trial 161 fold 1/3 inner F1 = 0.6809
+  trial 161 fold 2/3 inner F1 = 0.6957
+  trial 161 fold 3/3 inner F1 = 0.7451
+Trial 161: inner F1 = 0.7072 | held-out F1 mean = 0.7579, ensemble = 0.7895 (monitoring only)
+[best so far] trial 91: inner F1 = 0.7496
+  trial 162 fold 1/3 inner F1 = 0.6667
+  trial 162 fold 2/3 inner F1 = 0.7755
+  trial 162 fold 3/3 inner F1 = 0.7547
+Trial 162: inner F1 = 0.7323 | held-out F1 mean = 0.7754, ensemble = 0.7692 (monitoring only)
+[best so far] trial 91: inner F1 = 0.7496
+  trial 163 fold 1/3 inner F1 = 0.6939
+  trial 163 fold 2/3 inner F1 = 0.8000
+  trial 163 fold 3/3 inner F1 = 0.7407
+Trial 163: inner F1 = 0.7449 | held-out F1 mean = 0.7588, ensemble = 0.7692 (monitoring only)
+[best so far] trial 91: inner F1 = 0.7496
+  trial 164 fold 1/3 inner F1 = 0.7083
+  trial 164 fold 2/3 inner F1 = 0.7451
+  trial 164 fold 3/3 inner F1 = 0.7308
+Trial 164: inner F1 = 0.7281 | held-out F1 mean = 0.7588, ensemble = 0.7692 (monitoring only)
+[best so far] trial 91: inner F1 = 0.7496
+  trial 165 fold 1/3 inner F1 = 0.7547
+  trial 165 fold 2/3 inner F1 = 0.7719
+  trial 165 fold 3/3 inner F1 = 0.7273
+Trial 165: inner F1 = 0.7513 | held-out F1 mean = 0.7696, ensemble = 0.7692 (monitoring only)
+[best so far] trial 165: inner F1 = 0.7513, held-out F1 (mean) = 0.7696, optimism = -0.0183
+  trial 166 fold 1/3 inner F1 = 0.7451
+  trial 166 fold 2/3 inner F1 = 0.7547
+  trial 166 fold 3/3 inner F1 = 0.7037
+Trial 166: inner F1 = 0.7345 | held-out F1 mean = 0.7588, ensemble = 0.7692 (monitoring only)
+[best so far] trial 165: inner F1 = 0.7513, held-out F1 (mean) = 0.7696, optimism = -0.0183
+  trial 167 fold 1/3 inner F1 = 0.7308
+  trial 167 fold 2/3 inner F1 = 0.7500
+  trial 167 fold 3/3 inner F1 = 0.7500
+Trial 167: inner F1 = 0.7436 | held-out F1 mean = 0.7588, ensemble = 0.7692 (monitoring only)
+[best so far] trial 165: inner F1 = 0.7513, held-out F1 (mean) = 0.7696, optimism = -0.0183
+  trial 168 fold 1/3 inner F1 = 0.7451
+  trial 168 fold 2/3 inner F1 = 0.7500
+  trial 168 fold 3/3 inner F1 = 0.7273
+Trial 168: inner F1 = 0.7408 | held-out F1 mean = 0.7689, ensemble = 0.7692 (monitoring only)
+[best so far] trial 165: inner F1 = 0.7513, held-out F1 (mean) = 0.7696, optimism = -0.0183
+  trial 169 fold 1/3 inner F1 = 0.6939
+  trial 169 fold 2/3 inner F1 = 0.7636
+  trial 169 fold 3/3 inner F1 = 0.7037
+Trial 169: inner F1 = 0.7204 | held-out F1 mean = 0.7588, ensemble = 0.7692 (monitoring only)
+[best so far] trial 165: inner F1 = 0.7513, held-out F1 (mean) = 0.7696, optimism = -0.0183
+  trial 170 fold 1/3 inner F1 = 0.7200
+  trial 170 fold 2/3 inner F1 = 0.7347
+  trial 170 fold 3/3 inner F1 = 0.7308
+Trial 170: inner F1 = 0.7285 | held-out F1 mean = 0.7689, ensemble = 0.7692 (monitoring only)
+[best so far] trial 165: inner F1 = 0.7513, held-out F1 (mean) = 0.7696, optimism = -0.0183
+  trial 171 fold 1/3 inner F1 = 0.7083
+  trial 171 fold 2/3 inner F1 = 0.7407
+  trial 171 fold 3/3 inner F1 = 0.7407
+Trial 171: inner F1 = 0.7299 | held-out F1 mean = 0.7691, ensemble = 0.7692 (monitoring only)
+[best so far] trial 165: inner F1 = 0.7513, held-out F1 (mean) = 0.7696, optimism = -0.0183
+  trial 172 fold 1/3 inner F1 = 0.7547
+  trial 172 fold 2/3 inner F1 = 0.7719
+  trial 172 fold 3/3 inner F1 = 0.7273
+Trial 172: inner F1 = 0.7513 | held-out F1 mean = 0.7797, ensemble = 0.7692 (monitoring only)
+[best so far] trial 165: inner F1 = 0.7513, held-out F1 (mean) = 0.7696, optimism = -0.0183
+  trial 173 fold 1/3 inner F1 = 0.7170
+  trial 173 fold 2/3 inner F1 = 0.7719
+  trial 173 fold 3/3 inner F1 = 0.7500
+Trial 173: inner F1 = 0.7463 | held-out F1 mean = 0.7689, ensemble = 0.7692 (monitoring only)
+[best so far] trial 165: inner F1 = 0.7513, held-out F1 (mean) = 0.7696, optimism = -0.0183
+  trial 174 fold 1/3 inner F1 = 0.7451
+  trial 174 fold 2/3 inner F1 = 0.7368
+  trial 174 fold 3/3 inner F1 = 0.7273
+Trial 174: inner F1 = 0.7364 | held-out F1 mean = 0.7689, ensemble = 0.7692 (monitoring only)
+[best so far] trial 165: inner F1 = 0.7513, held-out F1 (mean) = 0.7696, optimism = -0.0183
+  trial 175 fold 1/3 inner F1 = 0.6667
+  trial 175 fold 2/3 inner F1 = 0.6809
+  trial 175 fold 3/3 inner F1 = 0.7600
+Trial 175: inner F1 = 0.7025 | held-out F1 mean = 0.7479, ensemble = 0.7692 (monitoring only)
+[best so far] trial 165: inner F1 = 0.7513, held-out F1 (mean) = 0.7696, optimism = -0.0183
+  trial 176 fold 1/3 inner F1 = 0.6667
+  trial 176 fold 2/3 inner F1 = 0.7600
+  trial 176 fold 3/3 inner F1 = 0.7547
+Trial 176: inner F1 = 0.7271 | held-out F1 mean = 0.7580, ensemble = 0.7692 (monitoring only)
+[best so far] trial 165: inner F1 = 0.7513, held-out F1 (mean) = 0.7696, optimism = -0.0183
+  trial 177 fold 1/3 inner F1 = 0.7308
+  trial 177 fold 2/3 inner F1 = 0.7368
+  trial 177 fold 3/3 inner F1 = 0.7037
+Trial 177: inner F1 = 0.7238 | held-out F1 mean = 0.7689, ensemble = 0.7692 (monitoring only)
+[best so far] trial 165: inner F1 = 0.7513, held-out F1 (mean) = 0.7696, optimism = -0.0183
+  trial 178 fold 1/3 inner F1 = 0.6667
+  trial 178 fold 2/3 inner F1 = 0.7083
+  trial 178 fold 3/3 inner F1 = 0.7547
+Trial 178: inner F1 = 0.7099 | held-out F1 mean = 0.7652, ensemble = 0.7692 (monitoring only)
+[best so far] trial 165: inner F1 = 0.7513, held-out F1 (mean) = 0.7696, optimism = -0.0183
+  trial 179 fold 1/3 inner F1 = 0.6939
+  trial 179 fold 2/3 inner F1 = 0.7547
+  trial 179 fold 3/3 inner F1 = 0.7308
+Trial 179: inner F1 = 0.7265 | held-out F1 mean = 0.7689, ensemble = 0.7692 (monitoring only)
+[best so far] trial 165: inner F1 = 0.7513, held-out F1 (mean) = 0.7696, optimism = -0.0183
+  trial 180 fold 1/3 inner F1 = 0.7059
+  trial 180 fold 2/3 inner F1 = 0.7500
+  trial 180 fold 3/3 inner F1 = 0.7500
+Trial 180: inner F1 = 0.7353 | held-out F1 mean = 0.7588, ensemble = 0.7692 (monitoring only)
+[best so far] trial 165: inner F1 = 0.7513, held-out F1 (mean) = 0.7696, optimism = -0.0183
+  trial 181 fold 1/3 inner F1 = 0.6809
+  trial 181 fold 2/3 inner F1 = 0.7755
+  trial 181 fold 3/3 inner F1 = 0.7451
+Trial 181: inner F1 = 0.7338 | held-out F1 mean = 0.7588, ensemble = 0.7692 (monitoring only)
+[best so far] trial 165: inner F1 = 0.7513, held-out F1 (mean) = 0.7696, optimism = -0.0183
+  trial 182 fold 1/3 inner F1 = 0.7600
+  trial 182 fold 2/3 inner F1 = 0.7308
+  trial 182 fold 3/3 inner F1 = 0.7170
+Trial 182: inner F1 = 0.7359 | held-out F1 mean = 0.7588, ensemble = 0.7692 (monitoring only)
+[best so far] trial 165: inner F1 = 0.7513, held-out F1 (mean) = 0.7696, optimism = -0.0183
+  trial 183 fold 1/3 inner F1 = 0.7547
+  trial 183 fold 2/3 inner F1 = 0.7636
+  trial 183 fold 3/3 inner F1 = 0.7037
+Trial 183: inner F1 = 0.7407 | held-out F1 mean = 0.7588, ensemble = 0.7692 (monitoring only)
+[best so far] trial 165: inner F1 = 0.7513, held-out F1 (mean) = 0.7696, optimism = -0.0183
+  trial 184 fold 1/3 inner F1 = 0.6383
+  trial 184 fold 2/3 inner F1 = 0.7692
+  trial 184 fold 3/3 inner F1 = 0.7547
+Trial 184: inner F1 = 0.7207 | held-out F1 mean = 0.7588, ensemble = 0.7692 (monitoring only)
+[best so far] trial 165: inner F1 = 0.7513, held-out F1 (mean) = 0.7696, optimism = -0.0183
+  trial 185 fold 1/3 inner F1 = 0.7547
+  trial 185 fold 2/3 inner F1 = 0.7636
+  trial 185 fold 3/3 inner F1 = 0.7273
+Trial 185: inner F1 = 0.7485 | held-out F1 mean = 0.7689, ensemble = 0.7692 (monitoring only)
+[best so far] trial 165: inner F1 = 0.7513, held-out F1 (mean) = 0.7696, optimism = -0.0183
+  trial 186 fold 1/3 inner F1 = 0.7451
+  trial 186 fold 2/3 inner F1 = 0.7636
+  trial 186 fold 3/3 inner F1 = 0.7273
+Trial 186: inner F1 = 0.7453 | held-out F1 mean = 0.7588, ensemble = 0.7692 (monitoring only)
+[best so far] trial 165: inner F1 = 0.7513, held-out F1 (mean) = 0.7696, optimism = -0.0183
+  trial 187 fold 1/3 inner F1 = 0.6522
+  trial 187 fold 2/3 inner F1 = 0.7600
+  trial 187 fold 3/3 inner F1 = 0.7170
+Trial 187: inner F1 = 0.7097 | held-out F1 mean = 0.7543, ensemble = 0.7692 (monitoring only)
+[best so far] trial 165: inner F1 = 0.7513, held-out F1 (mean) = 0.7696, optimism = -0.0183
+  trial 188 fold 1/3 inner F1 = 0.7308
+  trial 188 fold 2/3 inner F1 = 0.7857
+  trial 188 fold 3/3 inner F1 = 0.7407
+Trial 188: inner F1 = 0.7524 | held-out F1 mean = 0.7588, ensemble = 0.7692 (monitoring only)
+[best so far] trial 188: inner F1 = 0.7524, held-out F1 (mean) = 0.7588, optimism = -0.0064
+  trial 189 fold 1/3 inner F1 = 0.6667
+  trial 189 fold 2/3 inner F1 = 0.7347
+  trial 189 fold 3/3 inner F1 = 0.7692
+Trial 189: inner F1 = 0.7235 | held-out F1 mean = 0.7543, ensemble = 0.7692 (monitoring only)
+[best so far] trial 188: inner F1 = 0.7524, held-out F1 (mean) = 0.7588, optimism = -0.0064
+  trial 190 fold 1/3 inner F1 = 0.6809
+  trial 190 fold 2/3 inner F1 = 0.7660
+  trial 190 fold 3/3 inner F1 = 0.7451
+Trial 190: inner F1 = 0.7306 | held-out F1 mean = 0.7645, ensemble = 0.7568 (monitoring only)
+[best so far] trial 188: inner F1 = 0.7524, held-out F1 (mean) = 0.7588, optimism = -0.0064
+  trial 191 fold 1/3 inner F1 = 0.7200
+  trial 191 fold 2/3 inner F1 = 0.7636
+  trial 191 fold 3/3 inner F1 = 0.7273
+Trial 191: inner F1 = 0.7370 | held-out F1 mean = 0.7588, ensemble = 0.7692 (monitoring only)
+[best so far] trial 188: inner F1 = 0.7524, held-out F1 (mean) = 0.7588, optimism = -0.0064
+  trial 192 fold 1/3 inner F1 = 0.6939
+  trial 192 fold 2/3 inner F1 = 0.7586
+  trial 192 fold 3/3 inner F1 = 0.7273
+Trial 192: inner F1 = 0.7266 | held-out F1 mean = 0.7588, ensemble = 0.7692 (monitoring only)
+[best so far] trial 188: inner F1 = 0.7524, held-out F1 (mean) = 0.7588, optimism = -0.0064
+  trial 193 fold 1/3 inner F1 = 0.6809
+  trial 193 fold 2/3 inner F1 = 0.7692
+  trial 193 fold 3/3 inner F1 = 0.7407
+Trial 193: inner F1 = 0.7303 | held-out F1 mean = 0.7588, ensemble = 0.7692 (monitoring only)
+[best so far] trial 188: inner F1 = 0.7524, held-out F1 (mean) = 0.7588, optimism = -0.0064
+  trial 194 fold 1/3 inner F1 = 0.6939
+  trial 194 fold 2/3 inner F1 = 0.7347
+  trial 194 fold 3/3 inner F1 = 0.7308
+Trial 194: inner F1 = 0.7198 | held-out F1 mean = 0.7479, ensemble = 0.7692 (monitoring only)
+[best so far] trial 188: inner F1 = 0.7524, held-out F1 (mean) = 0.7588, optimism = -0.0064
+  trial 195 fold 1/3 inner F1 = 0.6383
+  trial 195 fold 2/3 inner F1 = 0.7755
+  trial 195 fold 3/3 inner F1 = 0.7037
+Trial 195: inner F1 = 0.7058 | held-out F1 mean = 0.7588, ensemble = 0.7692 (monitoring only)
+[best so far] trial 188: inner F1 = 0.7524, held-out F1 (mean) = 0.7588, optimism = -0.0064
+  trial 196 fold 1/3 inner F1 = 0.7547
+  trial 196 fold 2/3 inner F1 = 0.7500
+  trial 196 fold 3/3 inner F1 = 0.7273
+Trial 196: inner F1 = 0.7440 | held-out F1 mean = 0.7691, ensemble = 0.7692 (monitoring only)
+[best so far] trial 188: inner F1 = 0.7524, held-out F1 (mean) = 0.7588, optimism = -0.0064
+  trial 197 fold 1/3 inner F1 = 0.7059
+  trial 197 fold 2/3 inner F1 = 0.7636
+  trial 197 fold 3/3 inner F1 = 0.7500
+Trial 197: inner F1 = 0.7398 | held-out F1 mean = 0.7689, ensemble = 0.7692 (monitoring only)
+[best so far] trial 188: inner F1 = 0.7524, held-out F1 (mean) = 0.7588, optimism = -0.0064
+  trial 198 fold 1/3 inner F1 = 0.7407
+  trial 198 fold 2/3 inner F1 = 0.7719
+  trial 198 fold 3/3 inner F1 = 0.7273
+Trial 198: inner F1 = 0.7466 | held-out F1 mean = 0.7588, ensemble = 0.7692 (monitoring only)
+[best so far] trial 188: inner F1 = 0.7524, held-out F1 (mean) = 0.7588, optimism = -0.0064
+  trial 199 fold 1/3 inner F1 = 0.6667
+  trial 199 fold 2/3 inner F1 = 0.7200
+  trial 199 fold 3/3 inner F1 = 0.7547
+Trial 199: inner F1 = 0.7138 | held-out F1 mean = 0.7588, ensemble = 0.7692 (monitoring only)
+[best so far] trial 188: inner F1 = 0.7524, held-out F1 (mean) = 0.7588, optimism = -0.0064
+  trial 200 fold 1/3 inner F1 = 0.6939
+  trial 200 fold 2/3 inner F1 = 0.7500
+  trial 200 fold 3/3 inner F1 = 0.7308
+Trial 200: inner F1 = 0.7249 | held-out F1 mean = 0.7654, ensemble = 0.7692 (monitoring only)
+[best so far] trial 188: inner F1 = 0.7524, held-out F1 (mean) = 0.7588, optimism = -0.0064
+  trial 201 fold 1/3 inner F1 = 0.6667
+  trial 201 fold 2/3 inner F1 = 0.7083
+  trial 201 fold 3/3 inner F1 = 0.7692
+Trial 201: inner F1 = 0.7147 | held-out F1 mean = 0.7610, ensemble = 0.7568 (monitoring only)
+[best so far] trial 188: inner F1 = 0.7524, held-out F1 (mean) = 0.7588, optimism = -0.0064
+  trial 202 fold 1/3 inner F1 = 0.7451
+  trial 202 fold 2/3 inner F1 = 0.7500
+  trial 202 fold 3/3 inner F1 = 0.7308
+Trial 202: inner F1 = 0.7420 | held-out F1 mean = 0.7588, ensemble = 0.7692 (monitoring only)
+[best so far] trial 188: inner F1 = 0.7524, held-out F1 (mean) = 0.7588, optimism = -0.0064
+  trial 203 fold 1/3 inner F1 = 0.6341
+  trial 203 fold 2/3 inner F1 = 0.6957
+  trial 203 fold 3/3 inner F1 = 0.7200
+Trial 203: inner F1 = 0.6833 | held-out F1 mean = 0.7891, ensemble = 0.7568 (monitoring only)
+[best so far] trial 188: inner F1 = 0.7524, held-out F1 (mean) = 0.7588, optimism = -0.0064
+  trial 204 fold 1/3 inner F1 = 0.7692
+  trial 204 fold 2/3 inner F1 = 0.7719
+  trial 204 fold 3/3 inner F1 = 0.7273
+Trial 204: inner F1 = 0.7561 | held-out F1 mean = 0.7689, ensemble = 0.7692 (monitoring only)
+[best so far] trial 204: inner F1 = 0.7561, held-out F1 (mean) = 0.7689, optimism = -0.0128
+  trial 205 fold 1/3 inner F1 = 0.7200
+  trial 205 fold 2/3 inner F1 = 0.7500
+  trial 205 fold 3/3 inner F1 = 0.7407
+Trial 205: inner F1 = 0.7369 | held-out F1 mean = 0.7588, ensemble = 0.7692 (monitoring only)
+[best so far] trial 204: inner F1 = 0.7561, held-out F1 (mean) = 0.7689, optimism = -0.0128
+  trial 206 fold 1/3 inner F1 = 0.6667
+  trial 206 fold 2/3 inner F1 = 0.7778
+  trial 206 fold 3/3 inner F1 = 0.7407
+Trial 206: inner F1 = 0.7284 | held-out F1 mean = 0.7645, ensemble = 0.7692 (monitoring only)
+[best so far] trial 204: inner F1 = 0.7561, held-out F1 (mean) = 0.7689, optimism = -0.0128
+  trial 207 fold 1/3 inner F1 = 0.6809
+  trial 207 fold 2/3 inner F1 = 0.7660
+  trial 207 fold 3/3 inner F1 = 0.7547
+Trial 207: inner F1 = 0.7338 | held-out F1 mean = 0.7479, ensemble = 0.7368 (monitoring only)
+[best so far] trial 204: inner F1 = 0.7561, held-out F1 (mean) = 0.7689, optimism = -0.0128
+  trial 208 fold 1/3 inner F1 = 0.7547
+  trial 208 fold 2/3 inner F1 = 0.7241
+  trial 208 fold 3/3 inner F1 = 0.7636
+Trial 208: inner F1 = 0.7475 | held-out F1 mean = 0.7588, ensemble = 0.7692 (monitoring only)
+[best so far] trial 204: inner F1 = 0.7561, held-out F1 (mean) = 0.7689, optimism = -0.0128
+  trial 209 fold 1/3 inner F1 = 0.6222
+  trial 209 fold 2/3 inner F1 = 0.6800
+  trial 209 fold 3/3 inner F1 = 0.7407
+Trial 209: inner F1 = 0.6810 | held-out F1 mean = 0.7496, ensemble = 0.7568 (monitoring only)
+[best so far] trial 204: inner F1 = 0.7561, held-out F1 (mean) = 0.7689, optimism = -0.0128
+  trial 210 fold 1/3 inner F1 = 0.7170
+  trial 210 fold 2/3 inner F1 = 0.7241
+  trial 210 fold 3/3 inner F1 = 0.7368
+Trial 210: inner F1 = 0.7260 | held-out F1 mean = 0.7652, ensemble = 0.7692 (monitoring only)
+[best so far] trial 204: inner F1 = 0.7561, held-out F1 (mean) = 0.7689, optimism = -0.0128
+  trial 211 fold 1/3 inner F1 = 0.6087
+  trial 211 fold 2/3 inner F1 = 0.6923
+  trial 211 fold 3/3 inner F1 = 0.7407
+Trial 211: inner F1 = 0.6806 | held-out F1 mean = 0.7543, ensemble = 0.7368 (monitoring only)
+[best so far] trial 204: inner F1 = 0.7561, held-out F1 (mean) = 0.7689, optimism = -0.0128
+  trial 212 fold 1/3 inner F1 = 0.7843
+  trial 212 fold 2/3 inner F1 = 0.7368
+  trial 212 fold 3/3 inner F1 = 0.7368
+Trial 212: inner F1 = 0.7527 | held-out F1 mean = 0.7520, ensemble = 0.7692 (monitoring only)
+[best so far] trial 204: inner F1 = 0.7561, held-out F1 (mean) = 0.7689, optimism = -0.0128
+  trial 213 fold 1/3 inner F1 = 0.6522
+  trial 213 fold 2/3 inner F1 = 0.7451
+  trial 213 fold 3/3 inner F1 = 0.7273
+Trial 213: inner F1 = 0.7082 | held-out F1 mean = 0.7645, ensemble = 0.7568 (monitoring only)
+[best so far] trial 204: inner F1 = 0.7561, held-out F1 (mean) = 0.7689, optimism = -0.0128
+  trial 214 fold 1/3 inner F1 = 0.7843
+  trial 214 fold 2/3 inner F1 = 0.7636
+  trial 214 fold 3/3 inner F1 = 0.7273
+Trial 214: inner F1 = 0.7584 | held-out F1 mean = 0.7588, ensemble = 0.7692 (monitoring only)
+[best so far] trial 214: inner F1 = 0.7584, held-out F1 (mean) = 0.7588, optimism = -0.0004
+  trial 215 fold 1/3 inner F1 = 0.6809
+  trial 215 fold 2/3 inner F1 = 0.6667
+  trial 215 fold 3/3 inner F1 = 0.7273
+Trial 215: inner F1 = 0.6916 | held-out F1 mean = 0.7476, ensemble = 0.7568 (monitoring only)
+[best so far] trial 214: inner F1 = 0.7584, held-out F1 (mean) = 0.7588, optimism = -0.0004
+  trial 216 fold 1/3 inner F1 = 0.6939
+  trial 216 fold 2/3 inner F1 = 0.7857
+  trial 216 fold 3/3 inner F1 = 0.7500
+Trial 216: inner F1 = 0.7432 | held-out F1 mean = 0.7652, ensemble = 0.7692 (monitoring only)
+[best so far] trial 214: inner F1 = 0.7584, held-out F1 (mean) = 0.7588, optimism = -0.0004
+  trial 217 fold 1/3 inner F1 = 0.6364
+  trial 217 fold 2/3 inner F1 = 0.6400
+  trial 217 fold 3/3 inner F1 = 0.7547
+Trial 217: inner F1 = 0.6770 | held-out F1 mean = 0.7680, ensemble = 0.7568 (monitoring only)
+[best so far] trial 214: inner F1 = 0.7584, held-out F1 (mean) = 0.7588, optimism = -0.0004
+  trial 218 fold 1/3 inner F1 = 0.6047
+  trial 218 fold 2/3 inner F1 = 0.6939
+  trial 218 fold 3/3 inner F1 = 0.7547
+Trial 218: inner F1 = 0.6844 | held-out F1 mean = 0.7496, ensemble = 0.7568 (monitoring only)
+[best so far] trial 214: inner F1 = 0.7584, held-out F1 (mean) = 0.7588, optimism = -0.0004
+  trial 219 fold 1/3 inner F1 = 0.6364
+  trial 219 fold 2/3 inner F1 = 0.7059
+  trial 219 fold 3/3 inner F1 = 0.7547
+Trial 219: inner F1 = 0.6990 | held-out F1 mean = 0.7645, ensemble = 0.7368 (monitoring only)
+[best so far] trial 214: inner F1 = 0.7584, held-out F1 (mean) = 0.7588, optimism = -0.0004
+  trial 220 fold 1/3 inner F1 = 0.6364
+  trial 220 fold 2/3 inner F1 = 0.6400
+  trial 220 fold 3/3 inner F1 = 0.7547
+Trial 220: inner F1 = 0.6770 | held-out F1 mean = 0.7544, ensemble = 0.7568 (monitoring only)
+[best so far] trial 214: inner F1 = 0.7584, held-out F1 (mean) = 0.7588, optimism = -0.0004
+  trial 221 fold 1/3 inner F1 = 0.7347
+  trial 221 fold 2/3 inner F1 = 0.7586
+  trial 221 fold 3/3 inner F1 = 0.7407
+Trial 221: inner F1 = 0.7447 | held-out F1 mean = 0.7652, ensemble = 0.7692 (monitoring only)
+[best so far] trial 214: inner F1 = 0.7584, held-out F1 (mean) = 0.7588, optimism = -0.0004
+  trial 222 fold 1/3 inner F1 = 0.6364
+  trial 222 fold 2/3 inner F1 = 0.6667
+  trial 222 fold 3/3 inner F1 = 0.7407
+Trial 222: inner F1 = 0.6813 | held-out F1 mean = 0.7652, ensemble = 0.7895 (monitoring only)
+[best so far] trial 214: inner F1 = 0.7584, held-out F1 (mean) = 0.7588, optimism = -0.0004
+  trial 223 fold 1/3 inner F1 = 0.7170
+  trial 223 fold 2/3 inner F1 = 0.7273
+  trial 223 fold 3/3 inner F1 = 0.7368
+Trial 223: inner F1 = 0.7270 | held-out F1 mean = 0.7689, ensemble = 0.7692 (monitoring only)
+[best so far] trial 214: inner F1 = 0.7584, held-out F1 (mean) = 0.7588, optimism = -0.0004
+  trial 224 fold 1/3 inner F1 = 0.6222
+  trial 224 fold 2/3 inner F1 = 0.6923
+  trial 224 fold 3/3 inner F1 = 0.7547
+Trial 224: inner F1 = 0.6897 | held-out F1 mean = 0.7610, ensemble = 0.7568 (monitoring only)
+[best so far] trial 214: inner F1 = 0.7584, held-out F1 (mean) = 0.7588, optimism = -0.0004
+  trial 225 fold 1/3 inner F1 = 0.6522
+  trial 225 fold 2/3 inner F1 = 0.6923
+  trial 225 fold 3/3 inner F1 = 0.7547
+Trial 225: inner F1 = 0.6997 | held-out F1 mean = 0.7652, ensemble = 0.7568 (monitoring only)
+[best so far] trial 214: inner F1 = 0.7584, held-out F1 (mean) = 0.7588, optimism = -0.0004
+  trial 226 fold 1/3 inner F1 = 0.7451
+  trial 226 fold 2/3 inner F1 = 0.7500
+  trial 226 fold 3/3 inner F1 = 0.7273
+Trial 226: inner F1 = 0.7408 | held-out F1 mean = 0.7795, ensemble = 0.7692 (monitoring only)
+[best so far] trial 214: inner F1 = 0.7584, held-out F1 (mean) = 0.7588, optimism = -0.0004
+  trial 227 fold 1/3 inner F1 = 0.6667
+  trial 227 fold 2/3 inner F1 = 0.6275
+  trial 227 fold 3/3 inner F1 = 0.7547
+Trial 227: inner F1 = 0.6829 | held-out F1 mean = 0.7571, ensemble = 0.7568 (monitoring only)
+[best so far] trial 214: inner F1 = 0.7584, held-out F1 (mean) = 0.7588, optimism = -0.0004
+  trial 228 fold 1/3 inner F1 = 0.7407
+  trial 228 fold 2/3 inner F1 = 0.7500
+  trial 228 fold 3/3 inner F1 = 0.7368
+Trial 228: inner F1 = 0.7425 | held-out F1 mean = 0.7588, ensemble = 0.7692 (monitoring only)
+[best so far] trial 214: inner F1 = 0.7584, held-out F1 (mean) = 0.7588, optimism = -0.0004
+  trial 229 fold 1/3 inner F1 = 0.6364
+  trial 229 fold 2/3 inner F1 = 0.7170
+  trial 229 fold 3/3 inner F1 = 0.7547
+Trial 229: inner F1 = 0.7027 | held-out F1 mean = 0.7544, ensemble = 0.7568 (monitoring only)
+[best so far] trial 214: inner F1 = 0.7584, held-out F1 (mean) = 0.7588, optimism = -0.0004
+  trial 230 fold 1/3 inner F1 = 0.6364
+  trial 230 fold 2/3 inner F1 = 0.6667
+  trial 230 fold 3/3 inner F1 = 0.7407
+Trial 230: inner F1 = 0.6813 | held-out F1 mean = 0.7480, ensemble = 0.7568 (monitoring only)
+[best so far] trial 214: inner F1 = 0.7584, held-out F1 (mean) = 0.7588, optimism = -0.0004
+  trial 231 fold 1/3 inner F1 = 0.6667
+  trial 231 fold 2/3 inner F1 = 0.6667
+  trial 231 fold 3/3 inner F1 = 0.7547
+Trial 231: inner F1 = 0.6960 | held-out F1 mean = 0.7823, ensemble = 0.7568 (monitoring only)
+[best so far] trial 214: inner F1 = 0.7584, held-out F1 (mean) = 0.7588, optimism = -0.0004
+  trial 232 fold 1/3 inner F1 = 0.6809
+  trial 232 fold 2/3 inner F1 = 0.7308
+  trial 232 fold 3/3 inner F1 = 0.7273
+Trial 232: inner F1 = 0.7130 | held-out F1 mean = 0.7520, ensemble = 0.7692 (monitoring only)
+[best so far] trial 214: inner F1 = 0.7584, held-out F1 (mean) = 0.7588, optimism = -0.0004
+  trial 233 fold 1/3 inner F1 = 0.7308
+  trial 233 fold 2/3 inner F1 = 0.7636
+  trial 233 fold 3/3 inner F1 = 0.7636
+Trial 233: inner F1 = 0.7527 | held-out F1 mean = 0.7652, ensemble = 0.7692 (monitoring only)
+[best so far] trial 214: inner F1 = 0.7584, held-out F1 (mean) = 0.7588, optimism = -0.0004
+  trial 234 fold 1/3 inner F1 = 0.6364
+  trial 234 fold 2/3 inner F1 = 0.7200
+  trial 234 fold 3/3 inner F1 = 0.7547
+Trial 234: inner F1 = 0.7037 | held-out F1 mean = 0.7719, ensemble = 0.7568 (monitoring only)
+[best so far] trial 214: inner F1 = 0.7584, held-out F1 (mean) = 0.7588, optimism = -0.0004
+  trial 235 fold 1/3 inner F1 = 0.6939
+  trial 235 fold 2/3 inner F1 = 0.7368
+  trial 235 fold 3/3 inner F1 = 0.7407
+Trial 235: inner F1 = 0.7238 | held-out F1 mean = 0.7652, ensemble = 0.7692 (monitoring only)
+[best so far] trial 214: inner F1 = 0.7584, held-out F1 (mean) = 0.7588, optimism = -0.0004
+  trial 236 fold 1/3 inner F1 = 0.6512
+  trial 236 fold 2/3 inner F1 = 0.6939
+  trial 236 fold 3/3 inner F1 = 0.7547
+Trial 236: inner F1 = 0.6999 | held-out F1 mean = 0.7652, ensemble = 0.7568 (monitoring only)
+[best so far] trial 214: inner F1 = 0.7584, held-out F1 (mean) = 0.7588, optimism = -0.0004
+  trial 237 fold 1/3 inner F1 = 0.6222
+  trial 237 fold 2/3 inner F1 = 0.6939
+  trial 237 fold 3/3 inner F1 = 0.7547
+Trial 237: inner F1 = 0.6903 | held-out F1 mean = 0.7543, ensemble = 0.7368 (monitoring only)
+[best so far] trial 214: inner F1 = 0.7584, held-out F1 (mean) = 0.7588, optimism = -0.0004
+  trial 238 fold 1/3 inner F1 = 0.7692
+  trial 238 fold 2/3 inner F1 = 0.7273
+  trial 238 fold 3/3 inner F1 = 0.7407
+Trial 238: inner F1 = 0.7457 | held-out F1 mean = 0.7628, ensemble = 0.7692 (monitoring only)
+[best so far] trial 214: inner F1 = 0.7584, held-out F1 (mean) = 0.7588, optimism = -0.0004
+  trial 239 fold 1/3 inner F1 = 0.7600
+  trial 239 fold 2/3 inner F1 = 0.7636
+  trial 239 fold 3/3 inner F1 = 0.7500
+Trial 239: inner F1 = 0.7579 | held-out F1 mean = 0.7652, ensemble = 0.7692 (monitoring only)
+[best so far] trial 214: inner F1 = 0.7584, held-out F1 (mean) = 0.7588, optimism = -0.0004
+  trial 240 fold 1/3 inner F1 = 0.7083
+  trial 240 fold 2/3 inner F1 = 0.7170
+  trial 240 fold 3/3 inner F1 = 0.7407
+Trial 240: inner F1 = 0.7220 | held-out F1 mean = 0.7652, ensemble = 0.7692 (monitoring only)
+[best so far] trial 214: inner F1 = 0.7584, held-out F1 (mean) = 0.7588, optimism = -0.0004
+  trial 241 fold 1/3 inner F1 = 0.7600
+  trial 241 fold 2/3 inner F1 = 0.7170
+  trial 241 fold 3/3 inner F1 = 0.7407
+Trial 241: inner F1 = 0.7392 | held-out F1 mean = 0.7652, ensemble = 0.7692 (monitoring only)
+[best so far] trial 214: inner F1 = 0.7584, held-out F1 (mean) = 0.7588, optimism = -0.0004
+  trial 242 fold 1/3 inner F1 = 0.6222
+  trial 242 fold 2/3 inner F1 = 0.7059
+  trial 242 fold 3/3 inner F1 = 0.7547
+Trial 242: inner F1 = 0.6943 | held-out F1 mean = 0.7652, ensemble = 0.7368 (monitoring only)
+[best so far] trial 214: inner F1 = 0.7584, held-out F1 (mean) = 0.7588, optimism = -0.0004
+  trial 243 fold 1/3 inner F1 = 0.6809
+  trial 243 fold 2/3 inner F1 = 0.6939
+  trial 243 fold 3/3 inner F1 = 0.7170
+Trial 243: inner F1 = 0.6972 | held-out F1 mean = 0.7543, ensemble = 0.7368 (monitoring only)
+[best so far] trial 214: inner F1 = 0.7584, held-out F1 (mean) = 0.7588, optimism = -0.0004
+  trial 244 fold 1/3 inner F1 = 0.7451
+  trial 244 fold 2/3 inner F1 = 0.7458
+  trial 244 fold 3/3 inner F1 = 0.7636
+Trial 244: inner F1 = 0.7515 | held-out F1 mean = 0.7852, ensemble = 0.7692 (monitoring only)
+[best so far] trial 214: inner F1 = 0.7584, held-out F1 (mean) = 0.7588, optimism = -0.0004
+  trial 245 fold 1/3 inner F1 = 0.3636
+  trial 245 fold 2/3 inner F1 = 0.4242
+  trial 245 fold 3/3 inner F1 = 0.7000
+Trial 245: inner F1 = 0.4960 | held-out F1 mean = 0.5773, ensemble = 0.6207 (monitoring only)
+[best so far] trial 214: inner F1 = 0.7584, held-out F1 (mean) = 0.7588, optimism = -0.0004
+  trial 246 fold 1/3 inner F1 = 0.7600
+  trial 246 fold 2/3 inner F1 = 0.7636
+  trial 246 fold 3/3 inner F1 = 0.7273
+Trial 246: inner F1 = 0.7503 | held-out F1 mean = 0.7652, ensemble = 0.7692 (monitoring only)
+[best so far] trial 214: inner F1 = 0.7584, held-out F1 (mean) = 0.7588, optimism = -0.0004
+  trial 247 fold 1/3 inner F1 = 0.6364
+  trial 247 fold 2/3 inner F1 = 0.6538
+  trial 247 fold 3/3 inner F1 = 0.7547
+Trial 247: inner F1 = 0.6816 | held-out F1 mean = 0.7652, ensemble = 0.7568 (monitoring only)
+[best so far] trial 214: inner F1 = 0.7584, held-out F1 (mean) = 0.7588, optimism = -0.0004
+  trial 248 fold 1/3 inner F1 = 0.6383
+  trial 248 fold 2/3 inner F1 = 0.6923
+  trial 248 fold 3/3 inner F1 = 0.7547
+Trial 248: inner F1 = 0.6951 | held-out F1 mean = 0.7476, ensemble = 0.7568 (monitoring only)
+[best so far] trial 214: inner F1 = 0.7584, held-out F1 (mean) = 0.7588, optimism = -0.0004
+  trial 249 fold 1/3 inner F1 = 0.7692
+  trial 249 fold 2/3 inner F1 = 0.7273
+  trial 249 fold 3/3 inner F1 = 0.7407
+Trial 249: inner F1 = 0.7457 | held-out F1 mean = 0.7689, ensemble = 0.7692 (monitoring only)
+[best so far] trial 214: inner F1 = 0.7584, held-out F1 (mean) = 0.7588, optimism = -0.0004
+  trial 250 fold 1/3 inner F1 = 0.6364
+  trial 250 fold 2/3 inner F1 = 0.7111
+  trial 250 fold 3/3 inner F1 = 0.7451
+Trial 250: inner F1 = 0.6975 | held-out F1 mean = 0.7496, ensemble = 0.7568 (monitoring only)
+[best so far] trial 214: inner F1 = 0.7584, held-out F1 (mean) = 0.7588, optimism = -0.0004
+  trial 251 fold 1/3 inner F1 = 0.7451
+  trial 251 fold 2/3 inner F1 = 0.7857
+  trial 251 fold 3/3 inner F1 = 0.7500
+Trial 251: inner F1 = 0.7603 | held-out F1 mean = 0.7652, ensemble = 0.7692 (monitoring only)
+[best so far] trial 251: inner F1 = 0.7603, held-out F1 (mean) = 0.7652, optimism = -0.0049
+  trial 252 fold 1/3 inner F1 = 0.6364
+  trial 252 fold 2/3 inner F1 = 0.6792
+  trial 252 fold 3/3 inner F1 = 0.7407
+Trial 252: inner F1 = 0.6854 | held-out F1 mean = 0.7656, ensemble = 0.7568 (monitoring only)
+[best so far] trial 251: inner F1 = 0.7603, held-out F1 (mean) = 0.7652, optimism = -0.0049
+  trial 253 fold 1/3 inner F1 = 0.6522
+  trial 253 fold 2/3 inner F1 = 0.7083
+  trial 253 fold 3/3 inner F1 = 0.7547
+Trial 253: inner F1 = 0.7051 | held-out F1 mean = 0.7435, ensemble = 0.7568 (monitoring only)
+[best so far] trial 251: inner F1 = 0.7603, held-out F1 (mean) = 0.7652, optimism = -0.0049
+  trial 254 fold 1/3 inner F1 = 0.7083
+  trial 254 fold 2/3 inner F1 = 0.7636
+  trial 254 fold 3/3 inner F1 = 0.7273
+Trial 254: inner F1 = 0.7331 | held-out F1 mean = 0.7652, ensemble = 0.7692 (monitoring only)
+[best so far] trial 251: inner F1 = 0.7603, held-out F1 (mean) = 0.7652, optimism = -0.0049
+  trial 255 fold 1/3 inner F1 = 0.6667
+  trial 255 fold 2/3 inner F1 = 0.6667
+  trial 255 fold 3/3 inner F1 = 0.7407
+Trial 255: inner F1 = 0.6914 | held-out F1 mean = 0.7610, ensemble = 0.7568 (monitoring only)
+[best so far] trial 251: inner F1 = 0.7603, held-out F1 (mean) = 0.7652, optimism = -0.0049
+  trial 256 fold 1/3 inner F1 = 0.6512
+  trial 256 fold 2/3 inner F1 = 0.6809
+  trial 256 fold 3/3 inner F1 = 0.7547
+Trial 256: inner F1 = 0.6956 | held-out F1 mean = 0.7714, ensemble = 0.7568 (monitoring only)
+[best so far] trial 251: inner F1 = 0.7603, held-out F1 (mean) = 0.7652, optimism = -0.0049
+  trial 257 fold 1/3 inner F1 = 0.6667
+  trial 257 fold 2/3 inner F1 = 0.6923
+  trial 257 fold 3/3 inner F1 = 0.7407
+Trial 257: inner F1 = 0.6999 | held-out F1 mean = 0.7543, ensemble = 0.7368 (monitoring only)
+[best so far] trial 251: inner F1 = 0.7603, held-out F1 (mean) = 0.7652, optimism = -0.0049
+  trial 258 fold 1/3 inner F1 = 0.6809
+  trial 258 fold 2/3 inner F1 = 0.7059
+  trial 258 fold 3/3 inner F1 = 0.7547
+Trial 258: inner F1 = 0.7138 | held-out F1 mean = 0.7538, ensemble = 0.7568 (monitoring only)
+[best so far] trial 251: inner F1 = 0.7603, held-out F1 (mean) = 0.7652, optimism = -0.0049
+  trial 259 fold 1/3 inner F1 = 0.6364
+  trial 259 fold 2/3 inner F1 = 0.6800
+  trial 259 fold 3/3 inner F1 = 0.7547
+Trial 259: inner F1 = 0.6904 | held-out F1 mean = 0.7610, ensemble = 0.7568 (monitoring only)
+[best so far] trial 251: inner F1 = 0.7603, held-out F1 (mean) = 0.7652, optimism = -0.0049
+  trial 260 fold 1/3 inner F1 = 0.6364
+  trial 260 fold 2/3 inner F1 = 0.6275
+  trial 260 fold 3/3 inner F1 = 0.7547
+Trial 260: inner F1 = 0.6728 | held-out F1 mean = 0.7363, ensemble = 0.7568 (monitoring only)
+[best so far] trial 251: inner F1 = 0.7603, held-out F1 (mean) = 0.7652, optimism = -0.0049
+  trial 261 fold 1/3 inner F1 = 0.6957
+  trial 261 fold 2/3 inner F1 = 0.7234
+  trial 261 fold 3/3 inner F1 = 0.7451
+Trial 261: inner F1 = 0.7214 | held-out F1 mean = 0.7479, ensemble = 0.7368 (monitoring only)
+[best so far] trial 251: inner F1 = 0.7603, held-out F1 (mean) = 0.7652, optimism = -0.0049
+  trial 262 fold 1/3 inner F1 = 0.6667
+  trial 262 fold 2/3 inner F1 = 0.7059
+  trial 262 fold 3/3 inner F1 = 0.7407
+Trial 262: inner F1 = 0.7044 | held-out F1 mean = 0.7645, ensemble = 0.7568 (monitoring only)
+[best so far] trial 251: inner F1 = 0.7603, held-out F1 (mean) = 0.7652, optimism = -0.0049
+  trial 263 fold 1/3 inner F1 = 0.6667
+  trial 263 fold 2/3 inner F1 = 0.7391
+  trial 263 fold 3/3 inner F1 = 0.7547
+Trial 263: inner F1 = 0.7202 | held-out F1 mean = 0.7543, ensemble = 0.7368 (monitoring only)
+[best so far] trial 251: inner F1 = 0.7603, held-out F1 (mean) = 0.7652, optimism = -0.0049
+  trial 264 fold 1/3 inner F1 = 0.7547
+  trial 264 fold 2/3 inner F1 = 0.7500
+  trial 264 fold 3/3 inner F1 = 0.7636
+Trial 264: inner F1 = 0.7561 | held-out F1 mean = 0.7588, ensemble = 0.7692 (monitoring only)
+[best so far] trial 251: inner F1 = 0.7603, held-out F1 (mean) = 0.7652, optimism = -0.0049
+  trial 265 fold 1/3 inner F1 = 0.6809
+  trial 265 fold 2/3 inner F1 = 0.6809
+  trial 265 fold 3/3 inner F1 = 0.7547
+Trial 265: inner F1 = 0.7055 | held-out F1 mean = 0.7682, ensemble = 0.7568 (monitoring only)
+[best so far] trial 251: inner F1 = 0.7603, held-out F1 (mean) = 0.7652, optimism = -0.0049
+  trial 266 fold 1/3 inner F1 = 0.7308
+  trial 266 fold 2/3 inner F1 = 0.7500
+  trial 266 fold 3/3 inner F1 = 0.7500
+Trial 266: inner F1 = 0.7436 | held-out F1 mean = 0.7652, ensemble = 0.7692 (monitoring only)
+[best so far] trial 251: inner F1 = 0.7603, held-out F1 (mean) = 0.7652, optimism = -0.0049
+  trial 267 fold 1/3 inner F1 = 0.6222
+  trial 267 fold 2/3 inner F1 = 0.7037
+  trial 267 fold 3/3 inner F1 = 0.7547
+Trial 267: inner F1 = 0.6935 | held-out F1 mean = 0.7652, ensemble = 0.7368 (monitoring only)
+[best so far] trial 251: inner F1 = 0.7603, held-out F1 (mean) = 0.7652, optimism = -0.0049
+  trial 268 fold 1/3 inner F1 = 0.6364
+  trial 268 fold 2/3 inner F1 = 0.6800
+  trial 268 fold 3/3 inner F1 = 0.7547
+Trial 268: inner F1 = 0.6904 | held-out F1 mean = 0.7714, ensemble = 0.7568 (monitoring only)
+[best so far] trial 251: inner F1 = 0.7603, held-out F1 (mean) = 0.7652, optimism = -0.0049
+  trial 269 fold 1/3 inner F1 = 0.6522
+  trial 269 fold 2/3 inner F1 = 0.6800
+  trial 269 fold 3/3 inner F1 = 0.7547
+Trial 269: inner F1 = 0.6956 | held-out F1 mean = 0.7584, ensemble = 0.7368 (monitoring only)
+[best so far] trial 251: inner F1 = 0.7603, held-out F1 (mean) = 0.7652, optimism = -0.0049
+  trial 270 fold 1/3 inner F1 = 0.6512
+  trial 270 fold 2/3 inner F1 = 0.6957
+  trial 270 fold 3/3 inner F1 = 0.7547
+Trial 270: inner F1 = 0.7005 | held-out F1 mean = 0.7457, ensemble = 0.7568 (monitoring only)
+[best so far] trial 251: inner F1 = 0.7603, held-out F1 (mean) = 0.7652, optimism = -0.0049
+  trial 271 fold 1/3 inner F1 = 0.6809
+  trial 271 fold 2/3 inner F1 = 0.7200
+  trial 271 fold 3/3 inner F1 = 0.7407
+Trial 271: inner F1 = 0.7139 | held-out F1 mean = 0.7652, ensemble = 0.7368 (monitoring only)
+[best so far] trial 251: inner F1 = 0.7603, held-out F1 (mean) = 0.7652, optimism = -0.0049
+  trial 272 fold 1/3 inner F1 = 0.6512
+  trial 272 fold 2/3 inner F1 = 0.6809
+  trial 272 fold 3/3 inner F1 = 0.7547
+Trial 272: inner F1 = 0.6956 | held-out F1 mean = 0.7610, ensemble = 0.7568 (monitoring only)
+[best so far] trial 251: inner F1 = 0.7603, held-out F1 (mean) = 0.7652, optimism = -0.0049
+  trial 273 fold 1/3 inner F1 = 0.7347
+  trial 273 fold 2/3 inner F1 = 0.7170
+  trial 273 fold 3/3 inner F1 = 0.7273
+Trial 273: inner F1 = 0.7263 | held-out F1 mean = 0.7584, ensemble = 0.7692 (monitoring only)
+[best so far] trial 251: inner F1 = 0.7603, held-out F1 (mean) = 0.7652, optimism = -0.0049
+  trial 274 fold 1/3 inner F1 = 0.6364
+  trial 274 fold 2/3 inner F1 = 0.6531
+  trial 274 fold 3/3 inner F1 = 0.7407
+Trial 274: inner F1 = 0.6767 | held-out F1 mean = 0.7543, ensemble = 0.7568 (monitoring only)
+[best so far] trial 251: inner F1 = 0.7603, held-out F1 (mean) = 0.7652, optimism = -0.0049
+  trial 275 fold 1/3 inner F1 = 0.7600
+  trial 275 fold 2/3 inner F1 = 0.7368
+  trial 275 fold 3/3 inner F1 = 0.7407
+Trial 275: inner F1 = 0.7459 | held-out F1 mean = 0.7652, ensemble = 0.7692 (monitoring only)
+[best so far] trial 251: inner F1 = 0.7603, held-out F1 (mean) = 0.7652, optimism = -0.0049
+  trial 276 fold 1/3 inner F1 = 0.6522
+  trial 276 fold 2/3 inner F1 = 0.6531
+  trial 276 fold 3/3 inner F1 = 0.7407
+Trial 276: inner F1 = 0.6820 | held-out F1 mean = 0.7543, ensemble = 0.7368 (monitoring only)
+[best so far] trial 251: inner F1 = 0.7603, held-out F1 (mean) = 0.7652, optimism = -0.0049
+  trial 277 fold 1/3 inner F1 = 0.6222
+  trial 277 fold 2/3 inner F1 = 0.7083
+  trial 277 fold 3/3 inner F1 = 0.7547
+Trial 277: inner F1 = 0.6951 | held-out F1 mean = 0.7610, ensemble = 0.7568 (monitoring only)
+[best so far] trial 251: inner F1 = 0.7603, held-out F1 (mean) = 0.7652, optimism = -0.0049
+  trial 278 fold 1/3 inner F1 = 0.6222
+  trial 278 fold 2/3 inner F1 = 0.6809
+  trial 278 fold 3/3 inner F1 = 0.7547
+Trial 278: inner F1 = 0.6859 | held-out F1 mean = 0.7858, ensemble = 0.7568 (monitoring only)
+[best so far] trial 251: inner F1 = 0.7603, held-out F1 (mean) = 0.7652, optimism = -0.0049
+  trial 279 fold 1/3 inner F1 = 0.6809
+  trial 279 fold 2/3 inner F1 = 0.7347
+  trial 279 fold 3/3 inner F1 = 0.7308
+Trial 279: inner F1 = 0.7154 | held-out F1 mean = 0.7543, ensemble = 0.7692 (monitoring only)
+[best so far] trial 251: inner F1 = 0.7603, held-out F1 (mean) = 0.7652, optimism = -0.0049
+  trial 280 fold 1/3 inner F1 = 0.7308
+  trial 280 fold 2/3 inner F1 = 0.7719
+  trial 280 fold 3/3 inner F1 = 0.7143
+Trial 280: inner F1 = 0.7390 | held-out F1 mean = 0.7652, ensemble = 0.7692 (monitoring only)
+[best so far] trial 251: inner F1 = 0.7603, held-out F1 (mean) = 0.7652, optimism = -0.0049
+  trial 281 fold 1/3 inner F1 = 0.6222
+  trial 281 fold 2/3 inner F1 = 0.6667
+  trial 281 fold 3/3 inner F1 = 0.7692
+Trial 281: inner F1 = 0.6860 | held-out F1 mean = 0.7610, ensemble = 0.7568 (monitoring only)
+[best so far] trial 251: inner F1 = 0.7603, held-out F1 (mean) = 0.7652, optimism = -0.0049
+  trial 282 fold 1/3 inner F1 = 0.6809
+  trial 282 fold 2/3 inner F1 = 0.7234
+  trial 282 fold 3/3 inner F1 = 0.7600
+Trial 282: inner F1 = 0.7214 | held-out F1 mean = 0.7364, ensemble = 0.7692 (monitoring only)
+[best so far] trial 251: inner F1 = 0.7603, held-out F1 (mean) = 0.7652, optimism = -0.0049
+  trial 283 fold 1/3 inner F1 = 0.6522
+  trial 283 fold 2/3 inner F1 = 0.7059
+  trial 283 fold 3/3 inner F1 = 0.7547
+Trial 283: inner F1 = 0.7043 | held-out F1 mean = 0.7645, ensemble = 0.7568 (monitoring only)
+[best so far] trial 251: inner F1 = 0.7603, held-out F1 (mean) = 0.7652, optimism = -0.0049
+  trial 284 fold 1/3 inner F1 = 0.7600
+  trial 284 fold 2/3 inner F1 = 0.7636
+  trial 284 fold 3/3 inner F1 = 0.7273
+Trial 284: inner F1 = 0.7503 | held-out F1 mean = 0.7754, ensemble = 0.7692 (monitoring only)
+[best so far] trial 251: inner F1 = 0.7603, held-out F1 (mean) = 0.7652, optimism = -0.0049
+  trial 285 fold 1/3 inner F1 = 0.6222
+  trial 285 fold 2/3 inner F1 = 0.7200
+  trial 285 fold 3/3 inner F1 = 0.7273
+Trial 285: inner F1 = 0.6898 | held-out F1 mean = 0.7543, ensemble = 0.7368 (monitoring only)
+[best so far] trial 251: inner F1 = 0.7603, held-out F1 (mean) = 0.7652, optimism = -0.0049
+  trial 286 fold 1/3 inner F1 = 0.6800
+  trial 286 fold 2/3 inner F1 = 0.7037
+  trial 286 fold 3/3 inner F1 = 0.7407
+Trial 286: inner F1 = 0.7081 | held-out F1 mean = 0.7588, ensemble = 0.7368 (monitoring only)
+[best so far] trial 251: inner F1 = 0.7603, held-out F1 (mean) = 0.7652, optimism = -0.0049
+  trial 287 fold 1/3 inner F1 = 0.7843
+  trial 287 fold 2/3 inner F1 = 0.7500
+  trial 287 fold 3/3 inner F1 = 0.7407
+Trial 287: inner F1 = 0.7584 | held-out F1 mean = 0.7687, ensemble = 0.7692 (monitoring only)
+[best so far] trial 251: inner F1 = 0.7603, held-out F1 (mean) = 0.7652, optimism = -0.0049
+  trial 288 fold 1/3 inner F1 = 0.7600
+  trial 288 fold 2/3 inner F1 = 0.7636
+  trial 288 fold 3/3 inner F1 = 0.7273
+Trial 288: inner F1 = 0.7503 | held-out F1 mean = 0.7754, ensemble = 0.7692 (monitoring only)
+[best so far] trial 251: inner F1 = 0.7603, held-out F1 (mean) = 0.7652, optimism = -0.0049
+  trial 289 fold 1/3 inner F1 = 0.7600
+  trial 289 fold 2/3 inner F1 = 0.7458
+  trial 289 fold 3/3 inner F1 = 0.7143
+Trial 289: inner F1 = 0.7400 | held-out F1 mean = 0.7652, ensemble = 0.7692 (monitoring only)
+[best so far] trial 251: inner F1 = 0.7603, held-out F1 (mean) = 0.7652, optimism = -0.0049
+  trial 290 fold 1/3 inner F1 = 0.7451
+  trial 290 fold 2/3 inner F1 = 0.7241
+  trial 290 fold 3/3 inner F1 = 0.7170
+Trial 290: inner F1 = 0.7287 | held-out F1 mean = 0.7652, ensemble = 0.7692 (monitoring only)
+[best so far] trial 251: inner F1 = 0.7603, held-out F1 (mean) = 0.7652, optimism = -0.0049
+  trial 291 fold 1/3 inner F1 = 0.7083
+  trial 291 fold 2/3 inner F1 = 0.6923
+  trial 291 fold 3/3 inner F1 = 0.7407
+Trial 291: inner F1 = 0.7138 | held-out F1 mean = 0.7652, ensemble = 0.7692 (monitoring only)
+[best so far] trial 251: inner F1 = 0.7603, held-out F1 (mean) = 0.7652, optimism = -0.0049
+  trial 292 fold 1/3 inner F1 = 0.6522
+  trial 292 fold 2/3 inner F1 = 0.6667
+  trial 292 fold 3/3 inner F1 = 0.7547
+Trial 292: inner F1 = 0.6912 | held-out F1 mean = 0.7610, ensemble = 0.7568 (monitoring only)
+[best so far] trial 251: inner F1 = 0.7603, held-out F1 (mean) = 0.7652, optimism = -0.0049
+  trial 293 fold 1/3 inner F1 = 0.6364
+  trial 293 fold 2/3 inner F1 = 0.7083
+  trial 293 fold 3/3 inner F1 = 0.7407
+Trial 293: inner F1 = 0.6951 | held-out F1 mean = 0.7610, ensemble = 0.7568 (monitoring only)
+[best so far] trial 251: inner F1 = 0.7603, held-out F1 (mean) = 0.7652, optimism = -0.0049
+  trial 294 fold 1/3 inner F1 = 0.6522
+  trial 294 fold 2/3 inner F1 = 0.6939
+  trial 294 fold 3/3 inner F1 = 0.7547
+Trial 294: inner F1 = 0.7003 | held-out F1 mean = 0.7543, ensemble = 0.7368 (monitoring only)
+[best so far] trial 251: inner F1 = 0.7603, held-out F1 (mean) = 0.7652, optimism = -0.0049
+  trial 295 fold 1/3 inner F1 = 0.6364
+  trial 295 fold 2/3 inner F1 = 0.6667
+  trial 295 fold 3/3 inner F1 = 0.7547
+Trial 295: inner F1 = 0.6859 | held-out F1 mean = 0.7538, ensemble = 0.7895 (monitoring only)
+[best so far] trial 251: inner F1 = 0.7603, held-out F1 (mean) = 0.7652, optimism = -0.0049
+  trial 296 fold 1/3 inner F1 = 0.6957
+  trial 296 fold 2/3 inner F1 = 0.6939
+  trial 296 fold 3/3 inner F1 = 0.7273
+Trial 296: inner F1 = 0.7056 | held-out F1 mean = 0.7754, ensemble = 0.7692 (monitoring only)
+[best so far] trial 251: inner F1 = 0.7603, held-out F1 (mean) = 0.7652, optimism = -0.0049
+  trial 297 fold 1/3 inner F1 = 0.7347
+  trial 297 fold 2/3 inner F1 = 0.7636
+  trial 297 fold 3/3 inner F1 = 0.7170
+Trial 297: inner F1 = 0.7384 | held-out F1 mean = 0.7652, ensemble = 0.7692 (monitoring only)
+[best so far] trial 251: inner F1 = 0.7603, held-out F1 (mean) = 0.7652, optimism = -0.0049
+  trial 298 fold 1/3 inner F1 = 0.7347
+  trial 298 fold 2/3 inner F1 = 0.7170
+  trial 298 fold 3/3 inner F1 = 0.7273
+Trial 298: inner F1 = 0.7263 | held-out F1 mean = 0.7652, ensemble = 0.7692 (monitoring only)
+[best so far] trial 251: inner F1 = 0.7603, held-out F1 (mean) = 0.7652, optimism = -0.0049
+  trial 299 fold 1/3 inner F1 = 0.6364
+  trial 299 fold 2/3 inner F1 = 0.6957
+  trial 299 fold 3/3 inner F1 = 0.7547
+Trial 299: inner F1 = 0.6956 | held-out F1 mean = 0.7610, ensemble = 0.7568 (monitoring only)
+[best so far] trial 251: inner F1 = 0.7603, held-out F1 (mean) = 0.7652, optimism = -0.0049
+  trial 300 fold 1/3 inner F1 = 0.6364
+  trial 300 fold 2/3 inner F1 = 0.6800
+  trial 300 fold 3/3 inner F1 = 0.7407
+Trial 300: inner F1 = 0.6857 | held-out F1 mean = 0.7543, ensemble = 0.7568 (monitoring only)
+[best so far] trial 251: inner F1 = 0.7603, held-out F1 (mean) = 0.7652, optimism = -0.0049
+  trial 301 fold 1/3 inner F1 = 0.6957
+  trial 301 fold 2/3 inner F1 = 0.6667
+  trial 301 fold 3/3 inner F1 = 0.7273
+Trial 301: inner F1 = 0.6965 | held-out F1 mean = 0.7719, ensemble = 0.7568 (monitoring only)
+[best so far] trial 251: inner F1 = 0.7603, held-out F1 (mean) = 0.7652, optimism = -0.0049
+  trial 302 fold 1/3 inner F1 = 0.7407
+  trial 302 fold 2/3 inner F1 = 0.7500
+  trial 302 fold 3/3 inner F1 = 0.7273
+Trial 302: inner F1 = 0.7393 | held-out F1 mean = 0.7760, ensemble = 0.7692 (monitoring only)
+[best so far] trial 251: inner F1 = 0.7603, held-out F1 (mean) = 0.7652, optimism = -0.0049
+  trial 303 fold 1/3 inner F1 = 0.5854
+  trial 303 fold 2/3 inner F1 = 0.6667
+  trial 303 fold 3/3 inner F1 = 0.7500
+Trial 303: inner F1 = 0.6673 | held-out F1 mean = 0.7440, ensemble = 0.7429 (monitoring only)
+[best so far] trial 251: inner F1 = 0.7603, held-out F1 (mean) = 0.7652, optimism = -0.0049
+  trial 304 fold 1/3 inner F1 = 0.6364
+  trial 304 fold 2/3 inner F1 = 0.6809
+  trial 304 fold 3/3 inner F1 = 0.7547
+Trial 304: inner F1 = 0.6906 | held-out F1 mean = 0.7651, ensemble = 0.7568 (monitoring only)
+[best so far] trial 251: inner F1 = 0.7603, held-out F1 (mean) = 0.7652, optimism = -0.0049
+  trial 305 fold 1/3 inner F1 = 0.7600
+  trial 305 fold 2/3 inner F1 = 0.7368
+  trial 305 fold 3/3 inner F1 = 0.7500
+Trial 305: inner F1 = 0.7489 | held-out F1 mean = 0.7652, ensemble = 0.7692 (monitoring only)
+[best so far] trial 251: inner F1 = 0.7603, held-out F1 (mean) = 0.7652, optimism = -0.0049
+  trial 306 fold 1/3 inner F1 = 0.6222
+  trial 306 fold 2/3 inner F1 = 0.6667
+  trial 306 fold 3/3 inner F1 = 0.7547
+Trial 306: inner F1 = 0.6812 | held-out F1 mean = 0.7387, ensemble = 0.7568 (monitoring only)
+[best so far] trial 251: inner F1 = 0.7603, held-out F1 (mean) = 0.7652, optimism = -0.0049
+  trial 307 fold 1/3 inner F1 = 0.7451
+  trial 307 fold 2/3 inner F1 = 0.7547
+  trial 307 fold 3/3 inner F1 = 0.7636
+Trial 307: inner F1 = 0.7545 | held-out F1 mean = 0.7652, ensemble = 0.7692 (monitoring only)
+[best so far] trial 251: inner F1 = 0.7603, held-out F1 (mean) = 0.7652, optimism = -0.0049
+  trial 308 fold 1/3 inner F1 = 0.6364
+  trial 308 fold 2/3 inner F1 = 0.6939
+  trial 308 fold 3/3 inner F1 = 0.7547
+Trial 308: inner F1 = 0.6950 | held-out F1 mean = 0.7610, ensemble = 0.7568 (monitoring only)
+[best so far] trial 251: inner F1 = 0.7603, held-out F1 (mean) = 0.7652, optimism = -0.0049
+  trial 309 fold 1/3 inner F1 = 0.5500
+  trial 309 fold 2/3 inner F1 = 0.6829
+  trial 309 fold 3/3 inner F1 = 0.7660
+Trial 309: inner F1 = 0.6663 | held-out F1 mean = 0.7384, ensemble = 0.7059 (monitoring only)
+[best so far] trial 251: inner F1 = 0.7603, held-out F1 (mean) = 0.7652, optimism = -0.0049
+  trial 310 fold 1/3 inner F1 = 0.6364
+  trial 310 fold 2/3 inner F1 = 0.6939
+  trial 310 fold 3/3 inner F1 = 0.7407
+Trial 310: inner F1 = 0.6903 | held-out F1 mean = 0.7367, ensemble = 0.7368 (monitoring only)
+[best so far] trial 251: inner F1 = 0.7603, held-out F1 (mean) = 0.7652, optimism = -0.0049
+  trial 311 fold 1/3 inner F1 = 0.6047
+  trial 311 fold 2/3 inner F1 = 0.7083
+  trial 311 fold 3/3 inner F1 = 0.7692
+Trial 311: inner F1 = 0.6941 | held-out F1 mean = 0.7506, ensemble = 0.7222 (monitoring only)
+[best so far] trial 251: inner F1 = 0.7603, held-out F1 (mean) = 0.7652, optimism = -0.0049
+  trial 312 fold 1/3 inner F1 = 0.4444
+  trial 312 fold 2/3 inner F1 = 0.6341
+  trial 312 fold 3/3 inner F1 = 0.6809
+Trial 312: inner F1 = 0.5865 | held-out F1 mean = 0.7325, ensemble = 0.7273 (monitoring only)
+[best so far] trial 251: inner F1 = 0.7603, held-out F1 (mean) = 0.7652, optimism = -0.0049
+  trial 313 fold 1/3 inner F1 = 0.7083
+  trial 313 fold 2/3 inner F1 = 0.7308
+  trial 313 fold 3/3 inner F1 = 0.7273
+Trial 313: inner F1 = 0.7221 | held-out F1 mean = 0.7543, ensemble = 0.7692 (monitoring only)
+[best so far] trial 251: inner F1 = 0.7603, held-out F1 (mean) = 0.7652, optimism = -0.0049
+  trial 314 fold 1/3 inner F1 = 0.6809
+  trial 314 fold 2/3 inner F1 = 0.7391
+  trial 314 fold 3/3 inner F1 = 0.7600
+Trial 314: inner F1 = 0.7267 | held-out F1 mean = 0.7479, ensemble = 0.7692 (monitoring only)
+[best so far] trial 251: inner F1 = 0.7603, held-out F1 (mean) = 0.7652, optimism = -0.0049
+  trial 315 fold 1/3 inner F1 = 0.6939
+  trial 315 fold 2/3 inner F1 = 0.7407
+  trial 315 fold 3/3 inner F1 = 0.7407
+Trial 315: inner F1 = 0.7251 | held-out F1 mean = 0.7652, ensemble = 0.7692 (monitoring only)
+[best so far] trial 251: inner F1 = 0.7603, held-out F1 (mean) = 0.7652, optimism = -0.0049
+  trial 316 fold 1/3 inner F1 = 0.6364
+  trial 316 fold 2/3 inner F1 = 0.6667
+  trial 316 fold 3/3 inner F1 = 0.7547
+Trial 316: inner F1 = 0.6859 | held-out F1 mean = 0.7508, ensemble = 0.7568 (monitoring only)
+[best so far] trial 251: inner F1 = 0.7603, held-out F1 (mean) = 0.7652, optimism = -0.0049
+  trial 317 fold 1/3 inner F1 = 0.7083
+  trial 317 fold 2/3 inner F1 = 0.6923
+  trial 317 fold 3/3 inner F1 = 0.7407
+Trial 317: inner F1 = 0.7138 | held-out F1 mean = 0.7471, ensemble = 0.7368 (monitoring only)
+[best so far] trial 251: inner F1 = 0.7603, held-out F1 (mean) = 0.7652, optimism = -0.0049
+  trial 318 fold 1/3 inner F1 = 0.6667
+  trial 318 fold 2/3 inner F1 = 0.6667
+  trial 318 fold 3/3 inner F1 = 0.7547
+Trial 318: inner F1 = 0.6960 | held-out F1 mean = 0.7610, ensemble = 0.7568 (monitoring only)
+[best so far] trial 251: inner F1 = 0.7603, held-out F1 (mean) = 0.7652, optimism = -0.0049
+  trial 319 fold 1/3 inner F1 = 0.7547
+  trial 319 fold 2/3 inner F1 = 0.7458
+  trial 319 fold 3/3 inner F1 = 0.7368
+Trial 319: inner F1 = 0.7458 | held-out F1 mean = 0.7652, ensemble = 0.7692 (monitoring only)
+[best so far] trial 251: inner F1 = 0.7603, held-out F1 (mean) = 0.7652, optimism = -0.0049
+  trial 320 fold 1/3 inner F1 = 0.6512
+  trial 320 fold 2/3 inner F1 = 0.7059
+  trial 320 fold 3/3 inner F1 = 0.7547
+Trial 320: inner F1 = 0.7039 | held-out F1 mean = 0.7645, ensemble = 0.7568 (monitoring only)
+[best so far] trial 251: inner F1 = 0.7603, held-out F1 (mean) = 0.7652, optimism = -0.0049
+  trial 321 fold 1/3 inner F1 = 0.6383
+  trial 321 fold 2/3 inner F1 = 0.7037
+  trial 321 fold 3/3 inner F1 = 0.7273
+Trial 321: inner F1 = 0.6898 | held-out F1 mean = 0.7652, ensemble = 0.7368 (monitoring only)
+[best so far] trial 251: inner F1 = 0.7603, held-out F1 (mean) = 0.7652, optimism = -0.0049
+  trial 322 fold 1/3 inner F1 = 0.6939
+  trial 322 fold 2/3 inner F1 = 0.6909
+  trial 322 fold 3/3 inner F1 = 0.7500
+Trial 322: inner F1 = 0.7116 | held-out F1 mean = 0.7588, ensemble = 0.7368 (monitoring only)
+[best so far] trial 251: inner F1 = 0.7603, held-out F1 (mean) = 0.7652, optimism = -0.0049
+  trial 323 fold 1/3 inner F1 = 0.7273
+  trial 323 fold 2/3 inner F1 = 0.7241
+  trial 323 fold 3/3 inner F1 = 0.7500
+Trial 323: inner F1 = 0.7338 | held-out F1 mean = 0.7525, ensemble = 0.7692 (monitoring only)
+[best so far] trial 251: inner F1 = 0.7603, held-out F1 (mean) = 0.7652, optimism = -0.0049
+  trial 324 fold 1/3 inner F1 = 0.6190
+  trial 324 fold 2/3 inner F1 = 0.6667
+  trial 324 fold 3/3 inner F1 = 0.7547
+Trial 324: inner F1 = 0.6801 | held-out F1 mean = 0.7564, ensemble = 0.7568 (monitoring only)
+[best so far] trial 251: inner F1 = 0.7603, held-out F1 (mean) = 0.7652, optimism = -0.0049
+  trial 325 fold 1/3 inner F1 = 0.6222
+  trial 325 fold 2/3 inner F1 = 0.6792
+  trial 325 fold 3/3 inner F1 = 0.7143
+Trial 325: inner F1 = 0.6719 | held-out F1 mean = 0.7652, ensemble = 0.7692 (monitoring only)
+[best so far] trial 251: inner F1 = 0.7603, held-out F1 (mean) = 0.7652, optimism = -0.0049
+  trial 326 fold 1/3 inner F1 = 0.6190
+  trial 326 fold 2/3 inner F1 = 0.6809
+  trial 326 fold 3/3 inner F1 = 0.7692
+Trial 326: inner F1 = 0.6897 | held-out F1 mean = 0.7567, ensemble = 0.7568 (monitoring only)
+[best so far] trial 251: inner F1 = 0.7603, held-out F1 (mean) = 0.7652, optimism = -0.0049
+  trial 327 fold 1/3 inner F1 = 0.6364
+  trial 327 fold 2/3 inner F1 = 0.7083
+  trial 327 fold 3/3 inner F1 = 0.7547
+Trial 327: inner F1 = 0.6998 | held-out F1 mean = 0.7714, ensemble = 0.7568 (monitoring only)
+[best so far] trial 251: inner F1 = 0.7603, held-out F1 (mean) = 0.7652, optimism = -0.0049
+  trial 328 fold 1/3 inner F1 = 0.6522
+  trial 328 fold 2/3 inner F1 = 0.7273
+  trial 328 fold 3/3 inner F1 = 0.7547
+Trial 328: inner F1 = 0.7114 | held-out F1 mean = 0.7652, ensemble = 0.7368 (monitoring only)
+[best so far] trial 251: inner F1 = 0.7603, held-out F1 (mean) = 0.7652, optimism = -0.0049
+  trial 329 fold 1/3 inner F1 = 0.6667
+  trial 329 fold 2/3 inner F1 = 0.7111
+  trial 329 fold 3/3 inner F1 = 0.7451
+Trial 329: inner F1 = 0.7076 | held-out F1 mean = 0.7773, ensemble = 0.7778 (monitoring only)
+[best so far] trial 251: inner F1 = 0.7603, held-out F1 (mean) = 0.7652, optimism = -0.0049
+  trial 330 fold 1/3 inner F1 = 0.6364
+  trial 330 fold 2/3 inner F1 = 0.6531
+  trial 330 fold 3/3 inner F1 = 0.7547
+Trial 330: inner F1 = 0.6814 | held-out F1 mean = 0.7610, ensemble = 0.7568 (monitoring only)
+[best so far] trial 251: inner F1 = 0.7603, held-out F1 (mean) = 0.7652, optimism = -0.0049
+  trial 331 fold 1/3 inner F1 = 0.7308
+  trial 331 fold 2/3 inner F1 = 0.7636
+  trial 331 fold 3/3 inner F1 = 0.7500
+Trial 331: inner F1 = 0.7481 | held-out F1 mean = 0.7588, ensemble = 0.7692 (monitoring only)
+[best so far] trial 251: inner F1 = 0.7603, held-out F1 (mean) = 0.7652, optimism = -0.0049
+  trial 332 fold 1/3 inner F1 = 0.7308
+  trial 332 fold 2/3 inner F1 = 0.7500
+  trial 332 fold 3/3 inner F1 = 0.7636
+Trial 332: inner F1 = 0.7481 | held-out F1 mean = 0.7588, ensemble = 0.7692 (monitoring only)
+[best so far] trial 251: inner F1 = 0.7603, held-out F1 (mean) = 0.7652, optimism = -0.0049
+  trial 333 fold 1/3 inner F1 = 0.6522
+  trial 333 fold 2/3 inner F1 = 0.7083
+  trial 333 fold 3/3 inner F1 = 0.7547
+Trial 333: inner F1 = 0.7051 | held-out F1 mean = 0.7496, ensemble = 0.7568 (monitoring only)
+[best so far] trial 251: inner F1 = 0.7603, held-out F1 (mean) = 0.7652, optimism = -0.0049
+  trial 334 fold 1/3 inner F1 = 0.7600
+  trial 334 fold 2/3 inner F1 = 0.6923
+  trial 334 fold 3/3 inner F1 = 0.7636
+Trial 334: inner F1 = 0.7386 | held-out F1 mean = 0.7652, ensemble = 0.7692 (monitoring only)
+[best so far] trial 251: inner F1 = 0.7603, held-out F1 (mean) = 0.7652, optimism = -0.0049
+  trial 335 fold 1/3 inner F1 = 0.6222
+  trial 335 fold 2/3 inner F1 = 0.6531
+  trial 335 fold 3/3 inner F1 = 0.7547
+Trial 335: inner F1 = 0.6767 | held-out F1 mean = 0.7652, ensemble = 0.7568 (monitoring only)
+[best so far] trial 251: inner F1 = 0.7603, held-out F1 (mean) = 0.7652, optimism = -0.0049
+  trial 336 fold 1/3 inner F1 = 0.6364
+  trial 336 fold 2/3 inner F1 = 0.7083
+  trial 336 fold 3/3 inner F1 = 0.7547
+Trial 336: inner F1 = 0.6998 | held-out F1 mean = 0.7543, ensemble = 0.7895 (monitoring only)
+[best so far] trial 251: inner F1 = 0.7603, held-out F1 (mean) = 0.7652, optimism = -0.0049
+  trial 337 fold 1/3 inner F1 = 0.6522
+  trial 337 fold 2/3 inner F1 = 0.6667
+  trial 337 fold 3/3 inner F1 = 0.7547
+Trial 337: inner F1 = 0.6912 | held-out F1 mean = 0.7543, ensemble = 0.7692 (monitoring only)
+[best so far] trial 251: inner F1 = 0.7603, held-out F1 (mean) = 0.7652, optimism = -0.0049
+  trial 338 fold 1/3 inner F1 = 0.6522
+  trial 338 fold 2/3 inner F1 = 0.7451
+  trial 338 fold 3/3 inner F1 = 0.7407
+Trial 338: inner F1 = 0.7127 | held-out F1 mean = 0.7652, ensemble = 0.7692 (monitoring only)
+[best so far] trial 251: inner F1 = 0.7603, held-out F1 (mean) = 0.7652, optimism = -0.0049
+  trial 339 fold 1/3 inner F1 = 0.6809
+  trial 339 fold 2/3 inner F1 = 0.7059
+  trial 339 fold 3/3 inner F1 = 0.7273
+Trial 339: inner F1 = 0.7047 | held-out F1 mean = 0.7652, ensemble = 0.7368 (monitoring only)
+[best so far] trial 251: inner F1 = 0.7603, held-out F1 (mean) = 0.7652, optimism = -0.0049
+  trial 340 fold 1/3 inner F1 = 0.7600
+  trial 340 fold 2/3 inner F1 = 0.7586
+  trial 340 fold 3/3 inner F1 = 0.7500
+Trial 340: inner F1 = 0.7562 | held-out F1 mean = 0.7652, ensemble = 0.7692 (monitoring only)
+[best so far] trial 251: inner F1 = 0.7603, held-out F1 (mean) = 0.7652, optimism = -0.0049
+  trial 341 fold 1/3 inner F1 = 0.6364
+  trial 341 fold 2/3 inner F1 = 0.6939
+  trial 341 fold 3/3 inner F1 = 0.7547
+Trial 341: inner F1 = 0.6950 | held-out F1 mean = 0.7480, ensemble = 0.7568 (monitoring only)
+[best so far] trial 251: inner F1 = 0.7603, held-out F1 (mean) = 0.7652, optimism = -0.0049
+  trial 342 fold 1/3 inner F1 = 0.7600
+  trial 342 fold 2/3 inner F1 = 0.7586
+  trial 342 fold 3/3 inner F1 = 0.7170
+Trial 342: inner F1 = 0.7452 | held-out F1 mean = 0.7652, ensemble = 0.7692 (monitoring only)
+[best so far] trial 251: inner F1 = 0.7603, held-out F1 (mean) = 0.7652, optimism = -0.0049
+  trial 343 fold 1/3 inner F1 = 0.6364
+  trial 343 fold 2/3 inner F1 = 0.7059
+  trial 343 fold 3/3 inner F1 = 0.7547
+Trial 343: inner F1 = 0.6990 | held-out F1 mean = 0.7543, ensemble = 0.7568 (monitoring only)
+[best so far] trial 251: inner F1 = 0.7603, held-out F1 (mean) = 0.7652, optimism = -0.0049
+  trial 344 fold 1/3 inner F1 = 0.6512
+  trial 344 fold 2/3 inner F1 = 0.6667
+  trial 344 fold 3/3 inner F1 = 0.7407
+Trial 344: inner F1 = 0.6862 | held-out F1 mean = 0.7610, ensemble = 0.7568 (monitoring only)
+[best so far] trial 251: inner F1 = 0.7603, held-out F1 (mean) = 0.7652, optimism = -0.0049
+  trial 345 fold 1/3 inner F1 = 0.7308
+  trial 345 fold 2/3 inner F1 = 0.7719
+  trial 345 fold 3/3 inner F1 = 0.7273
+Trial 345: inner F1 = 0.7433 | held-out F1 mean = 0.7696, ensemble = 0.7692 (monitoring only)
+[best so far] trial 251: inner F1 = 0.7603, held-out F1 (mean) = 0.7652, optimism = -0.0049
+  trial 346 fold 1/3 inner F1 = 0.7347
+  trial 346 fold 2/3 inner F1 = 0.7547
+  trial 346 fold 3/3 inner F1 = 0.7547
+Trial 346: inner F1 = 0.7480 | held-out F1 mean = 0.7652, ensemble = 0.7692 (monitoring only)
+[best so far] trial 251: inner F1 = 0.7603, held-out F1 (mean) = 0.7652, optimism = -0.0049
+  trial 347 fold 1/3 inner F1 = 0.6512
+  trial 347 fold 2/3 inner F1 = 0.7347
+  trial 347 fold 3/3 inner F1 = 0.7843
+Trial 347: inner F1 = 0.7234 | held-out F1 mean = 0.7606, ensemble = 0.7568 (monitoring only)
+[best so far] trial 251: inner F1 = 0.7603, held-out F1 (mean) = 0.7652, optimism = -0.0049
+  trial 348 fold 1/3 inner F1 = 0.6364
+  trial 348 fold 2/3 inner F1 = 0.6939
+  trial 348 fold 3/3 inner F1 = 0.7407
+Trial 348: inner F1 = 0.6903 | held-out F1 mean = 0.7610, ensemble = 0.7568 (monitoring only)
+[best so far] trial 251: inner F1 = 0.7603, held-out F1 (mean) = 0.7652, optimism = -0.0049
+  trial 349 fold 1/3 inner F1 = 0.7347
+  trial 349 fold 2/3 inner F1 = 0.7407
+  trial 349 fold 3/3 inner F1 = 0.7451
+Trial 349: inner F1 = 0.7402 | held-out F1 mean = 0.7652, ensemble = 0.7692 (monitoring only)
+[best so far] trial 251: inner F1 = 0.7603, held-out F1 (mean) = 0.7652, optimism = -0.0049
+  trial 350 fold 1/3 inner F1 = 0.6667
+  trial 350 fold 2/3 inner F1 = 0.6522
+  trial 350 fold 3/3 inner F1 = 0.7692
+Trial 350: inner F1 = 0.6960 | held-out F1 mean = 0.7429, ensemble = 0.7368 (monitoring only)
+[best so far] trial 251: inner F1 = 0.7603, held-out F1 (mean) = 0.7652, optimism = -0.0049
