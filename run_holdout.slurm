@@ -17,4 +17,4 @@ cd ~/frb-analysis/optimization
 module load anaconda3/2025.12
 conda activate frb_env
 
-python svae-holdout.py
+python svae-nested.py
