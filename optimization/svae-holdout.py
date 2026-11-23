@@ -14,6 +14,15 @@ Procedure
    on the held-out 20% exactly once.
 5. Report: inner-CV F1 (the "optimistic" number), held-out F1, and the gap.
 
+Per-trial monitoring: after every trial the held-out F1 of that trial's fold
+models is printed and logged (trial user attrs + <out_dir>/trial_log.jsonl).
+This is for MONITORING ONLY. It never feeds the sampler and must not be used to
+pick a trial, stop the search, or change the search space or epochs; doing so
+would make the held-out set a validation set and invalidate the optimism
+estimate. The number to report is the held-out F1 of the trial selected by
+inner-CV F1 (the "[best so far]" line / the final evaluation), not the best
+held-out F1 across trials.
+
 Everything is written under --out_dir (checkpoints, Optuna sqlite study,
 split indices, results), so nothing touches the original saves_f1 / .db files.
 
@@ -269,7 +278,7 @@ def fit_fold(hp, X_tr, y_tr, X_va, y_va, args, device):
 # --------------------------------------------------------------------------- #
 # Optuna
 # --------------------------------------------------------------------------- #
-def make_objective(X_dev, y_dev, args, device, ckpt_root):
+def make_objective(X_dev, y_dev, X_test, y_test, args, device, ckpt_root):
     skf = StratifiedKFold(n_splits=args.inner_folds, shuffle=True,
                           random_state=INNER_CV_SEED)
     splits = list(skf.split(X_dev, y_dev))
@@ -295,11 +304,15 @@ def make_objective(X_dev, y_dev, args, device, ckpt_root):
         os.makedirs(trial_dir, exist_ok=True)
 
         fold_f1 = []
+        test_probs = []
         for k, (tr, va) in enumerate(splits):
             model, scaler, probs = fit_fold(hp, X_dev[tr], y_dev[tr],
                                             X_dev[va], y_dev[va], args, device)
             f1 = f1_score(y_dev[va], (probs > 0.5).astype(int), zero_division=0)
             fold_f1.append(float(f1))
+            # monitoring only: score this fold model on the held-out set, using
+            # its own training-fold scaler. The result never enters the objective.
+            test_probs.append(predict_probs(model, scaler.transform(X_test), device))
             torch.save({
                 'state_dict': {n: v.detach().cpu() for n, v in model.state_dict().items()},
                 'scaler_mean': torch.tensor(scaler.mean_),
@@ -313,10 +326,50 @@ def make_objective(X_dev, y_dev, args, device, ckpt_root):
 
         trial.set_user_attr('fold_f1', fold_f1)
         mean_f1 = float(np.mean(fold_f1))
-        print(f"Trial {trial.number}: mean inner F1 = {mean_f1:.4f}")
+
+        test_probs = np.stack(test_probs)
+        ho_each = [float(f1_score(y_test, (p > 0.5).astype(int), zero_division=0))
+                   for p in test_probs]
+        ho_mean = float(np.mean(ho_each))
+        ho_ens = float(f1_score(y_test, (test_probs.mean(axis=0) > 0.5).astype(int),
+                                zero_division=0))
+        trial.set_user_attr('heldout_f1_per_fold', ho_each)
+        trial.set_user_attr('heldout_f1_mean', ho_mean)
+        trial.set_user_attr('heldout_f1_ens', ho_ens)
+
+        print(f"Trial {trial.number}: inner F1 = {mean_f1:.4f} | held-out F1 "
+              f"mean = {ho_mean:.4f}, ensemble = {ho_ens:.4f} (monitoring only)")
         return mean_f1
 
     return objective
+
+
+def make_log_callback(out_dir):
+    """After every completed trial: append a record to trial_log.jsonl and print
+    the held-out F1 of the trial currently selected by inner-CV F1."""
+    path = join(out_dir, 'trial_log.jsonl')
+
+    def cb(study, trial):
+        if trial.state != optuna.trial.TrialState.COMPLETE:
+            return
+        ua = trial.user_attrs
+        with open(path, 'a') as f:
+            f.write(json.dumps({
+                'trial': trial.number,
+                'inner_f1': trial.value,
+                'inner_f1_per_fold': ua.get('fold_f1'),
+                'heldout_f1_mean': ua.get('heldout_f1_mean'),
+                'heldout_f1_ens': ua.get('heldout_f1_ens'),
+                'heldout_f1_per_fold': ua.get('heldout_f1_per_fold'),
+            }) + '\n')
+        best = study.best_trial
+        bh = best.user_attrs.get('heldout_f1_mean')
+        if bh is None:  # trial from a study created before this logging existed
+            print(f"[best so far] trial {best.number}: inner F1 = {best.value:.4f}")
+        else:
+            print(f"[best so far] trial {best.number}: inner F1 = {best.value:.4f}, "
+                  f"held-out F1 (mean) = {bh:.4f}, optimism = {best.value - bh:+.4f}")
+    return cb
 
 
 def make_cleanup_callback(ckpt_root):
@@ -481,8 +534,10 @@ def main():
     remaining = max(0, args.n_trials - done)
     print(f"[optuna] {done} completed trials found, running {remaining} more")
     if remaining:
-        callbacks = [] if args.keep_all_checkpoints else [make_cleanup_callback(ckpt_root)]
-        study.optimize(make_objective(X_dev, y_dev, args, device, ckpt_root),
+        callbacks = [make_log_callback(out_dir)]
+        if not args.keep_all_checkpoints:
+            callbacks.append(make_cleanup_callback(ckpt_root))
+        study.optimize(make_objective(X_dev, y_dev, X_test, y_test, args, device, ckpt_root),
                        n_trials=remaining, callbacks=callbacks)
 
     # ---- one-time held-out evaluation -------------------------------------- #
