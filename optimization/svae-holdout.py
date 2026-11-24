@@ -1,34 +1,3 @@
-#!/usr/bin/env python
-"""
-One held-out split + Optuna on the remainder, to estimate selection optimism.
-
-Procedure
----------
-1. Load/clean the CHIME/FRB catalogue exactly as in the original script.
-2. Split ONCE (default 80/20, stratified). The 20% is never used for training,
-   scaling, scheduling, early stopping or model selection.
-3. Run the original Optuna objective (same search space, same 3-fold inner
-   StratifiedKFold) on the 80% only. The StandardScaler is fit on each inner
-   training fold only.
-4. Take the best trial (by mean inner-CV F1) and score its 3 saved fold models
-   on the held-out 20% exactly once.
-5. Report: inner-CV F1 (the "optimistic" number), held-out F1, and the gap.
-
-Per-trial monitoring: after every trial the held-out F1 of that trial's fold
-models is printed and logged (trial user attrs + <out_dir>/trial_log.jsonl).
-This is for MONITORING ONLY. It never feeds the sampler and must not be used to
-pick a trial, stop the search, or change the search space or epochs; doing so
-would make the held-out set a validation set and invalidate the optimism
-estimate. The number to report is the held-out F1 of the trial selected by
-inner-CV F1 (the "[best so far]" line / the final evaluation), not the best
-held-out F1 across trials.
-
-Everything is written under --out_dir (checkpoints, Optuna sqlite study,
-split indices, results), so nothing touches the original saves_f1 / .db files.
-
-Re-running the same command resumes the study (only the missing trials are run)
-and then re-does the held-out evaluation. Use ONE process per study/out_dir.
-"""
 import argparse
 import json
 import os
